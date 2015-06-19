@@ -126,6 +126,51 @@
   <ItemGroup>
     <None Include="Resources\stones-wall.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maze_ico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wall1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wall2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wall1 - vr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\br.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sh1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sh2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wall_1_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sh4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\in.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sh3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\in1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maze_ico.ico" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

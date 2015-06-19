@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CharacterForm));
             this.LbElf = new System.Windows.Forms.Label();
             this.LbWizard = new System.Windows.Forms.Label();
             this.LbWarrior = new System.Windows.Forms.Label();
@@ -190,6 +191,7 @@
             this.Controls.Add(this.LbWizard);
             this.Controls.Add(this.LbElf);
             this.Controls.Add(this.pictureBoxWr);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "CharacterForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
