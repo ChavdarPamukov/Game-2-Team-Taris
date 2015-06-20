@@ -57,3 +57,4 @@ C:\Users\wolfy\Documents\GitHub\Game-2-Team-Taris\Еscape from the labyrinth of 
 C:\Users\wolfy\Documents\GitHub\Game-2-Team-Taris\Еscape from the labyrinth of death\Еscape from the labyrinth of death\obj\Debug\Еscape_from_the_labyrinth_of_death.Properties.Resources.resources
 C:\Users\wolfy\Documents\GitHub\Game-2-Team-Taris\Еscape from the labyrinth of death\Еscape from the labyrinth of death\obj\Debug\Еscape from the labyrinth of death.csproj.GenerateResource.Cache
 >>>>>>> bce6c8beec86e0d07725d335581840e466e37e2b
+C:\Users\wolfy\Documents\GitHub\Game-2-Team-Taris\Еscape from the labyrinth of death\Еscape from the labyrinth of death\obj\Debug\Еscape_from_the_labyrinth_of_death.HelpForm.resources

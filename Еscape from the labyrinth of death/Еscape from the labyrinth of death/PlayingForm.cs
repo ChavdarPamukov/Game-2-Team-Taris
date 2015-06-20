@@ -115,9 +115,10 @@ namespace Еscape_from_the_labyrinth_of_death
             Application.Exit();
         }
 
-<<<<<<< HEAD
         private void panel1_Paint(object sender, PaintEventArgs e)
-=======
+        {
+
+        }
         private void playingPn_Paint(object sender, PaintEventArgs e)
         {
 
@@ -129,7 +130,6 @@ namespace Еscape_from_the_labyrinth_of_death
         }
 
         private void lbDefense_Click(object sender, EventArgs e)
->>>>>>> bce6c8beec86e0d07725d335581840e466e37e2b
         {
 
         }
@@ -138,13 +138,11 @@ namespace Еscape_from_the_labyrinth_of_death
         {
 
         }
-<<<<<<< HEAD
-=======
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
+        //private void panel1_Paint(object sender, PaintEventArgs e)
+        //{
 
-        }
+        //}
 
         private void UpdateWallsList()
         {
@@ -185,6 +183,10 @@ namespace Еscape_from_the_labyrinth_of_death
                 wall_33,
             };
         }
->>>>>>> bce6c8beec86e0d07725d335581840e466e37e2b
+
+        private void PlayingForm_Load_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
