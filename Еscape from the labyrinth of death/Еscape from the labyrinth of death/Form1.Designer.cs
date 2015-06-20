@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StartForm));
             this.GameName = new System.Windows.Forms.Label();
             this.CreditsButton = new System.Windows.Forms.Button();
             this.StartButton = new System.Windows.Forms.Button();
@@ -86,13 +87,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Еscape_from_the_labyrinth_of_death.Properties.Resources.start_bg;
+            this.BackgroundImage = global::Еscape_from_the_labyrinth_of_death.Properties.Resources.stones_wall;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(531, 437);
             this.Controls.Add(this.HButton);
             this.Controls.Add(this.StartButton);
             this.Controls.Add(this.CreditsButton);
             this.Controls.Add(this.GameName);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "StartForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
