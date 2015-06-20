@@ -176,6 +176,7 @@ namespace Еscape_from_the_labyrinth_of_death
                 wall_30,
                 wall_31,
                 wall_32,
+                wall_33,
             };
         }
     }
