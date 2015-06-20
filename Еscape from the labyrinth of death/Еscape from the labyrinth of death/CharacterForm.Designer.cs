@@ -49,39 +49,39 @@
             // LbElf
             // 
             this.LbElf.AutoSize = true;
-            this.LbElf.Font = new System.Drawing.Font("Monotype Corsiva", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.LbElf.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.LbElf.ForeColor = System.Drawing.Color.Maroon;
             this.LbElf.Location = new System.Drawing.Point(96, 82);
             this.LbElf.Name = "LbElf";
-            this.LbElf.Size = new System.Drawing.Size(44, 22);
+            this.LbElf.Size = new System.Drawing.Size(45, 24);
             this.LbElf.TabIndex = 0;
             this.LbElf.Text = "ELF";
             // 
             // LbWizard
             // 
             this.LbWizard.AutoSize = true;
-            this.LbWizard.Font = new System.Drawing.Font("Monotype Corsiva", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.LbWizard.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.LbWizard.ForeColor = System.Drawing.Color.Maroon;
             this.LbWizard.Location = new System.Drawing.Point(296, 82);
             this.LbWizard.Name = "LbWizard";
-            this.LbWizard.Size = new System.Drawing.Size(82, 22);
+            this.LbWizard.Size = new System.Drawing.Size(83, 24);
             this.LbWizard.TabIndex = 1;
             this.LbWizard.Text = "WIZARD";
             // 
             // LbWarrior
             // 
             this.LbWarrior.AutoSize = true;
-            this.LbWarrior.Font = new System.Drawing.Font("Monotype Corsiva", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.LbWarrior.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.LbWarrior.ForeColor = System.Drawing.Color.Maroon;
             this.LbWarrior.Location = new System.Drawing.Point(510, 82);
             this.LbWarrior.Name = "LbWarrior";
-            this.LbWarrior.Size = new System.Drawing.Size(90, 22);
+            this.LbWarrior.Size = new System.Drawing.Size(99, 24);
             this.LbWarrior.TabIndex = 2;
             this.LbWarrior.Text = "WARRIOR";
             // 
             // NamePlayer3
             // 
-            this.NamePlayer3.Font = new System.Drawing.Font("Monotype Corsiva", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.NamePlayer3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.NamePlayer3.Location = new System.Drawing.Point(507, 42);
             this.NamePlayer3.Name = "NamePlayer3";
             this.NamePlayer3.Size = new System.Drawing.Size(100, 29);
@@ -90,7 +90,7 @@
             // 
             // NamePlayer1
             // 
-            this.NamePlayer1.Font = new System.Drawing.Font("Monotype Corsiva", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.NamePlayer1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.NamePlayer1.Location = new System.Drawing.Point(69, 42);
             this.NamePlayer1.Name = "NamePlayer1";
             this.NamePlayer1.Size = new System.Drawing.Size(100, 29);
@@ -99,7 +99,7 @@
             // 
             // NamePlayer2
             // 
-            this.NamePlayer2.Font = new System.Drawing.Font("Monotype Corsiva", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.NamePlayer2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.NamePlayer2.Location = new System.Drawing.Point(285, 42);
             this.NamePlayer2.Name = "NamePlayer2";
             this.NamePlayer2.Size = new System.Drawing.Size(100, 29);
@@ -109,7 +109,7 @@
             // EfButton
             // 
             this.EfButton.BackColor = System.Drawing.Color.Green;
-            this.EfButton.Font = new System.Drawing.Font("Monotype Corsiva", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.EfButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.EfButton.Location = new System.Drawing.Point(69, 394);
             this.EfButton.Name = "EfButton";
             this.EfButton.Size = new System.Drawing.Size(100, 55);
@@ -121,7 +121,7 @@
             // WiButton
             // 
             this.WiButton.BackColor = System.Drawing.Color.Green;
-            this.WiButton.Font = new System.Drawing.Font("Monotype Corsiva", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.WiButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.WiButton.Location = new System.Drawing.Point(288, 394);
             this.WiButton.Name = "WiButton";
             this.WiButton.Size = new System.Drawing.Size(97, 55);
@@ -133,7 +133,7 @@
             // WaButton
             // 
             this.WaButton.BackColor = System.Drawing.Color.Green;
-            this.WaButton.Font = new System.Drawing.Font("Monotype Corsiva", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.WaButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.WaButton.Location = new System.Drawing.Point(510, 394);
             this.WaButton.Name = "WaButton";
             this.WaButton.Size = new System.Drawing.Size(97, 55);
@@ -197,6 +197,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CharacterForm";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.CharacterForm_FormClosed);
+            this.Load += new System.EventHandler(this.CharacterForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxKn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxWr)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxWz)).EndInit();

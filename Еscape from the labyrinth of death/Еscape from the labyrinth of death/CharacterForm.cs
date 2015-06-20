@@ -47,5 +47,10 @@ namespace Еscape_from_the_labyrinth_of_death
         {
 
         }
+
+        private void CharacterForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
