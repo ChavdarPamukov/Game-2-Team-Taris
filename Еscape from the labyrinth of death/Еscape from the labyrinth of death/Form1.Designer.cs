@@ -80,6 +80,7 @@
             this.HButton.TabIndex = 3;
             this.HButton.Text = "HELP";
             this.HButton.UseVisualStyleBackColor = false;
+            this.HButton.Click += new System.EventHandler(this.HButton_Click);
             // 
             // StartForm
             // 

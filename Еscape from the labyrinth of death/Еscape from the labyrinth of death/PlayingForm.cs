@@ -73,5 +73,15 @@ namespace Еscape_from_the_labyrinth_of_death
         {
             Application.Exit();
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void lbAttack_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

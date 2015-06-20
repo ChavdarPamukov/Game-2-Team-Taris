@@ -37,12 +37,12 @@
             this.EfButton = new System.Windows.Forms.Button();
             this.WiButton = new System.Windows.Forms.Button();
             this.WaButton = new System.Windows.Forms.Button();
-            this.pictureBoxKn = new System.Windows.Forms.PictureBox();
             this.pictureBoxWr = new System.Windows.Forms.PictureBox();
             this.pictureBoxWz = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxKn)).BeginInit();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxWr)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxWz)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // LbElf
@@ -141,16 +141,6 @@
             this.WaButton.UseVisualStyleBackColor = false;
             this.WaButton.Click += new System.EventHandler(this.WaButton_Click);
             // 
-            // pictureBoxKn
-            // 
-            this.pictureBoxKn.Image = global::Еscape_from_the_labyrinth_of_death.Properties.Resources.Elf_Sprite;
-            this.pictureBoxKn.Location = new System.Drawing.Point(33, 166);
-            this.pictureBoxKn.Name = "pictureBoxKn";
-            this.pictureBoxKn.Size = new System.Drawing.Size(178, 217);
-            this.pictureBoxKn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBoxKn.TabIndex = 11;
-            this.pictureBoxKn.TabStop = false;
-            // 
             // pictureBoxWr
             // 
             this.pictureBoxWr.Image = global::Еscape_from_the_labyrinth_of_death.Properties.Resources.Warrior_Sprite;
@@ -172,13 +162,21 @@
             this.pictureBoxWz.TabIndex = 9;
             this.pictureBoxWz.TabStop = false;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(52, 123);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(159, 260);
+            this.pictureBox1.TabIndex = 11;
+            this.pictureBox1.TabStop = false;
+            // 
             // CharacterForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.HotTrack;
             this.ClientSize = new System.Drawing.Size(681, 483);
-            this.Controls.Add(this.pictureBoxKn);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pictureBoxWz);
             this.Controls.Add(this.WaButton);
             this.Controls.Add(this.WiButton);
@@ -195,9 +193,9 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CharacterForm";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.CharacterForm_FormClosed);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxKn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxWr)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxWz)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -216,6 +214,6 @@
         private System.Windows.Forms.Button WaButton;
         private System.Windows.Forms.PictureBox pictureBoxWz;
         private System.Windows.Forms.PictureBox pictureBoxWr;
-        private System.Windows.Forms.PictureBox pictureBoxKn;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

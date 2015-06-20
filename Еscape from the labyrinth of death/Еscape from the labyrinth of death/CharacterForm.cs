@@ -28,6 +28,7 @@ namespace Еscape_from_the_labyrinth_of_death
         {
             this.Hide();
             PlayingForm playf2 = new PlayingForm(NamePlayer2.Text, LbWizard.Text);
+
             playf2.ShowDialog();
         }
 

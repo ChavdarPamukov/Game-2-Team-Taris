@@ -20,3 +20,15 @@ D:\team Taris\Game2\Game 2 Team Taris\Еscape from the labyrinth of death\obj\De
 D:\team Taris\Game2\Game 2 Team Taris\Еscape from the labyrinth of death\obj\Debug\Еscape_from_the_labyrinth_of_death.PlayingForm.resources
 D:\team Taris\Game2\Game 2 Team Taris\Еscape from the labyrinth of death\obj\Debug\Еscape_from_the_labyrinth_of_death.Properties.Resources.resources
 D:\team Taris\Game2\Game 2 Team Taris\Еscape from the labyrinth of death\obj\Debug\Еscape from the labyrinth of death.csproj.GenerateResource.Cache
+C:\Users\Vily\Desktop\Game-2-Team-Taris\Еscape from the labyrinth of death\Еscape from the labyrinth of death\bin\Debug\Еscape from the labyrinth of death.exe.config
+C:\Users\Vily\Desktop\Game-2-Team-Taris\Еscape from the labyrinth of death\Еscape from the labyrinth of death\obj\Debug\Еscape from the labyrinth of death.exe
+C:\Users\Vily\Desktop\Game-2-Team-Taris\Еscape from the labyrinth of death\Еscape from the labyrinth of death\obj\Debug\Еscape from the labyrinth of death.pdb
+C:\Users\Vily\Desktop\Game-2-Team-Taris\Еscape from the labyrinth of death\Еscape from the labyrinth of death\bin\Debug\Еscape from the labyrinth of death.exe
+C:\Users\Vily\Desktop\Game-2-Team-Taris\Еscape from the labyrinth of death\Еscape from the labyrinth of death\bin\Debug\Еscape from the labyrinth of death.pdb
+C:\Users\Vily\Desktop\Game-2-Team-Taris\Еscape from the labyrinth of death\Еscape from the labyrinth of death\obj\Debug\Еscape from the labyrinth of death.csprojResolveAssemblyReference.cache
+C:\Users\Vily\Desktop\Game-2-Team-Taris\Еscape from the labyrinth of death\Еscape from the labyrinth of death\obj\Debug\Еscape_from_the_labyrinth_of_death.CharacterForm.resources
+C:\Users\Vily\Desktop\Game-2-Team-Taris\Еscape from the labyrinth of death\Еscape from the labyrinth of death\obj\Debug\Еscape_from_the_labyrinth_of_death.StartForm.resources
+C:\Users\Vily\Desktop\Game-2-Team-Taris\Еscape from the labyrinth of death\Еscape from the labyrinth of death\obj\Debug\Еscape_from_the_labyrinth_of_death.HelpForm.resources
+C:\Users\Vily\Desktop\Game-2-Team-Taris\Еscape from the labyrinth of death\Еscape from the labyrinth of death\obj\Debug\Еscape_from_the_labyrinth_of_death.PlayingForm.resources
+C:\Users\Vily\Desktop\Game-2-Team-Taris\Еscape from the labyrinth of death\Еscape from the labyrinth of death\obj\Debug\Еscape_from_the_labyrinth_of_death.Properties.Resources.resources
+C:\Users\Vily\Desktop\Game-2-Team-Taris\Еscape from the labyrinth of death\Еscape from the labyrinth of death\obj\Debug\Еscape from the labyrinth of death.csproj.GenerateResource.Cache
