@@ -28,12 +28,5 @@ namespace Еscape_from_the_labyrinth_of_death
         {
 
         }
-
-        private void HButton_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            HelpForm help = new HelpForm();
-            help.ShowDialog();
-        }
     }
 }
