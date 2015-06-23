@@ -63,7 +63,7 @@
             this.wall_8 = new System.Windows.Forms.PictureBox();
             this.wall_2 = new System.Windows.Forms.PictureBox();
             this.wall_1 = new System.Windows.Forms.PictureBox();
-            this.player = new System.Windows.Forms.PictureBox();
+            this.playerBox = new System.Windows.Forms.PictureBox();
             this.NaPlayer = new System.Windows.Forms.Label();
             this.CharPlayer = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -124,7 +124,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.wall_8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.wall_2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.wall_1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.player)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.playerBox)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
@@ -172,7 +172,7 @@
             this.playingPn.Controls.Add(this.wall_8);
             this.playingPn.Controls.Add(this.wall_2);
             this.playingPn.Controls.Add(this.wall_1);
-            this.playingPn.Controls.Add(this.player);
+            this.playingPn.Controls.Add(this.playerBox);
             this.playingPn.ForeColor = System.Drawing.SystemColors.Highlight;
             this.playingPn.Location = new System.Drawing.Point(0, 115);
             this.playingPn.Name = "playingPn";
@@ -511,15 +511,16 @@
             this.wall_1.TabIndex = 1;
             this.wall_1.TabStop = false;
             // 
-            // player
+            // playerBox
             // 
-            this.player.BackColor = System.Drawing.SystemColors.Control;
-            this.player.Image = global::Еscape_from_the_labyrinth_of_death.Properties.Resources.wiz_ch;
-            this.player.Location = new System.Drawing.Point(550, 29);
-            this.player.Name = "player";
-            this.player.Size = new System.Drawing.Size(32, 44);
-            this.player.TabIndex = 0;
-            this.player.TabStop = false;
+            this.playerBox.BackColor = System.Drawing.SystemColors.Control;
+            this.playerBox.Image = global::Еscape_from_the_labyrinth_of_death.Properties.Resources.wiz_ch;
+            this.playerBox.Location = new System.Drawing.Point(550, 29);
+            this.playerBox.Name = "playerBox";
+            this.playerBox.Size = new System.Drawing.Size(32, 44);
+            this.playerBox.TabIndex = 0;
+            this.playerBox.TabStop = false;
+            this.playerBox.Click += new System.EventHandler(this.player_Click);
             // 
             // NaPlayer
             // 
@@ -845,7 +846,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.wall_8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.wall_2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.wall_1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.player)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.playerBox)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
@@ -866,7 +867,7 @@
         private System.Windows.Forms.Panel playingPn;
         private System.Windows.Forms.Label NaPlayer;
         private System.Windows.Forms.Label CharPlayer;
-        private System.Windows.Forms.PictureBox player;
+        private System.Windows.Forms.PictureBox playerBox;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox wall_1;
         private System.Windows.Forms.Label lbDefense;

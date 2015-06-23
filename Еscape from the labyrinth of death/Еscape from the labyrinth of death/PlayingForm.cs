@@ -12,10 +12,6 @@ namespace Еscape_from_the_labyrinth_of_death
 {
     public partial class PlayingForm : Form
     {
-        private bool left;
-        private bool right;
-        private bool up;
-        private bool down;
         private List<PictureBox> _wallsList;
 
         public PlayingForm(string UserName, string CharName)
@@ -33,7 +29,7 @@ namespace Еscape_from_the_labyrinth_of_death
 
         private void PlayingForm_KeyDown(object sender, KeyEventArgs e)
         {
-            Rectangle rect = player.Bounds;
+            Rectangle rect = playerBox.Bounds;
 
             if (e.KeyCode == Keys.Left)
             {
@@ -63,7 +59,7 @@ namespace Еscape_from_the_labyrinth_of_death
             {
                 return;
             }
-            this.player.Bounds = rect;
+            this.playerBox.Bounds = rect;
         }
 
         private void MoveRight(Rectangle rect)
@@ -73,7 +69,7 @@ namespace Еscape_from_the_labyrinth_of_death
             {
                 return;
             }
-            this.player.Bounds = rect;
+            this.playerBox.Bounds = rect;
         }
 
         private void MoveDown(Rectangle rect)
@@ -83,7 +79,7 @@ namespace Еscape_from_the_labyrinth_of_death
             {
                 return;
             }
-            this.player.Bounds = rect;
+            this.playerBox.Bounds = rect;
         }
 
         private void MoveUp(Rectangle rect)
@@ -93,7 +89,7 @@ namespace Еscape_from_the_labyrinth_of_death
             {
                 return;
             }
-            this.player.Bounds = rect;
+            this.playerBox.Bounds = rect;
         }
 
         private bool HasColision(Rectangle rect)
@@ -105,7 +101,7 @@ namespace Еscape_from_the_labyrinth_of_death
                     return true;
                 }
             }
-            this.player.Bounds = rect;
+            this.playerBox.Bounds = rect;
 
             return false;
         }
@@ -178,6 +174,11 @@ namespace Еscape_from_the_labyrinth_of_death
                 wall_32,
                 wall_33,
             };
+        }
+
+        private void player_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
