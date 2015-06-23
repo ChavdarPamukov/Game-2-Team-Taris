@@ -50,13 +50,18 @@
     <Compile Include="CharacterForm.Designer.cs">
       <DependentUpon>CharacterForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Classes\PlayerClasses\Abstract\AbstractGeneric\GenericPlayer.cs" />
+    <Compile Include="Classes\PlayerClasses\Abstract\AbstractHuman\HumanPlayer.cs" />
+    <Compile Include="Exceptions\UnreachableLevelException.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Interfaces\IHumanPlayer.cs" />
     <Compile Include="Interfaces\IItem.cs" />
+    <Compile Include="Interfaces\INpcPlayer.cs" />
     <Compile Include="Interfaces\IPlayer.cs" />
     <Compile Include="PlayingForm.cs">
       <SubType>Form</SubType>
@@ -174,7 +179,8 @@
     <None Include="Resources\maze_ico.ico" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Classes\" />
+    <Folder Include="Classes\PlayerClasses\Abstract\AbstractNpc\" />
+    <Folder Include="Classes\PlayerClasses\Concrete\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
