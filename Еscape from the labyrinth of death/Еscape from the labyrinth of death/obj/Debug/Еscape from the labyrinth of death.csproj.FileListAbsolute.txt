@@ -65,3 +65,4 @@ D:\team Taris\Game2\Test-game-2\Еscape from the labyrinth of death\Еscape from
 D:\team Taris\Game2\Test-game-2\Еscape from the labyrinth of death\Еscape from the labyrinth of death\obj\Debug\Еscape_from_the_labyrinth_of_death.Properties.Resources.resources
 D:\team Taris\Game2\Test-game-2\Еscape from the labyrinth of death\Еscape from the labyrinth of death\obj\Debug\Еscape from the labyrinth of death.csproj.GenerateResource.Cache
 D:\team Taris\Game2\Test-game-2\Еscape from the labyrinth of death\Еscape from the labyrinth of death\obj\Debug\Еscape_from_the_labyrinth_of_death.Currently_Equiped.resources
+D:\Test program\Game-2-Team-Taris\Еscape from the labyrinth of death\Еscape from the labyrinth of death\obj\Debug\Еscape_from_the_labyrinth_of_death.Currently_Equiped.resources

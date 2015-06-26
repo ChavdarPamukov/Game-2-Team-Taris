@@ -106,15 +106,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Elf_Sprite.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Warrior_Sprite.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Wizard_spirit.gif" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\stones-wall.jpg" />
   </ItemGroup>
   <ItemGroup>
@@ -166,27 +157,6 @@
     <None Include="Resources\wizard_35.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\boss_1_50.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\boss_2_50.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\enemy_1_50.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\enemy_2_50.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\enemy_3_50.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\enemy_4_50.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\boss_3_50.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\boss_1_248.png" />
   </ItemGroup>
   <ItemGroup>
@@ -233,6 +203,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\br_501.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy_5_35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy_5_248.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy_4_35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boss_1_35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boss_2_35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boss_3_35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy_1_35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy_2_35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy_3_35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\start_pic.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

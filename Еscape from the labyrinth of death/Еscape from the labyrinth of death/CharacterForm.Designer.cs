@@ -196,7 +196,7 @@
             this.MaximizeBox = false;
             this.Name = "CharacterForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "CharacterForm";
+            this.Text = "Character";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.CharacterForm_FormClosed);
             this.Load += new System.EventHandler(this.CharacterForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxKn)).EndInit();

@@ -12,10 +12,6 @@ namespace Еscape_from_the_labyrinth_of_death
 {
     public partial class PlayingForm : Form
     {
-        private bool left;
-        private bool right;
-        private bool up;
-        private bool down;
         private List<PictureBox> _wallsList;
 
         public PlayingForm(string UserName, string CharName)
