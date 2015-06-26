@@ -50,6 +50,12 @@
     <Compile Include="CharacterForm.Designer.cs">
       <DependentUpon>CharacterForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Currently Equiped.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Currently Equiped.Designer.cs">
+      <DependentUpon>Currently Equiped.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +72,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="CharacterForm.resx">
       <DependentUpon>CharacterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Currently Equiped.resx">
+      <DependentUpon>Currently Equiped.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -95,24 +104,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\wiz_ch.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\wz_d.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\wiz_l.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\wiz_r.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\wiz_u.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\start-bg.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Elf_Sprite.gif" />
@@ -157,12 +148,6 @@
     <None Include="Resources\wall_1_1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\sh4.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\in.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\sh3.png" />
   </ItemGroup>
   <ItemGroup>
@@ -170,6 +155,84 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\maze_ico.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\elf_352.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\warrior_35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wizard_35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boss_1_50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boss_2_50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy_1_50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy_2_50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy_3_50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy_4_50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boss_3_50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boss_1_248.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boss_2_248.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boss_3_248.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\elf_248.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy_1_248.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy_2_248.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy_3_248.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy_4_248.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\warrior_248.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wizard_248.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\br_50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hart_50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sh_50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sh1_50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sh2_50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\br_501.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

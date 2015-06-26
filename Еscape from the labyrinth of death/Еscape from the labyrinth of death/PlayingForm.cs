@@ -179,5 +179,16 @@ namespace Еscape_from_the_labyrinth_of_death
                 wall_33,
             };
         }
+
+        private void labelCurrentlyEquiped_Click(object sender, EventArgs e)
+        {
+            Currently_Equiped currentlyEquiped = new Currently_Equiped();
+            currentlyEquiped.ShowDialog();
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

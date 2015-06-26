@@ -63,9 +63,59 @@ namespace Еscape_from_the_labyrinth_of_death.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _in {
+        internal static System.Drawing.Bitmap boss_1_248 {
             get {
-                object obj = ResourceManager.GetObject("in", resourceCulture);
+                object obj = ResourceManager.GetObject("boss_1_248", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap boss_1_50 {
+            get {
+                object obj = ResourceManager.GetObject("boss_1_50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap boss_2_248 {
+            get {
+                object obj = ResourceManager.GetObject("boss_2_248", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap boss_2_50 {
+            get {
+                object obj = ResourceManager.GetObject("boss_2_50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap boss_3_248 {
+            get {
+                object obj = ResourceManager.GetObject("boss_3_248", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap boss_3_50 {
+            get {
+                object obj = ResourceManager.GetObject("boss_3_50", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,6 +133,46 @@ namespace Еscape_from_the_labyrinth_of_death.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap br_50 {
+            get {
+                object obj = ResourceManager.GetObject("br_50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap br_501 {
+            get {
+                object obj = ResourceManager.GetObject("br_501", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap elf_248 {
+            get {
+                object obj = ResourceManager.GetObject("elf_248", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap elf_35 {
+            get {
+                object obj = ResourceManager.GetObject("elf_35", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Elf_Sprite {
             get {
                 object obj = ResourceManager.GetObject("Elf_Sprite", resourceCulture);
@@ -93,9 +183,99 @@ namespace Еscape_from_the_labyrinth_of_death.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap enemy_1_248 {
+            get {
+                object obj = ResourceManager.GetObject("enemy_1_248", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap enemy_1_50 {
+            get {
+                object obj = ResourceManager.GetObject("enemy_1_50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap enemy_2_248 {
+            get {
+                object obj = ResourceManager.GetObject("enemy_2_248", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap enemy_2_50 {
+            get {
+                object obj = ResourceManager.GetObject("enemy_2_50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap enemy_3_248 {
+            get {
+                object obj = ResourceManager.GetObject("enemy_3_248", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap enemy_3_50 {
+            get {
+                object obj = ResourceManager.GetObject("enemy_3_50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap enemy_4_248 {
+            get {
+                object obj = ResourceManager.GetObject("enemy_4_248", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap enemy_4_50 {
+            get {
+                object obj = ResourceManager.GetObject("enemy_4_50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap hart {
             get {
                 object obj = ResourceManager.GetObject("hart", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hart_50 {
+            get {
+                object obj = ResourceManager.GetObject("hart_50", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,9 +323,29 @@ namespace Еscape_from_the_labyrinth_of_death.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap sh_50 {
+            get {
+                object obj = ResourceManager.GetObject("sh_50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap sh1 {
             get {
                 object obj = ResourceManager.GetObject("sh1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sh1_50 {
+            get {
+                object obj = ResourceManager.GetObject("sh1_50", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -163,29 +363,19 @@ namespace Еscape_from_the_labyrinth_of_death.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap sh2_50 {
+            get {
+                object obj = ResourceManager.GetObject("sh2_50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap sh3 {
             get {
                 object obj = ResourceManager.GetObject("sh3", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap sh4 {
-            get {
-                object obj = ResourceManager.GetObject("sh4", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap start_bg {
-            get {
-                object obj = ResourceManager.GetObject("start_bg", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -243,6 +433,26 @@ namespace Еscape_from_the_labyrinth_of_death.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap warrior_248 {
+            get {
+                object obj = ResourceManager.GetObject("warrior_248", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap warrior_35 {
+            get {
+                object obj = ResourceManager.GetObject("warrior_35", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Warrior_Sprite {
             get {
                 object obj = ResourceManager.GetObject("Warrior_Sprite", resourceCulture);
@@ -253,9 +463,9 @@ namespace Еscape_from_the_labyrinth_of_death.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap wiz_ch {
+        internal static System.Drawing.Bitmap wizard_248 {
             get {
-                object obj = ResourceManager.GetObject("wiz_ch", resourceCulture);
+                object obj = ResourceManager.GetObject("wizard_248", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -263,29 +473,9 @@ namespace Еscape_from_the_labyrinth_of_death.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap wiz_l {
+        internal static System.Drawing.Bitmap wizard_35 {
             get {
-                object obj = ResourceManager.GetObject("wiz_l", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap wiz_r {
-            get {
-                object obj = ResourceManager.GetObject("wiz_r", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap wiz_u {
-            get {
-                object obj = ResourceManager.GetObject("wiz_u", resourceCulture);
+                object obj = ResourceManager.GetObject("wizard_35", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -296,16 +486,6 @@ namespace Еscape_from_the_labyrinth_of_death.Properties {
         internal static System.Drawing.Bitmap Wizard_spirit {
             get {
                 object obj = ResourceManager.GetObject("Wizard_spirit", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap wz_d {
-            get {
-                object obj = ResourceManager.GetObject("wz_d", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

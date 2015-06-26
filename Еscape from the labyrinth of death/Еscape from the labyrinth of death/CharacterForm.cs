@@ -52,5 +52,10 @@ namespace Еscape_from_the_labyrinth_of_death
         {
 
         }
+
+        private void LbWizard_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

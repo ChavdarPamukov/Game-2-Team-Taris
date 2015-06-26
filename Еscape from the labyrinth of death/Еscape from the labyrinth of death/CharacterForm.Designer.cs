@@ -62,18 +62,19 @@
             this.LbWizard.AutoSize = true;
             this.LbWizard.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.LbWizard.ForeColor = System.Drawing.Color.Maroon;
-            this.LbWizard.Location = new System.Drawing.Point(296, 82);
+            this.LbWizard.Location = new System.Drawing.Point(323, 82);
             this.LbWizard.Name = "LbWizard";
             this.LbWizard.Size = new System.Drawing.Size(83, 24);
             this.LbWizard.TabIndex = 1;
             this.LbWizard.Text = "WIZARD";
+            this.LbWizard.Click += new System.EventHandler(this.LbWizard_Click);
             // 
             // LbWarrior
             // 
             this.LbWarrior.AutoSize = true;
             this.LbWarrior.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.LbWarrior.ForeColor = System.Drawing.Color.Maroon;
-            this.LbWarrior.Location = new System.Drawing.Point(510, 82);
+            this.LbWarrior.Location = new System.Drawing.Point(564, 82);
             this.LbWarrior.Name = "LbWarrior";
             this.LbWarrior.Size = new System.Drawing.Size(99, 24);
             this.LbWarrior.TabIndex = 2;
@@ -82,9 +83,9 @@
             // NamePlayer3
             // 
             this.NamePlayer3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.NamePlayer3.Location = new System.Drawing.Point(507, 42);
+            this.NamePlayer3.Location = new System.Drawing.Point(568, 42);
             this.NamePlayer3.Name = "NamePlayer3";
-            this.NamePlayer3.Size = new System.Drawing.Size(100, 29);
+            this.NamePlayer3.Size = new System.Drawing.Size(111, 29);
             this.NamePlayer3.TabIndex = 3;
             this.NamePlayer3.Text = "Enter Name";
             // 
@@ -93,16 +94,16 @@
             this.NamePlayer1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.NamePlayer1.Location = new System.Drawing.Point(69, 42);
             this.NamePlayer1.Name = "NamePlayer1";
-            this.NamePlayer1.Size = new System.Drawing.Size(100, 29);
+            this.NamePlayer1.Size = new System.Drawing.Size(113, 29);
             this.NamePlayer1.TabIndex = 4;
             this.NamePlayer1.Text = "Enter Name";
             // 
             // NamePlayer2
             // 
             this.NamePlayer2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.NamePlayer2.Location = new System.Drawing.Point(285, 42);
+            this.NamePlayer2.Location = new System.Drawing.Point(315, 42);
             this.NamePlayer2.Name = "NamePlayer2";
-            this.NamePlayer2.Size = new System.Drawing.Size(100, 29);
+            this.NamePlayer2.Size = new System.Drawing.Size(109, 29);
             this.NamePlayer2.TabIndex = 5;
             this.NamePlayer2.Text = "Enter Name";
             // 
@@ -110,9 +111,9 @@
             // 
             this.EfButton.BackColor = System.Drawing.Color.Green;
             this.EfButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.EfButton.Location = new System.Drawing.Point(69, 394);
+            this.EfButton.Location = new System.Drawing.Point(69, 389);
             this.EfButton.Name = "EfButton";
-            this.EfButton.Size = new System.Drawing.Size(100, 55);
+            this.EfButton.Size = new System.Drawing.Size(100, 60);
             this.EfButton.TabIndex = 6;
             this.EfButton.Text = "Play with elf";
             this.EfButton.UseVisualStyleBackColor = false;
@@ -122,9 +123,9 @@
             // 
             this.WiButton.BackColor = System.Drawing.Color.Green;
             this.WiButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.WiButton.Location = new System.Drawing.Point(288, 394);
+            this.WiButton.Location = new System.Drawing.Point(327, 389);
             this.WiButton.Name = "WiButton";
-            this.WiButton.Size = new System.Drawing.Size(97, 55);
+            this.WiButton.Size = new System.Drawing.Size(97, 60);
             this.WiButton.TabIndex = 7;
             this.WiButton.Text = "Play with wizard";
             this.WiButton.UseVisualStyleBackColor = false;
@@ -134,9 +135,9 @@
             // 
             this.WaButton.BackColor = System.Drawing.Color.Green;
             this.WaButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.WaButton.Location = new System.Drawing.Point(510, 394);
+            this.WaButton.Location = new System.Drawing.Point(582, 389);
             this.WaButton.Name = "WaButton";
-            this.WaButton.Size = new System.Drawing.Size(97, 55);
+            this.WaButton.Size = new System.Drawing.Size(97, 60);
             this.WaButton.TabIndex = 8;
             this.WaButton.Text = "Play with warrior";
             this.WaButton.UseVisualStyleBackColor = false;
@@ -144,20 +145,20 @@
             // 
             // pictureBoxKn
             // 
-            this.pictureBoxKn.Image = global::Еscape_from_the_labyrinth_of_death.Properties.Resources.Elf_Sprite;
-            this.pictureBoxKn.Location = new System.Drawing.Point(33, 166);
+            this.pictureBoxKn.Image = global::Еscape_from_the_labyrinth_of_death.Properties.Resources.elf_248;
+            this.pictureBoxKn.Location = new System.Drawing.Point(12, 135);
             this.pictureBoxKn.Name = "pictureBoxKn";
-            this.pictureBoxKn.Size = new System.Drawing.Size(178, 217);
+            this.pictureBoxKn.Size = new System.Drawing.Size(230, 248);
             this.pictureBoxKn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureBoxKn.TabIndex = 11;
             this.pictureBoxKn.TabStop = false;
             // 
             // pictureBoxWr
             // 
-            this.pictureBoxWr.Image = global::Еscape_from_the_labyrinth_of_death.Properties.Resources.Warrior_Sprite;
-            this.pictureBoxWr.Location = new System.Drawing.Point(451, 107);
+            this.pictureBoxWr.Image = global::Еscape_from_the_labyrinth_of_death.Properties.Resources.warrior_248;
+            this.pictureBoxWr.Location = new System.Drawing.Point(514, 135);
             this.pictureBoxWr.Name = "pictureBoxWr";
-            this.pictureBoxWr.Size = new System.Drawing.Size(194, 276);
+            this.pictureBoxWr.Size = new System.Drawing.Size(227, 248);
             this.pictureBoxWr.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureBoxWr.TabIndex = 10;
             this.pictureBoxWr.TabStop = false;
@@ -165,10 +166,10 @@
             // 
             // pictureBoxWz
             // 
-            this.pictureBoxWz.Image = global::Еscape_from_the_labyrinth_of_death.Properties.Resources.Wizard_spirit;
-            this.pictureBoxWz.Location = new System.Drawing.Point(265, 168);
+            this.pictureBoxWz.Image = global::Еscape_from_the_labyrinth_of_death.Properties.Resources.wizard_248;
+            this.pictureBoxWz.Location = new System.Drawing.Point(264, 135);
             this.pictureBoxWz.Name = "pictureBoxWz";
-            this.pictureBoxWz.Size = new System.Drawing.Size(133, 215);
+            this.pictureBoxWz.Size = new System.Drawing.Size(226, 248);
             this.pictureBoxWz.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureBoxWz.TabIndex = 9;
             this.pictureBoxWz.TabStop = false;
@@ -178,7 +179,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.ClientSize = new System.Drawing.Size(681, 483);
+            this.ClientSize = new System.Drawing.Size(752, 483);
             this.Controls.Add(this.pictureBoxKn);
             this.Controls.Add(this.pictureBoxWz);
             this.Controls.Add(this.WaButton);
