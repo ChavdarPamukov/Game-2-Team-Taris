@@ -1,12 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Еscape_from_the_labyrinth_of_death.Interfaces
+﻿namespace Еscape_from_the_labyrinth_of_death.Interfaces
 {
+    enum ItemClass
+    {
+        Weapon,
+        Shield,
+        Armor,
+        Helmet,
+        Potion
+    }
     interface IItem
     {
+        int BonusToHealth { get; }
+        int BonusToDefense { get; }
+        int BonusToAttack { get; }
+        int BonusToIntelligence { get; }
+        ItemClass ItemClass { get; }
+        string ItemName { get; }
     }
 }
