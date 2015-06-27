@@ -24,7 +24,7 @@ namespace Еscape_from_the_labyrinth_of_death
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
         }
     }
 }
