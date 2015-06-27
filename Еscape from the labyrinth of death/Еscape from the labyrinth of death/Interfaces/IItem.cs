@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Еscape_from_the_labyrinth_of_death.Interfaces
 {
-    interface IItem
+    public interface IItem
     {
     }
 }

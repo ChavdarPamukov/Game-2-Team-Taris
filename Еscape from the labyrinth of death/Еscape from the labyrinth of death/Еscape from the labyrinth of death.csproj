@@ -50,9 +50,18 @@
     <Compile Include="CharacterForm.Designer.cs">
       <DependentUpon>CharacterForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Classes\EnumClasses\PlayerClass.cs" />
     <Compile Include="Classes\PlayerClasses\Abstract\AbstractGeneric\GenericPlayer.cs" />
     <Compile Include="Classes\PlayerClasses\Abstract\AbstractHuman\HumanPlayer.cs" />
+    <Compile Include="Classes\PlayerClasses\Abstract\AbstractNpc\NpcPlayer.cs" />
+    <Compile Include="Classes\PlayerClasses\Concrete\ConcreteHumanPlayer\Elf.cs" />
+    <Compile Include="Classes\PlayerClasses\Concrete\ConcreteHumanPlayer\Knight.cs" />
+    <Compile Include="Classes\PlayerClasses\Concrete\ConcreteHumanPlayer\Mage.cs" />
+    <Compile Include="Exceptions\InvalidPlayerClassException.cs" />
     <Compile Include="Exceptions\UnreachableLevelException.cs" />
+    <Compile Include="Factories\PlayerFactories\HumanPlayerFactory.cs" />
+    <Compile Include="Factories\PlayerFactories\NpcPlayerFactory.cs" />
+    <Compile Include="Factories\PlayerFactory.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,6 +72,7 @@
     <Compile Include="Interfaces\IItem.cs" />
     <Compile Include="Interfaces\INpcPlayer.cs" />
     <Compile Include="Interfaces\IPlayer.cs" />
+    <Compile Include="Interfaces\IPlayerFactory.cs" />
     <Compile Include="PlayingForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -178,10 +188,7 @@
   <ItemGroup>
     <None Include="Resources\maze_ico.ico" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Classes\PlayerClasses\Abstract\AbstractNpc\" />
-    <Folder Include="Classes\PlayerClasses\Concrete\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -4,17 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Еscape_from_the_labyrinth_of_death.Classes.EnumClasses;
 
 namespace Еscape_from_the_labyrinth_of_death.Interfaces
 {
-    enum PlayerClass
-    {
-        Mage,
-        Wizard,
-        Warrior
-    }
-
-    interface IHumanPlayer : IPlayer
+    public interface IHumanPlayer : IPlayer
     {
         //byte Level { set; get; }
         int Experience { set; get; }
@@ -24,7 +18,6 @@ namespace Еscape_from_the_labyrinth_of_death.Interfaces
         void MoveLeft();
         IItem Potion { set; get; }
         void AddToInventory(IItem item);
-        PlayerClass PlayerClass { get; }
         List<PictureBox> PictureBoxListWalls { set; get; }
     }
 }

@@ -5,10 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Еscape_from_the_labyrinth_of_death.Interfaces;
+using Еscape_from_the_labyrinth_of_death.Classes.EnumClasses;
 
 namespace Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Abstract.AbstractGeneric
 {
-    abstract class GenericPlayer : IPlayer
+    public abstract class GenericPlayer : IPlayer
     {
         private byte _health;
         private byte _attack;
@@ -22,10 +23,10 @@ namespace Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Abstract.Abs
         private IItem _weapon;
         private bool _isDead;
         private readonly bool _isHuman;
-        private readonly PlayerType _playerType;
+        private readonly PlayerClass _playerClass;
 
         public GenericPlayer(byte health, byte attack, byte defence, byte intelligence,
-            PictureBox pictureBoxPlayer, bool isHuman, PlayerType playerType)
+            PictureBox pictureBoxPlayer, bool isHuman, PlayerClass playerClass)
         {
             this.Health = health;
             this.Attack = attack;
@@ -33,7 +34,7 @@ namespace Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Abstract.Abs
             this.Intelligence = intelligence;
             this.PictureBoxPlayer = pictureBoxPlayer;
             this._isHuman = IsHuman;
-            this._playerType = playerType;
+            this._playerClass = playerClass;
             this.IsDead = IsDead;
             this._inventory = new List<IItem>();
             this._bodyArmor = default(IItem);
@@ -121,6 +122,7 @@ namespace Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Abstract.Abs
             set
             {
                 this._bodyArmor = value;
+                this.CalculateBonuses();
             }
             get
             {
@@ -133,6 +135,7 @@ namespace Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Abstract.Abs
             set
             {
                 this._helmet = value;
+                this.CalculateBonuses();
             }
             get
             {
@@ -145,6 +148,7 @@ namespace Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Abstract.Abs
             set
             {
                 this._shield = value;
+                this.CalculateBonuses();
             }
             get
             {
@@ -157,6 +161,7 @@ namespace Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Abstract.Abs
             set
             {
                 this._weapon = value;
+                this.CalculateBonuses();
             }
             get
             {
@@ -164,7 +169,7 @@ namespace Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Abstract.Abs
             }
         }
 
-        public bool IsDead
+        public virtual bool IsDead
         {
             set
             {
@@ -184,12 +189,18 @@ namespace Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Abstract.Abs
             }
         }
 
-        public PlayerType PlayerType
+        public PlayerClass PlayerClass
         {
             get
             {
-                return this._playerType;
+                return this._playerClass;
             }
+        }
+
+        private void CalculateBonuses()
+        {
+            //BOnuses will be added to Health, Attack, Defence and Intelligence here.
+            throw new NotImplementedException();
         }
     }
 }

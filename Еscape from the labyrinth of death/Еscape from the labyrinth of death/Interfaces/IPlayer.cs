@@ -4,16 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Еscape_from_the_labyrinth_of_death.Classes.EnumClasses;
 
 namespace Еscape_from_the_labyrinth_of_death.Interfaces
 {
-    enum PlayerType
-    {
-        Human,
-        NPC
-    }
-
-    interface IPlayer
+    public interface IPlayer
     {
         byte Health { set; get; }
         byte Attack { set; get; }
@@ -27,7 +22,7 @@ namespace Еscape_from_the_labyrinth_of_death.Interfaces
         IItem Weapon { set; get; }
         bool IsDead { set; get; }
         bool IsHuman { get; }
-        PlayerType PlayerType { get; }
+        PlayerClass PlayerClass { get; }
         byte Level { set; get; }
     }
 }

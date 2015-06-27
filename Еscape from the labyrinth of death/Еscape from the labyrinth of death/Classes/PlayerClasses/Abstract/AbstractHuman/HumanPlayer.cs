@@ -7,34 +7,31 @@ using System.Windows.Forms;
 using System.Drawing;
 using Еscape_from_the_labyrinth_of_death.Exceptions;
 using Еscape_from_the_labyrinth_of_death.Interfaces;
+using Еscape_from_the_labyrinth_of_death.Classes.EnumClasses;
 using Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Abstract.AbstractGeneric;
 
 namespace Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Abstract.AbstractHuman
 {
-    abstract class HumanPlayer : GenericPlayer, IHumanPlayer
+    public abstract class HumanPlayer : GenericPlayer, IHumanPlayer
     {
         private byte _level;
         private int _experience;
         private int _nextLevelAt;
         private IItem _potion;
-        private readonly PlayerClass _playerClass;
         private List<PictureBox> _pictureBoxListWalls;
         private Rectangle _rectangle;
 
         public HumanPlayer(byte health, byte attack, byte defence, byte intelligence,
             PictureBox pictureBoxPlayer, PlayerClass playerClass, List<PictureBox> pictureBoxListWalls)
-            : base(health, attack, defence, intelligence, pictureBoxPlayer, true, PlayerType.Human)
+            : base(health, attack, defence, intelligence, pictureBoxPlayer, true, playerClass)
         {
             this.Level = 1;
             this.Experience = 1;
             this._nextLevelAt = 10;
             this._potion = null;
-            this._playerClass = playerClass;
             this.PictureBoxListWalls = pictureBoxListWalls;
             this._rectangle = this.PictureBoxPlayer.Bounds;
         }
-
-        protected abstract void LevelUp();
 
         public override byte Level
         {
@@ -57,7 +54,7 @@ namespace Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Abstract.Abs
             {
                 if (this.WillLevelUp(value))
                 {
-                    this.LevelUp();
+                    this.Level += 1;
                     this._experience = value;
                     this.AdjustNextLevelValue();
                 }
@@ -136,14 +133,6 @@ namespace Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Abstract.Abs
         {
             this.CheckIfItemIsValid(item);
             this.Inventory.Add(item);
-        }
-
-        public PlayerClass PlayerClass
-        {
-            get
-            {
-                return this._playerClass;
-            }
         }
 
         public List<PictureBox> PictureBoxListWalls
