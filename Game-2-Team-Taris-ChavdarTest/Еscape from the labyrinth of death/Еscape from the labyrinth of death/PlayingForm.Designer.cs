@@ -110,6 +110,7 @@
             this.lbDefense = new System.Windows.Forms.Label();
             this.lbAttack = new System.Windows.Forms.Label();
             this.lbHealth = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.playingPn.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox32)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox31)).BeginInit();
@@ -899,6 +900,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.labelCurrentlyEquiped);
             this.panel1.Controls.Add(this.labelLvNumber);
             this.panel1.Controls.Add(this.labelLevel);
@@ -1077,6 +1079,18 @@
             this.lbHealth.TabIndex = 6;
             this.lbHealth.Text = "Health";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.label1.Font = new System.Drawing.Font("Monotype Corsiva", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Location = new System.Drawing.Point(807, 37);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(47, 25);
+            this.label1.TabIndex = 30;
+            this.label1.Text = "Help";
+            this.label1.Click += new System.EventHandler(this.label1_Click_1);
+            // 
             // PlayingForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1251,5 +1265,6 @@
         private System.Windows.Forms.PictureBox pictureBox15;
         private System.Windows.Forms.PictureBox pictureBox14;
         private System.Windows.Forms.PictureBox pictureBox13;
+        private System.Windows.Forms.Label label1;
     }
 }

@@ -10,21 +10,16 @@ using System.Windows.Forms;
 
 namespace Еscape_from_the_labyrinth_of_death
 {
-    public partial class Currently_Equiped : Form
+    public partial class Fighting : Form
     {
-        public Currently_Equiped()
+        public Fighting()
         {
             InitializeComponent();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void Fighting_Load(object sender, EventArgs e)
         {
 
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            this.Hide();
         }
     }
 }

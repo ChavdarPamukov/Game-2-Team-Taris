@@ -50,11 +50,17 @@
     <Compile Include="CharacterForm.Designer.cs">
       <DependentUpon>CharacterForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Currently Equiped.cs">
+    <Compile Include="CurrentlyEquiped.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Currently Equiped.Designer.cs">
-      <DependentUpon>Currently Equiped.cs</DependentUpon>
+    <Compile Include="CurrentlyEquiped.Designer.cs">
+      <DependentUpon>CurrentlyEquiped.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fighting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fighting.Designer.cs">
+      <DependentUpon>Fighting.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -79,8 +85,11 @@
     <EmbeddedResource Include="CharacterForm.resx">
       <DependentUpon>CharacterForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Currently Equiped.resx">
-      <DependentUpon>Currently Equiped.cs</DependentUpon>
+    <EmbeddedResource Include="CurrentlyEquiped.resx">
+      <DependentUpon>CurrentlyEquiped.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fighting.resx">
+      <DependentUpon>Fighting.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

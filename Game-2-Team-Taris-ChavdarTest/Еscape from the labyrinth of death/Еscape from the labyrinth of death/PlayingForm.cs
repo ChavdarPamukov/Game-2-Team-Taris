@@ -186,5 +186,11 @@ namespace Еscape_from_the_labyrinth_of_death
         {
 
         }
+
+        private void label1_Click_1(object sender, EventArgs e)
+        {
+            HelpForm helpF = new HelpForm();
+            helpF.ShowDialog();
+        }
     }
 }
