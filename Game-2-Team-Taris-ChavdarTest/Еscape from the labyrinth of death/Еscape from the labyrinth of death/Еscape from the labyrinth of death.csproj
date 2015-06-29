@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8AD1E2D9-9C5A-4196-82CF-5CF55BCBB7D6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Еscape_from_the_labyrinth_of_death</RootNamespace>
+    <AssemblyName>Еscape from the labyrinth of death</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CharacterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CharacterForm.Designer.cs">
+      <DependentUpon>CharacterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\EnumClasses\PlayerClass.cs" />
+    <Compile Include="Classes\PlayerClasses\Abstract\AbstractGeneric\GenericPlayer.cs" />
+    <Compile Include="Classes\PlayerClasses\Abstract\AbstractHuman\HumanPlayer.cs" />
+    <Compile Include="Classes\PlayerClasses\Abstract\AbstractNpc\BossNpcPlayer.cs" />
+    <Compile Include="Classes\PlayerClasses\Abstract\AbstractNpc\NpcPlayer.cs" />
+    <Compile Include="Classes\PlayerClasses\Abstract\AbstractNpc\StandardNpcPlayer.cs" />
+    <Compile Include="Classes\PlayerClasses\Concrete\ConcreteHumanPlayer\Elf.cs" />
+    <Compile Include="Classes\PlayerClasses\Concrete\ConcreteHumanPlayer\Knight.cs" />
+    <Compile Include="Classes\PlayerClasses\Concrete\ConcreteHumanPlayer\Mage.cs" />
+    <Compile Include="Classes\PlayerClasses\Concrete\ConcreteNpcPlayer\Bosses\BossNpcDragonfly.cs" />
+    <Compile Include="Classes\PlayerClasses\Concrete\ConcreteNpcPlayer\Bosses\BossNpcEgg.cs" />
+    <Compile Include="Classes\PlayerClasses\Concrete\ConcreteNpcPlayer\Bosses\BossNpcWarrior.cs" />
+    <Compile Include="Classes\PlayerClasses\Concrete\ConcreteNpcPlayer\Standard\StandardEvilDragon.cs" />
+    <Compile Include="Classes\PlayerClasses\Concrete\ConcreteNpcPlayer\Standard\StandardEvilElf.cs" />
+    <Compile Include="Classes\PlayerClasses\Concrete\ConcreteNpcPlayer\Standard\StandardEvilHobbit.cs" />
+    <Compile Include="Classes\PlayerClasses\Concrete\ConcreteNpcPlayer\Standard\StandardEvilKnight.cs" />
+    <Compile Include="Classes\PlayerClasses\Concrete\ConcreteNpcPlayer\Standard\StandardEvilMask.cs" />
+    <Compile Include="Exceptions\InvalidPlayerClassException.cs" />
+    <Compile Include="Exceptions\UnreachableLevelException.cs" />
+    <Compile Include="Factories\PlayerFactories\HumanPlayerFactory.cs" />
+    <Compile Include="Factories\PlayerFactories\NpcPlayerFactories\BossNpcFactory.cs" />
+    <Compile Include="Factories\PlayerFactories\NpcPlayerFactories\StandardNpcFactory.cs" />
+    <Compile Include="Factories\PlayerFactories\NpcPlayerFactory.cs" />
+    <Compile Include="Factories\PlayerFactory.cs" />
+    <Compile Include="CurrentlyEquiped.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CurrentlyEquiped.Designer.cs">
+      <DependentUpon>CurrentlyEquiped.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fighting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fighting.Designer.cs">
+      <DependentUpon>Fighting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PlayingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PlayingForm.Designer.cs">
+      <DependentUpon>PlayingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Winner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winner.Designer.cs">
+      <DependentUpon>Winner.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CharacterForm.resx">
+      <DependentUpon>CharacterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CurrentlyEquiped.resx">
+      <DependentUpon>CurrentlyEquiped.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fighting.resx">
+      <DependentUpon>Fighting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HelpForm.resx">
+      <DependentUpon>HelpForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loser.resx">
+      <DependentUpon>Loser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlayingForm.resx">
+      <DependentUpon>PlayingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winner.resx">
+      <DependentUpon>Winner.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stones-wall.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maze_ico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wall1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wall2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wall1 - vr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\br.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sh1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sh2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wall_1_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sh3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\in1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maze_ico.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\elf_352.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\warrior_35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wizard_35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boss_1_248.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boss_2_248.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boss_3_248.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\elf_248.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy_1_248.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy_2_248.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy_3_248.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy_4_248.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\warrior_248.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wizard_248.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\br_50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hart_50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sh_50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sh1_50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sh2_50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\br_501.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy_5_35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy_5_248.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy_4_35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boss_1_35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boss_2_35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boss_3_35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy_1_35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy_2_35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy_3_35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\start_pic.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
