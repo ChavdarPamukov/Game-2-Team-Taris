@@ -50,32 +50,6 @@
     <Compile Include="CharacterForm.Designer.cs">
       <DependentUpon>CharacterForm.cs</DependentUpon>
     </Compile>
-<<<<<<< HEAD:Еscape from the labyrinth of death/Еscape from the labyrinth of death/Еscape from the labyrinth of death.csproj
-    <Compile Include="Classes\EnumClasses\PlayerClass.cs" />
-    <Compile Include="Classes\PlayerClasses\Abstract\AbstractGeneric\GenericPlayer.cs" />
-    <Compile Include="Classes\PlayerClasses\Abstract\AbstractHuman\HumanPlayer.cs" />
-    <Compile Include="Classes\PlayerClasses\Abstract\AbstractNpc\BossNpcPlayer.cs" />
-    <Compile Include="Classes\PlayerClasses\Abstract\AbstractNpc\NpcPlayer.cs" />
-    <Compile Include="Classes\PlayerClasses\Abstract\AbstractNpc\StandardNpcPlayer.cs" />
-    <Compile Include="Classes\PlayerClasses\Concrete\ConcreteHumanPlayer\Elf.cs" />
-    <Compile Include="Classes\PlayerClasses\Concrete\ConcreteHumanPlayer\Knight.cs" />
-    <Compile Include="Classes\PlayerClasses\Concrete\ConcreteHumanPlayer\Mage.cs" />
-    <Compile Include="Classes\PlayerClasses\Concrete\ConcreteNpcPlayer\Bosses\BossNpcDragonfly.cs" />
-    <Compile Include="Classes\PlayerClasses\Concrete\ConcreteNpcPlayer\Bosses\BossNpcEgg.cs" />
-    <Compile Include="Classes\PlayerClasses\Concrete\ConcreteNpcPlayer\Bosses\BossNpcWarrior.cs" />
-    <Compile Include="Classes\PlayerClasses\Concrete\ConcreteNpcPlayer\Standard\StandardEvilDragon.cs" />
-    <Compile Include="Classes\PlayerClasses\Concrete\ConcreteNpcPlayer\Standard\StandardEvilElf.cs" />
-    <Compile Include="Classes\PlayerClasses\Concrete\ConcreteNpcPlayer\Standard\StandardEvilHobbit.cs" />
-    <Compile Include="Classes\PlayerClasses\Concrete\ConcreteNpcPlayer\Standard\StandardEvilKnight.cs" />
-    <Compile Include="Classes\PlayerClasses\Concrete\ConcreteNpcPlayer\Standard\StandardEvilMask.cs" />
-    <Compile Include="Exceptions\InvalidPlayerClassException.cs" />
-    <Compile Include="Exceptions\UnreachableLevelException.cs" />
-    <Compile Include="Factories\PlayerFactories\HumanPlayerFactory.cs" />
-    <Compile Include="Factories\PlayerFactories\NpcPlayerFactories\BossNpcFactory.cs" />
-    <Compile Include="Factories\PlayerFactories\NpcPlayerFactories\StandardNpcFactory.cs" />
-    <Compile Include="Factories\PlayerFactories\NpcPlayerFactory.cs" />
-    <Compile Include="Factories\PlayerFactory.cs" />
-=======
     <Compile Include="CurrentlyEquiped.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,20 +62,12 @@
     <Compile Include="Fighting.Designer.cs">
       <DependentUpon>Fighting.cs</DependentUpon>
     </Compile>
->>>>>>> origin/ChavdarTest:Game-2-Team-Taris-ChavdarTest/Еscape from the labyrinth of death/Еscape from the labyrinth of death/Еscape from the labyrinth of death.csproj
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-<<<<<<< HEAD:Еscape from the labyrinth of death/Еscape from the labyrinth of death/Еscape from the labyrinth of death.csproj
-    <Compile Include="Interfaces\IHumanPlayer.cs" />
-    <Compile Include="Interfaces\IItem.cs" />
-    <Compile Include="Interfaces\INpcPlayer.cs" />
-    <Compile Include="Interfaces\IPlayer.cs" />
-    <Compile Include="Interfaces\IPlayerFactory.cs" />
-=======
     <Compile Include="HelpForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -114,7 +80,6 @@
     <Compile Include="Loser.Designer.cs">
       <DependentUpon>Loser.cs</DependentUpon>
     </Compile>
->>>>>>> origin/ChavdarTest:Game-2-Team-Taris-ChavdarTest/Еscape from the labyrinth of death/Еscape from the labyrinth of death/Еscape from the labyrinth of death.csproj
     <Compile Include="PlayingForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -305,7 +270,6 @@
   <ItemGroup>
     <None Include="Resources\start_pic.png" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

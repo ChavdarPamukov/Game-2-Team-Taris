@@ -182,12 +182,15 @@ namespace Еscape_from_the_labyrinth_of_death
             };
         }
 
+<<<<<<< HEAD:Game-2-Team-Taris-ChavdarTest/Еscape from the labyrinth of death/Еscape from the labyrinth of death/PlayingForm.cs
 <<<<<<< HEAD:Еscape from the labyrinth of death/Еscape from the labyrinth of death/PlayingForm.cs
         private void player_Click(object sender, EventArgs e)
         {
 
         }
 =======
+=======
+>>>>>>> origin/ChavdarTest:Game-2-Team-Taris-ChavdarTest/Еscape from the labyrinth of death/Еscape from the labyrinth of death/PlayingForm.cs
         private void labelCurrentlyEquiped_Click(object sender, EventArgs e)
         {
             Currently_Equiped currentlyEquiped = new Currently_Equiped();
@@ -204,6 +207,9 @@ namespace Еscape_from_the_labyrinth_of_death
             HelpForm helpF = new HelpForm();
             helpF.ShowDialog();
         }
+<<<<<<< HEAD:Game-2-Team-Taris-ChavdarTest/Еscape from the labyrinth of death/Еscape from the labyrinth of death/PlayingForm.cs
+>>>>>>> origin/ChavdarTest:Game-2-Team-Taris-ChavdarTest/Еscape from the labyrinth of death/Еscape from the labyrinth of death/PlayingForm.cs
+=======
 >>>>>>> origin/ChavdarTest:Game-2-Team-Taris-ChavdarTest/Еscape from the labyrinth of death/Еscape from the labyrinth of death/PlayingForm.cs
     }
 }
