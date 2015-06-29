@@ -107,9 +107,6 @@ C:\Users\Vily\Desktop\Game-2-Team-Taris\Game-2-Team-Taris-ChavdarTest\Еscape fr
 C:\Users\Vily\Desktop\Game-2-Team-Taris\Game-2-Team-Taris-ChavdarTest\Еscape from the labyrinth of death\Еscape from the labyrinth of death\obj\Debug\Еscape_from_the_labyrinth_of_death.PlayingForm.resources
 C:\Users\Vily\Desktop\Game-2-Team-Taris\Game-2-Team-Taris-ChavdarTest\Еscape from the labyrinth of death\Еscape from the labyrinth of death\obj\Debug\Еscape_from_the_labyrinth_of_death.Properties.Resources.resources
 C:\Users\Vily\Desktop\Game-2-Team-Taris\Game-2-Team-Taris-ChavdarTest\Еscape from the labyrinth of death\Еscape from the labyrinth of death\obj\Debug\Еscape from the labyrinth of death.csproj.GenerateResource.Cache
-<<<<<<< HEAD
 C:\Users\wolfy\Documents\GitHub\Game-2-Team-Taris\Game-2-Team-Taris-ChavdarTest\Еscape from the labyrinth of death\Еscape from the labyrinth of death\bin\Debug\Еscape from the labyrinth of death.exe.config
 C:\Users\wolfy\Documents\GitHub\Game-2-Team-Taris\Game-2-Team-Taris-ChavdarTest\Еscape from the labyrinth of death\Еscape from the labyrinth of death\obj\Debug\Еscape from the labyrinth of death.exe
 C:\Users\wolfy\Documents\GitHub\Game-2-Team-Taris\Game-2-Team-Taris-ChavdarTest\Еscape from the labyrinth of death\Еscape from the labyrinth of death\obj\Debug\Еscape from the labyrinth of death.pdb
-=======
->>>>>>> origin/ChavdarTest
