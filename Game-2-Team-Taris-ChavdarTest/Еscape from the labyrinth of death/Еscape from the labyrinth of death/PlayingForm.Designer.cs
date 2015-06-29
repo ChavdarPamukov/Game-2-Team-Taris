@@ -68,8 +68,11 @@
             this.wall_1 = new System.Windows.Forms.PictureBox();
 <<<<<<< HEAD:Game-2-Team-Taris-ChavdarTest/Еscape from the labyrinth of death/Еscape from the labyrinth of death/PlayingForm.Designer.cs
 <<<<<<< HEAD:Game-2-Team-Taris-ChavdarTest/Еscape from the labyrinth of death/Еscape from the labyrinth of death/PlayingForm.Designer.cs
+<<<<<<< HEAD:Game-2-Team-Taris-ChavdarTest/Еscape from the labyrinth of death/Еscape from the labyrinth of death/PlayingForm.Designer.cs
 <<<<<<< HEAD:Еscape from the labyrinth of death/Еscape from the labyrinth of death/PlayingForm.Designer.cs
             this.playerBox = new System.Windows.Forms.PictureBox();
+=======
+>>>>>>> origin/ChavdarTest:Game-2-Team-Taris-ChavdarTest/Еscape from the labyrinth of death/Еscape from the labyrinth of death/PlayingForm.Designer.cs
 =======
 >>>>>>> origin/ChavdarTest:Game-2-Team-Taris-ChavdarTest/Еscape from the labyrinth of death/Еscape from the labyrinth of death/PlayingForm.Designer.cs
 =======
@@ -134,8 +137,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.wall_1)).BeginInit();
 <<<<<<< HEAD:Game-2-Team-Taris-ChavdarTest/Еscape from the labyrinth of death/Еscape from the labyrinth of death/PlayingForm.Designer.cs
 <<<<<<< HEAD:Game-2-Team-Taris-ChavdarTest/Еscape from the labyrinth of death/Еscape from the labyrinth of death/PlayingForm.Designer.cs
+<<<<<<< HEAD:Game-2-Team-Taris-ChavdarTest/Еscape from the labyrinth of death/Еscape from the labyrinth of death/PlayingForm.Designer.cs
 <<<<<<< HEAD:Еscape from the labyrinth of death/Еscape from the labyrinth of death/PlayingForm.Designer.cs
             ((System.ComponentModel.ISupportInitialize)(this.playerBox)).BeginInit();
+=======
+>>>>>>> origin/ChavdarTest:Game-2-Team-Taris-ChavdarTest/Еscape from the labyrinth of death/Еscape from the labyrinth of death/PlayingForm.Designer.cs
 =======
 >>>>>>> origin/ChavdarTest:Game-2-Team-Taris-ChavdarTest/Еscape from the labyrinth of death/Еscape from the labyrinth of death/PlayingForm.Designer.cs
 =======
@@ -189,8 +195,11 @@
             this.playingPn.Controls.Add(this.wall_1);
 <<<<<<< HEAD:Game-2-Team-Taris-ChavdarTest/Еscape from the labyrinth of death/Еscape from the labyrinth of death/PlayingForm.Designer.cs
 <<<<<<< HEAD:Game-2-Team-Taris-ChavdarTest/Еscape from the labyrinth of death/Еscape from the labyrinth of death/PlayingForm.Designer.cs
+<<<<<<< HEAD:Game-2-Team-Taris-ChavdarTest/Еscape from the labyrinth of death/Еscape from the labyrinth of death/PlayingForm.Designer.cs
 <<<<<<< HEAD:Еscape from the labyrinth of death/Еscape from the labyrinth of death/PlayingForm.Designer.cs
             this.playingPn.Controls.Add(this.playerBox);
+=======
+>>>>>>> origin/ChavdarTest:Game-2-Team-Taris-ChavdarTest/Еscape from the labyrinth of death/Еscape from the labyrinth of death/PlayingForm.Designer.cs
 =======
 >>>>>>> origin/ChavdarTest:Game-2-Team-Taris-ChavdarTest/Еscape from the labyrinth of death/Еscape from the labyrinth of death/PlayingForm.Designer.cs
 =======
@@ -567,6 +576,7 @@
             // 
 <<<<<<< HEAD:Game-2-Team-Taris-ChavdarTest/Еscape from the labyrinth of death/Еscape from the labyrinth of death/PlayingForm.Designer.cs
 <<<<<<< HEAD:Game-2-Team-Taris-ChavdarTest/Еscape from the labyrinth of death/Еscape from the labyrinth of death/PlayingForm.Designer.cs
+<<<<<<< HEAD:Game-2-Team-Taris-ChavdarTest/Еscape from the labyrinth of death/Еscape from the labyrinth of death/PlayingForm.Designer.cs
 <<<<<<< HEAD:Еscape from the labyrinth of death/Еscape from the labyrinth of death/PlayingForm.Designer.cs
             // playerBox
             // 
@@ -579,6 +589,8 @@
             this.playerBox.TabStop = false;
             this.playerBox.Click += new System.EventHandler(this.player_Click);
             // 
+=======
+>>>>>>> origin/ChavdarTest:Game-2-Team-Taris-ChavdarTest/Еscape from the labyrinth of death/Еscape from the labyrinth of death/PlayingForm.Designer.cs
 =======
 >>>>>>> origin/ChavdarTest:Game-2-Team-Taris-ChavdarTest/Еscape from the labyrinth of death/Еscape from the labyrinth of death/PlayingForm.Designer.cs
 =======
@@ -856,8 +868,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.wall_1)).EndInit();
 <<<<<<< HEAD:Game-2-Team-Taris-ChavdarTest/Еscape from the labyrinth of death/Еscape from the labyrinth of death/PlayingForm.Designer.cs
 <<<<<<< HEAD:Game-2-Team-Taris-ChavdarTest/Еscape from the labyrinth of death/Еscape from the labyrinth of death/PlayingForm.Designer.cs
+<<<<<<< HEAD:Game-2-Team-Taris-ChavdarTest/Еscape from the labyrinth of death/Еscape from the labyrinth of death/PlayingForm.Designer.cs
 <<<<<<< HEAD:Еscape from the labyrinth of death/Еscape from the labyrinth of death/PlayingForm.Designer.cs
             ((System.ComponentModel.ISupportInitialize)(this.playerBox)).EndInit();
+=======
+>>>>>>> origin/ChavdarTest:Game-2-Team-Taris-ChavdarTest/Еscape from the labyrinth of death/Еscape from the labyrinth of death/PlayingForm.Designer.cs
 =======
 >>>>>>> origin/ChavdarTest:Game-2-Team-Taris-ChavdarTest/Еscape from the labyrinth of death/Еscape from the labyrinth of death/PlayingForm.Designer.cs
 =======
@@ -881,8 +896,11 @@
         private System.Windows.Forms.Label CharPlayer;
 <<<<<<< HEAD:Game-2-Team-Taris-ChavdarTest/Еscape from the labyrinth of death/Еscape from the labyrinth of death/PlayingForm.Designer.cs
 <<<<<<< HEAD:Game-2-Team-Taris-ChavdarTest/Еscape from the labyrinth of death/Еscape from the labyrinth of death/PlayingForm.Designer.cs
+<<<<<<< HEAD:Game-2-Team-Taris-ChavdarTest/Еscape from the labyrinth of death/Еscape from the labyrinth of death/PlayingForm.Designer.cs
 <<<<<<< HEAD:Еscape from the labyrinth of death/Еscape from the labyrinth of death/PlayingForm.Designer.cs
         private System.Windows.Forms.PictureBox playerBox;
+=======
+>>>>>>> origin/ChavdarTest:Game-2-Team-Taris-ChavdarTest/Еscape from the labyrinth of death/Еscape from the labyrinth of death/PlayingForm.Designer.cs
 =======
 >>>>>>> origin/ChavdarTest:Game-2-Team-Taris-ChavdarTest/Еscape from the labyrinth of death/Еscape from the labyrinth of death/PlayingForm.Designer.cs
 =======
