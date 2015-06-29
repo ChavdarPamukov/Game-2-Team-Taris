@@ -19,7 +19,6 @@ namespace Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Abstract.Abs
         private int _nextLevelAt;
         private IItem _potion;
         private List<PictureBox> _pictureBoxListWalls;
-        private Rectangle _rectangle;
 
         public HumanPlayer(byte health, byte attack, byte defence, byte intelligence,
             PictureBox pictureBoxPlayer, PlayerClass playerClass, List<PictureBox> pictureBoxListWalls)
@@ -30,7 +29,6 @@ namespace Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Abstract.Abs
             this._nextLevelAt = 10;
             this._potion = null;
             this.PictureBoxListWalls = pictureBoxListWalls;
-            this._rectangle = this.PictureBoxPlayer.Bounds;
         }
 
         public override byte Level
@@ -71,50 +69,54 @@ namespace Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Abstract.Abs
 
         public void MoveUp()
         {
-            this._rectangle.Y -= 5;
+            Rectangle r = this.PictureBoxPlayer.Bounds;
+            r.Y -= 5;
             
-            if (HasColision(this._rectangle))
+            if (HasColision(r))
             {
                 return;
             }
 
-            this.PictureBoxPlayer.Bounds = this._rectangle;
+            this.PictureBoxPlayer.Bounds = r;
         }
 
         public void MoveRight()
         {
-            this._rectangle.X += 5;
+            Rectangle r = this.PictureBoxPlayer.Bounds;
+            r.X += 5;
             
-            if (HasColision(this._rectangle))
+            if (HasColision(r))
             {
                 return;
             }
 
-            this.PictureBoxPlayer.Bounds = this._rectangle;
+            this.PictureBoxPlayer.Bounds = r;
         }
 
         public void MoveDown()
         {
-            this._rectangle.Y += 5;
+            Rectangle r = this.PictureBoxPlayer.Bounds;
+            r.Y += 5;
 
-            if (HasColision(this._rectangle))
+            if (HasColision(r))
             {
                 return;
             }
 
-            this.PictureBoxPlayer.Bounds = this._rectangle;
+            this.PictureBoxPlayer.Bounds = r;
         }
 
         public void MoveLeft()
         {
-            this._rectangle.X -= 5;
+            Rectangle r = this.PictureBoxPlayer.Bounds;
+            r.X -= 5;
 
-            if (HasColision(this._rectangle))
+            if (HasColision(r))
             {
                 return;
             }
 
-            this.PictureBoxPlayer.Bounds = this._rectangle;
+            this.PictureBoxPlayer.Bounds = r;
         }
 
         public IItem Potion

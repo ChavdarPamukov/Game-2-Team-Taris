@@ -15,16 +15,23 @@ namespace Еscape_from_the_labyrinth_of_death.Factories
         public static readonly PlayerFactory PLAYER_FACTORY = new PlayerFactory();
         private readonly IPlayerFactory _humanPlayerFactory;
         private readonly IPlayerFactory _npcPlayerFactory;
+        private readonly PlayerClass[] _humanPlayerClasses;
 
         protected PlayerFactory()
         {
            this._humanPlayerFactory = HumanPlayerFactory.HUMAN_PLAYER_FACTORY;
            this._npcPlayerFactory = NpcPlayerFactory.NPC_PLAYER_FACTORY;
+           this._humanPlayerClasses = new PlayerClass[] 
+           {
+               PlayerClass.Elf,
+               PlayerClass.Mage,
+               PlayerClass.Knight,
+           };
         }
 
         public virtual IPlayer Create(PictureBox pictureBoxPlayer, List<PictureBox> pictureBoxListWalls, PlayerClass playerClass)
         {
-            if (NewPlayerIsHuman(playerClass))
+            if (this._humanPlayerClasses.Contains(playerClass))
             {
                 return CreateHumanPlayer(pictureBoxPlayer, pictureBoxListWalls, playerClass);
             }
@@ -32,13 +39,6 @@ namespace Еscape_from_the_labyrinth_of_death.Factories
             {
                 return CreateNpcPlayer(pictureBoxPlayer, pictureBoxListWalls, playerClass);
             }
-        }
-
-        private bool NewPlayerIsHuman(PlayerClass playerClass)
-        {
-            return playerClass == PlayerClass.Elf ||
-                playerClass == PlayerClass.Knight ||
-                playerClass == PlayerClass.Mage;
         }
 
         private IPlayer CreateHumanPlayer(PictureBox pictureBoxPlayer, List<PictureBox> pictureBoxListWalls, 

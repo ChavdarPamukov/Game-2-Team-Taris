@@ -7,12 +7,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Еscape_from_the_labyrinth_of_death.Interfaces;
+using Еscape_from_the_labyrinth_of_death.Factories;
+using Еscape_from_the_labyrinth_of_death.Classes.EnumClasses;
 
 namespace Еscape_from_the_labyrinth_of_death
 {
     public partial class PlayingForm : Form
     {
         private List<PictureBox> _wallsList;
+        private IPlayerFactory _factory = PlayerFactory.PLAYER_FACTORY;
+        private IHumanPlayer _humanPlayer;
 
         public PlayingForm(string UserName, string CharName)
         {
@@ -20,6 +25,7 @@ namespace Еscape_from_the_labyrinth_of_death
             UpdateWallsList();
             NaPlayer.Text = UserName;
             CharPlayer.Text = CharName;
+            this._humanPlayer = (IHumanPlayer)this._factory.Create(this.playerBox, this._wallsList, PlayerClass.Elf);
         }
 
         private void PlayingForm_Load(object sender, EventArgs e)
@@ -29,26 +35,26 @@ namespace Еscape_from_the_labyrinth_of_death
 
         private void PlayingForm_KeyDown(object sender, KeyEventArgs e)
         {
-            Rectangle rect = playerBox.Bounds;
+            //Rectangle rect = playerBox.Bounds;
 
             if (e.KeyCode == Keys.Left)
             {
-                this.MoveLeft(rect);
+                this._humanPlayer.MoveLeft();
             }
 
             if (e.KeyCode == Keys.Right)
             {
-                this.MoveRight(rect);
+                this._humanPlayer.MoveRight();
             }
 
             if (e.KeyCode == Keys.Up)
             {
-                this.MoveUp(rect);
+                this._humanPlayer.MoveUp();
             }
 
             if (e.KeyCode == Keys.Down)
             {
-                this.MoveDown(rect);
+                this._humanPlayer.MoveDown();
             }
         }
 

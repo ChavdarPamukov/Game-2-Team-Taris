@@ -12,19 +12,21 @@ using Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Abstract.Abstrac
 
 namespace Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Abstract.AbstractNpc
 {
-    abstract class NpcPlayer : GenericPlayer, INpcPlayer
+    public abstract class NpcPlayer : GenericPlayer, INpcPlayer
     {
         private readonly byte _level;
         private uint _respawnInterval;
         private uint _respawnCounter;
+        private bool _isBoss;
 
         public NpcPlayer(byte health, byte attack, byte defence, byte intelligence,
-            PictureBox pictureBoxPlayer, byte level, uint respawnInterval, PlayerClass playerClass)
+            PictureBox pictureBoxPlayer, byte level, uint respawnInterval, PlayerClass playerClass, bool isBoss)
             : base(health, attack, defence, intelligence, pictureBoxPlayer, false, playerClass)
         {
             this._level = level;
             this.RespawnInterval = respawnInterval;
             this._respawnCounter = 0;
+            this._isBoss = isBoss;
         }
 
         public override byte Level
@@ -64,7 +66,7 @@ namespace Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Abstract.Abs
             }
             set
             {
-                base.IsDead = value;
+                this.IsDead = value;
                 if (this.IsDead == false)
                 {
                     this.Respawn();
@@ -73,6 +75,14 @@ namespace Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Abstract.Abs
                 {
                     this.BeginRespawnCount();
                 }
+            }
+        }
+
+        public bool IsBoss
+        {
+            get
+            {
+                return this._isBoss;
             }
         }
 

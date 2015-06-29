@@ -11,5 +11,6 @@ namespace Еscape_from_the_labyrinth_of_death.Interfaces
     {
         uint RespawnInterval { set; get; }
         void Respawn();
+        bool IsBoss { get; }
     }
 }

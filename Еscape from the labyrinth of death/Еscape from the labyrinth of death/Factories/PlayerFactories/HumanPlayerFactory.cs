@@ -32,7 +32,8 @@ namespace Еscape_from_the_labyrinth_of_death.Factories.PlayerFactories
                 case PlayerClass.Mage:
                     return this.CreateMage(pictureBoxPlayer, pictureBoxListWalls);
                 default:
-                    throw new InvalidPlayerClassException("Could not create new Human player. Invalid class provided");
+                    throw new InvalidPlayerClassException("Could not create new Human player. Invalid class provided: " + 
+                        playerClass.ToString());
             }
         }
 

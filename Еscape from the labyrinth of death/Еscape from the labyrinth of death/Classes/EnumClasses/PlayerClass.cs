@@ -11,6 +11,13 @@ namespace Еscape_from_the_labyrinth_of_death.Classes.EnumClasses
         Elf,
         Mage,
         Knight,
-        //NPC classes go here
+        EvilElf,
+        EvilKnight,
+        EvilHobbit,
+        EvilMask,
+        EvilDragon,
+        BossWarrior,
+        BossEgg,
+        BossDragonfly,
     }
 }

@@ -7,24 +7,53 @@ using System.Windows.Forms;
 using Еscape_from_the_labyrinth_of_death.Interfaces;
 using Еscape_from_the_labyrinth_of_death.Exceptions;
 using Еscape_from_the_labyrinth_of_death.Classes.EnumClasses;
-using Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Concrete.ConcreteHumanPlayer;
+using Еscape_from_the_labyrinth_of_death.Factories.PlayerFactories.NpcPlayerFactories;
 
 namespace Еscape_from_the_labyrinth_of_death.Factories.PlayerFactories
 {
     internal class NpcPlayerFactory : PlayerFactory
     {
         public static readonly IPlayerFactory NPC_PLAYER_FACTORY = new NpcPlayerFactory();
+        private readonly IPlayerFactory _standardNpcFactory;
+        private readonly IPlayerFactory _bossNpcFactory;
+        private readonly PlayerClass[] _bossNpcClasses;
 
-        private NpcPlayerFactory()
+        protected NpcPlayerFactory()
         {
-            //nothing to do here
+            this._standardNpcFactory = StandardNpcFactory.STANDARD_NPC_FACTORY;
+            this._bossNpcFactory = BossNpcFactory.BOSS_NPC_FACTORY;
+
+            this._bossNpcClasses = new PlayerClass[] 
+            {
+                PlayerClass.BossDragonfly,
+                PlayerClass.BossEgg,
+                PlayerClass.BossWarrior,
+            };
         }
 
         public override IPlayer Create(PictureBox pictureBoxPlayer, List<PictureBox> pictureBoxListWalls, 
             PlayerClass playerClass)
         {
-            //Creating npcs goes here
-            throw new NotImplementedException();
+            if (this._bossNpcClasses.Contains(playerClass))
+            {
+                return this.CreateBossNpc(pictureBoxPlayer, pictureBoxListWalls, playerClass);
+            }
+            else
+            {
+                return this.CreateStandardNpc(pictureBoxPlayer, pictureBoxListWalls, playerClass);
+            }
+        }
+
+        private IPlayer CreateBossNpc(PictureBox pictureBoxPlayer, List<PictureBox> pictureBoxListWalls,
+            PlayerClass playerClass)
+        {
+            return this._bossNpcFactory.Create(pictureBoxPlayer, pictureBoxListWalls, playerClass);
+        }
+
+        private IPlayer CreateStandardNpc(PictureBox pictureBoxPlayer, List<PictureBox> pictureBoxListWalls,
+            PlayerClass playerClass)
+        {
+            return this._standardNpcFactory.Create(pictureBoxPlayer, pictureBoxListWalls, playerClass);
         }
     }
 }
