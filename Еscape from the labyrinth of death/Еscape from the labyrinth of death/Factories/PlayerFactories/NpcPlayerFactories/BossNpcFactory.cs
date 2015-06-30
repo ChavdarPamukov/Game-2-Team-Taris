@@ -20,7 +20,8 @@ namespace Еscape_from_the_labyrinth_of_death.Factories.PlayerFactories.NpcPlaye
             //nothing to do here
         }
 
-        public override IPlayer Create(PictureBox pictureBoxPlayer, List<PictureBox> pictureBoxListWalls, 
+        public override IPlayer Create(PictureBox pictureBoxPlayer, List<PictureBox> pictureBoxListWalls,
+            List<INpcPlayer> enemiesList,
             PlayerClass playerClass)
         {
             switch (playerClass)

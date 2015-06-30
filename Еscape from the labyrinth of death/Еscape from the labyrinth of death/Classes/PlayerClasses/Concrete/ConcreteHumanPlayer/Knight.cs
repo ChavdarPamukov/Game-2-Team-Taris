@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Еscape_from_the_labyrinth_of_death.Interfaces;
 using Еscape_from_the_labyrinth_of_death.Classes.EnumClasses;
 using Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Abstract.AbstractHuman;
 
@@ -17,8 +18,10 @@ namespace Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Concrete.Con
         private const byte _knightIntelligence = 20;
         private const PlayerClass _playerClass = PlayerClass.Knight;
 
-        public Knight(PictureBox pictureBoxPlayer, List<PictureBox> pictureBoxListWalls)
-            : base(_knightHealth, _knightAttack, _knightDefence, _knightIntelligence, pictureBoxPlayer, _playerClass, pictureBoxListWalls)
+        public Knight(PictureBox pictureBoxPlayer, List<PictureBox> pictureBoxListWalls,
+            List<INpcPlayer> enemiesList)
+            : base(_knightHealth, _knightAttack, _knightDefence, _knightIntelligence,
+            pictureBoxPlayer, _playerClass, pictureBoxListWalls, enemiesList)
         {
 
         }

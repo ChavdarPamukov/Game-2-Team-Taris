@@ -29,28 +29,33 @@ namespace Еscape_from_the_labyrinth_of_death.Factories
            };
         }
 
-        public virtual IPlayer Create(PictureBox pictureBoxPlayer, List<PictureBox> pictureBoxListWalls, PlayerClass playerClass)
+        public virtual IPlayer Create(PictureBox pictureBoxPlayer, List<PictureBox> pictureBoxListWalls, 
+            List<INpcPlayer> enemiesList, PlayerClass playerClass)
         {
             if (this._humanPlayerClasses.Contains(playerClass))
             {
-                return CreateHumanPlayer(pictureBoxPlayer, pictureBoxListWalls, playerClass);
+                return CreateHumanPlayer(pictureBoxPlayer, pictureBoxListWalls, enemiesList, playerClass);
             }
             else
             {
-                return CreateNpcPlayer(pictureBoxPlayer, pictureBoxListWalls, playerClass);
+                return CreateNpcPlayer(pictureBoxPlayer, pictureBoxListWalls, enemiesList, playerClass);
             }
         }
 
-        private IPlayer CreateHumanPlayer(PictureBox pictureBoxPlayer, List<PictureBox> pictureBoxListWalls, 
+        private IPlayer CreateHumanPlayer(PictureBox pictureBoxPlayer, List<PictureBox> pictureBoxListWalls,
+            List<INpcPlayer> enemiesList,
             PlayerClass playerClass) 
         {
-            return this._humanPlayerFactory.Create(pictureBoxPlayer, pictureBoxListWalls, playerClass);
+            return this._humanPlayerFactory.Create(pictureBoxPlayer, pictureBoxListWalls, 
+                enemiesList, playerClass);
         }
 
         private IPlayer CreateNpcPlayer(PictureBox pictureBoxPlayer, List<PictureBox> pictureBoxListWalls,
+            List<INpcPlayer> enemiesList,
             PlayerClass playerClass)
         {
-            return this._npcPlayerFactory.Create(pictureBoxPlayer, pictureBoxListWalls, playerClass);
+            return this._npcPlayerFactory.Create(pictureBoxPlayer, pictureBoxListWalls, 
+                enemiesList, playerClass);
         }
     }
 }

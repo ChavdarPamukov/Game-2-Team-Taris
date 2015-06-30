@@ -66,8 +66,8 @@ namespace Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Abstract.Abs
             }
             set
             {
-                this.IsDead = value;
-                if (this.IsDead == false)
+                base.IsDead = value;
+                if (base.IsDead == false)
                 {
                     this.Respawn();
                 }

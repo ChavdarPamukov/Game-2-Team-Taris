@@ -30,9 +30,20 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PlayingForm));
             this.playingPn = new System.Windows.Forms.Panel();
-            this.pictureBox24 = new System.Windows.Forms.PictureBox();
-            this.pictureBox22 = new System.Windows.Forms.PictureBox();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
+            this.EvilHobbit2PB = new System.Windows.Forms.PictureBox();
+            this.EvilKnight2PB = new System.Windows.Forms.PictureBox();
+            this.EvilHobbit1PB = new System.Windows.Forms.PictureBox();
+            this.BossEggPB = new System.Windows.Forms.PictureBox();
+            this.BossWarriorPB = new System.Windows.Forms.PictureBox();
+            this.EvilKnight1PB = new System.Windows.Forms.PictureBox();
+            this.EvilElf2PB = new System.Windows.Forms.PictureBox();
+            this.EvilElf1PB = new System.Windows.Forms.PictureBox();
+            this.EvilDragon2PB = new System.Windows.Forms.PictureBox();
+            this.EvilMask1PB = new System.Windows.Forms.PictureBox();
+            this.playerPB = new System.Windows.Forms.PictureBox();
+            this.EvilDragon1PB = new System.Windows.Forms.PictureBox();
+            this.EvilMask2PB = new System.Windows.Forms.PictureBox();
+            this.BossDragonflyPB = new System.Windows.Forms.PictureBox();
             this.wall_33 = new System.Windows.Forms.PictureBox();
             this.wall_32 = new System.Windows.Forms.PictureBox();
             this.wall_31 = new System.Windows.Forms.PictureBox();
@@ -85,21 +96,21 @@
             this.lbDefense = new System.Windows.Forms.Label();
             this.lbAttack = new System.Windows.Forms.Label();
             this.lbHealth = new System.Windows.Forms.Label();
-            this.player = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
-            this.pictureBox14 = new System.Windows.Forms.PictureBox();
-            this.pictureBox15 = new System.Windows.Forms.PictureBox();
             this.playingPn.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.EvilHobbit2PB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.EvilKnight2PB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.EvilHobbit1PB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BossEggPB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BossWarriorPB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.EvilKnight1PB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.EvilElf2PB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.EvilElf1PB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.EvilDragon2PB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.EvilMask1PB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.playerPB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.EvilDragon1PB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.EvilMask2PB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BossDragonflyPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.wall_33)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.wall_32)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.wall_31)).BeginInit();
@@ -138,35 +149,24 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.player)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
             this.SuspendLayout();
             // 
             // playingPn
             // 
-            this.playingPn.Controls.Add(this.pictureBox15);
-            this.playingPn.Controls.Add(this.pictureBox14);
-            this.playingPn.Controls.Add(this.pictureBox13);
-            this.playingPn.Controls.Add(this.pictureBox12);
-            this.playingPn.Controls.Add(this.pictureBox10);
-            this.playingPn.Controls.Add(this.pictureBox5);
-            this.playingPn.Controls.Add(this.pictureBox4);
-            this.playingPn.Controls.Add(this.pictureBox3);
-            this.playingPn.Controls.Add(this.pictureBox2);
-            this.playingPn.Controls.Add(this.pictureBox1);
-            this.playingPn.Controls.Add(this.player);
-            this.playingPn.Controls.Add(this.pictureBox24);
-            this.playingPn.Controls.Add(this.pictureBox22);
-            this.playingPn.Controls.Add(this.pictureBox11);
+            this.playingPn.Controls.Add(this.EvilHobbit2PB);
+            this.playingPn.Controls.Add(this.EvilKnight2PB);
+            this.playingPn.Controls.Add(this.EvilHobbit1PB);
+            this.playingPn.Controls.Add(this.BossEggPB);
+            this.playingPn.Controls.Add(this.BossWarriorPB);
+            this.playingPn.Controls.Add(this.EvilKnight1PB);
+            this.playingPn.Controls.Add(this.EvilElf2PB);
+            this.playingPn.Controls.Add(this.EvilElf1PB);
+            this.playingPn.Controls.Add(this.EvilDragon2PB);
+            this.playingPn.Controls.Add(this.EvilMask1PB);
+            this.playingPn.Controls.Add(this.playerPB);
+            this.playingPn.Controls.Add(this.EvilDragon1PB);
+            this.playingPn.Controls.Add(this.EvilMask2PB);
+            this.playingPn.Controls.Add(this.BossDragonflyPB);
             this.playingPn.Controls.Add(this.wall_33);
             this.playingPn.Controls.Add(this.wall_32);
             this.playingPn.Controls.Add(this.wall_31);
@@ -207,35 +207,146 @@
             this.playingPn.TabIndex = 0;
             this.playingPn.Paint += new System.Windows.Forms.PaintEventHandler(this.playingPn_Paint);
             // 
-            // pictureBox24
+            // EvilHobbit2PB
             // 
-            this.pictureBox24.Image = global::Еscape_from_the_labyrinth_of_death.Properties.Resources.enemy_5_35;
-            this.pictureBox24.Location = new System.Drawing.Point(796, 274);
-            this.pictureBox24.Name = "pictureBox24";
-            this.pictureBox24.Size = new System.Drawing.Size(36, 35);
-            this.pictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox24.TabIndex = 53;
-            this.pictureBox24.TabStop = false;
+            this.EvilHobbit2PB.Image = global::Еscape_from_the_labyrinth_of_death.Properties.Resources.enemy_1_35;
+            this.EvilHobbit2PB.Location = new System.Drawing.Point(635, 392);
+            this.EvilHobbit2PB.Name = "EvilHobbit2PB";
+            this.EvilHobbit2PB.Size = new System.Drawing.Size(27, 34);
+            this.EvilHobbit2PB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.EvilHobbit2PB.TabIndex = 64;
+            this.EvilHobbit2PB.TabStop = false;
             // 
-            // pictureBox22
+            // EvilKnight2PB
             // 
-            this.pictureBox22.Image = global::Еscape_from_the_labyrinth_of_death.Properties.Resources.enemy_4_35;
-            this.pictureBox22.Location = new System.Drawing.Point(128, 487);
-            this.pictureBox22.Name = "pictureBox22";
-            this.pictureBox22.Size = new System.Drawing.Size(48, 35);
-            this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox22.TabIndex = 51;
-            this.pictureBox22.TabStop = false;
+            this.EvilKnight2PB.Image = global::Еscape_from_the_labyrinth_of_death.Properties.Resources.enemy_2_35;
+            this.EvilKnight2PB.Location = new System.Drawing.Point(213, 324);
+            this.EvilKnight2PB.Name = "EvilKnight2PB";
+            this.EvilKnight2PB.Size = new System.Drawing.Size(59, 35);
+            this.EvilKnight2PB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.EvilKnight2PB.TabIndex = 63;
+            this.EvilKnight2PB.TabStop = false;
             // 
-            // pictureBox11
+            // EvilHobbit1PB
             // 
-            this.pictureBox11.Image = global::Еscape_from_the_labyrinth_of_death.Properties.Resources.boss_3_35;
-            this.pictureBox11.Location = new System.Drawing.Point(844, 496);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(30, 35);
-            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox11.TabIndex = 40;
-            this.pictureBox11.TabStop = false;
+            this.EvilHobbit1PB.Image = global::Еscape_from_the_labyrinth_of_death.Properties.Resources.enemy_1_35;
+            this.EvilHobbit1PB.Location = new System.Drawing.Point(245, 30);
+            this.EvilHobbit1PB.Name = "EvilHobbit1PB";
+            this.EvilHobbit1PB.Size = new System.Drawing.Size(27, 34);
+            this.EvilHobbit1PB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.EvilHobbit1PB.TabIndex = 62;
+            this.EvilHobbit1PB.TabStop = false;
+            // 
+            // BossEggPB
+            // 
+            this.BossEggPB.Image = global::Еscape_from_the_labyrinth_of_death.Properties.Resources.boss_2_35;
+            this.BossEggPB.Location = new System.Drawing.Point(-1, 360);
+            this.BossEggPB.Name = "BossEggPB";
+            this.BossEggPB.Size = new System.Drawing.Size(37, 35);
+            this.BossEggPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.BossEggPB.TabIndex = 61;
+            this.BossEggPB.TabStop = false;
+            // 
+            // BossWarriorPB
+            // 
+            this.BossWarriorPB.Image = global::Еscape_from_the_labyrinth_of_death.Properties.Resources.boss_1_35;
+            this.BossWarriorPB.Location = new System.Drawing.Point(3, 189);
+            this.BossWarriorPB.Name = "BossWarriorPB";
+            this.BossWarriorPB.Size = new System.Drawing.Size(33, 35);
+            this.BossWarriorPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.BossWarriorPB.TabIndex = 60;
+            this.BossWarriorPB.TabStop = false;
+            // 
+            // EvilKnight1PB
+            // 
+            this.EvilKnight1PB.Image = global::Еscape_from_the_labyrinth_of_death.Properties.Resources.enemy_2_35;
+            this.EvilKnight1PB.Location = new System.Drawing.Point(106, 189);
+            this.EvilKnight1PB.Name = "EvilKnight1PB";
+            this.EvilKnight1PB.Size = new System.Drawing.Size(59, 35);
+            this.EvilKnight1PB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.EvilKnight1PB.TabIndex = 59;
+            this.EvilKnight1PB.TabStop = false;
+            // 
+            // EvilElf2PB
+            // 
+            this.EvilElf2PB.Image = global::Еscape_from_the_labyrinth_of_death.Properties.Resources.enemy_3_35;
+            this.EvilElf2PB.Location = new System.Drawing.Point(188, 401);
+            this.EvilElf2PB.Name = "EvilElf2PB";
+            this.EvilElf2PB.Size = new System.Drawing.Size(25, 35);
+            this.EvilElf2PB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.EvilElf2PB.TabIndex = 58;
+            this.EvilElf2PB.TabStop = false;
+            // 
+            // EvilElf1PB
+            // 
+            this.EvilElf1PB.Image = global::Еscape_from_the_labyrinth_of_death.Properties.Resources.enemy_3_35;
+            this.EvilElf1PB.Location = new System.Drawing.Point(602, 289);
+            this.EvilElf1PB.Name = "EvilElf1PB";
+            this.EvilElf1PB.Size = new System.Drawing.Size(25, 35);
+            this.EvilElf1PB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.EvilElf1PB.TabIndex = 57;
+            this.EvilElf1PB.TabStop = false;
+            // 
+            // EvilDragon2PB
+            // 
+            this.EvilDragon2PB.Image = global::Еscape_from_the_labyrinth_of_death.Properties.Resources.enemy_5_35;
+            this.EvilDragon2PB.Location = new System.Drawing.Point(406, 328);
+            this.EvilDragon2PB.Name = "EvilDragon2PB";
+            this.EvilDragon2PB.Size = new System.Drawing.Size(36, 35);
+            this.EvilDragon2PB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.EvilDragon2PB.TabIndex = 56;
+            this.EvilDragon2PB.TabStop = false;
+            // 
+            // EvilMask1PB
+            // 
+            this.EvilMask1PB.Image = global::Еscape_from_the_labyrinth_of_death.Properties.Resources.enemy_4_35;
+            this.EvilMask1PB.Location = new System.Drawing.Point(524, 114);
+            this.EvilMask1PB.Name = "EvilMask1PB";
+            this.EvilMask1PB.Size = new System.Drawing.Size(48, 35);
+            this.EvilMask1PB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.EvilMask1PB.TabIndex = 55;
+            this.EvilMask1PB.TabStop = false;
+            // 
+            // playerPB
+            // 
+            this.playerPB.Image = global::Еscape_from_the_labyrinth_of_death.Properties.Resources.elf_35;
+            this.playerPB.Location = new System.Drawing.Point(550, 29);
+            this.playerPB.Name = "playerPB";
+            this.playerPB.Size = new System.Drawing.Size(32, 35);
+            this.playerPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.playerPB.TabIndex = 54;
+            this.playerPB.TabStop = false;
+            this.playerPB.Click += new System.EventHandler(this.player_Click);
+            // 
+            // EvilDragon1PB
+            // 
+            this.EvilDragon1PB.Image = global::Еscape_from_the_labyrinth_of_death.Properties.Resources.enemy_5_35;
+            this.EvilDragon1PB.Location = new System.Drawing.Point(796, 274);
+            this.EvilDragon1PB.Name = "EvilDragon1PB";
+            this.EvilDragon1PB.Size = new System.Drawing.Size(36, 35);
+            this.EvilDragon1PB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.EvilDragon1PB.TabIndex = 53;
+            this.EvilDragon1PB.TabStop = false;
+            // 
+            // EvilMask2PB
+            // 
+            this.EvilMask2PB.Image = global::Еscape_from_the_labyrinth_of_death.Properties.Resources.enemy_4_35;
+            this.EvilMask2PB.Location = new System.Drawing.Point(128, 487);
+            this.EvilMask2PB.Name = "EvilMask2PB";
+            this.EvilMask2PB.Size = new System.Drawing.Size(48, 35);
+            this.EvilMask2PB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.EvilMask2PB.TabIndex = 51;
+            this.EvilMask2PB.TabStop = false;
+            // 
+            // BossDragonflyPB
+            // 
+            this.BossDragonflyPB.Image = global::Еscape_from_the_labyrinth_of_death.Properties.Resources.boss_3_35;
+            this.BossDragonflyPB.Location = new System.Drawing.Point(844, 496);
+            this.BossDragonflyPB.Name = "BossDragonflyPB";
+            this.BossDragonflyPB.Size = new System.Drawing.Size(30, 35);
+            this.BossDragonflyPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.BossDragonflyPB.TabIndex = 40;
+            this.BossDragonflyPB.TabStop = false;
             // 
             // wall_33
             // 
@@ -571,20 +682,20 @@
             // NaPlayer
             // 
             this.NaPlayer.AutoSize = true;
-            this.NaPlayer.Font = new System.Drawing.Font("Monotype Corsiva", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.NaPlayer.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.NaPlayer.Location = new System.Drawing.Point(3, 4);
             this.NaPlayer.Name = "NaPlayer";
-            this.NaPlayer.Size = new System.Drawing.Size(51, 22);
+            this.NaPlayer.Size = new System.Drawing.Size(60, 24);
             this.NaPlayer.TabIndex = 1;
             this.NaPlayer.Text = "label1";
             // 
             // CharPlayer
             // 
             this.CharPlayer.AutoSize = true;
-            this.CharPlayer.Font = new System.Drawing.Font("Monotype Corsiva", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.CharPlayer.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.CharPlayer.Location = new System.Drawing.Point(3, 38);
             this.CharPlayer.Name = "CharPlayer";
-            this.CharPlayer.Size = new System.Drawing.Size(51, 22);
+            this.CharPlayer.Size = new System.Drawing.Size(60, 24);
             this.CharPlayer.TabIndex = 2;
             this.CharPlayer.Text = "label2";
             // 
@@ -619,10 +730,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.label1.Font = new System.Drawing.Font("Monotype Corsiva", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.Location = new System.Drawing.Point(807, 37);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(47, 25);
+            this.label1.Size = new System.Drawing.Size(56, 25);
             this.label1.TabIndex = 30;
             this.label1.Text = "Help";
             this.label1.Click += new System.EventHandler(this.label1_Click_1);
@@ -631,10 +742,10 @@
             // 
             this.labelCurrentlyEquiped.AutoSize = true;
             this.labelCurrentlyEquiped.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.labelCurrentlyEquiped.Font = new System.Drawing.Font("Monotype Corsiva", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelCurrentlyEquiped.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelCurrentlyEquiped.Location = new System.Drawing.Point(597, 37);
             this.labelCurrentlyEquiped.Name = "labelCurrentlyEquiped";
-            this.labelCurrentlyEquiped.Size = new System.Drawing.Size(148, 25);
+            this.labelCurrentlyEquiped.Size = new System.Drawing.Size(184, 25);
             this.labelCurrentlyEquiped.TabIndex = 29;
             this.labelCurrentlyEquiped.Text = "Currently Equiped";
             this.labelCurrentlyEquiped.Click += new System.EventHandler(this.labelCurrentlyEquiped_Click);
@@ -642,20 +753,20 @@
             // labelLvNumber
             // 
             this.labelLvNumber.AutoSize = true;
-            this.labelLvNumber.Font = new System.Drawing.Font("Monotype Corsiva", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelLvNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelLvNumber.Location = new System.Drawing.Point(58, 75);
             this.labelLvNumber.Name = "labelLvNumber";
-            this.labelLvNumber.Size = new System.Drawing.Size(51, 22);
+            this.labelLvNumber.Size = new System.Drawing.Size(60, 24);
             this.labelLvNumber.TabIndex = 4;
             this.labelLvNumber.Text = "label1";
             // 
             // labelLevel
             // 
             this.labelLevel.AutoSize = true;
-            this.labelLevel.Font = new System.Drawing.Font("Monotype Corsiva", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelLevel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelLevel.Location = new System.Drawing.Point(4, 75);
             this.labelLevel.Name = "labelLevel";
-            this.labelLevel.Size = new System.Drawing.Size(48, 22);
+            this.labelLevel.Size = new System.Drawing.Size(55, 24);
             this.labelLevel.TabIndex = 4;
             this.labelLevel.Text = "Level";
             // 
@@ -782,116 +893,6 @@
             this.lbHealth.TabIndex = 6;
             this.lbHealth.Text = "Health";
             // 
-            // player
-            // 
-            this.player.Image = global::Еscape_from_the_labyrinth_of_death.Properties.Resources.elf_35;
-            this.player.Location = new System.Drawing.Point(550, 29);
-            this.player.Name = "player";
-            this.player.Size = new System.Drawing.Size(32, 35);
-            this.player.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.player.TabIndex = 54;
-            this.player.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Еscape_from_the_labyrinth_of_death.Properties.Resources.enemy_4_35;
-            this.pictureBox1.Location = new System.Drawing.Point(524, 114);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(48, 35);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox1.TabIndex = 55;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::Еscape_from_the_labyrinth_of_death.Properties.Resources.enemy_5_35;
-            this.pictureBox2.Location = new System.Drawing.Point(406, 328);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(36, 35);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox2.TabIndex = 56;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::Еscape_from_the_labyrinth_of_death.Properties.Resources.enemy_3_35;
-            this.pictureBox3.Location = new System.Drawing.Point(602, 289);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(25, 35);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox3.TabIndex = 57;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::Еscape_from_the_labyrinth_of_death.Properties.Resources.enemy_3_35;
-            this.pictureBox4.Location = new System.Drawing.Point(188, 401);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(25, 35);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox4.TabIndex = 58;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::Еscape_from_the_labyrinth_of_death.Properties.Resources.enemy_2_35;
-            this.pictureBox5.Location = new System.Drawing.Point(106, 189);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(59, 35);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox5.TabIndex = 59;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox10
-            // 
-            this.pictureBox10.Image = global::Еscape_from_the_labyrinth_of_death.Properties.Resources.boss_1_35;
-            this.pictureBox10.Location = new System.Drawing.Point(3, 189);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(33, 35);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox10.TabIndex = 60;
-            this.pictureBox10.TabStop = false;
-            // 
-            // pictureBox12
-            // 
-            this.pictureBox12.Image = global::Еscape_from_the_labyrinth_of_death.Properties.Resources.boss_2_35;
-            this.pictureBox12.Location = new System.Drawing.Point(-1, 360);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(37, 35);
-            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox12.TabIndex = 61;
-            this.pictureBox12.TabStop = false;
-            // 
-            // pictureBox13
-            // 
-            this.pictureBox13.Image = global::Еscape_from_the_labyrinth_of_death.Properties.Resources.enemy_1_35;
-            this.pictureBox13.Location = new System.Drawing.Point(245, 30);
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(27, 34);
-            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox13.TabIndex = 62;
-            this.pictureBox13.TabStop = false;
-            // 
-            // pictureBox14
-            // 
-            this.pictureBox14.Image = global::Еscape_from_the_labyrinth_of_death.Properties.Resources.enemy_2_35;
-            this.pictureBox14.Location = new System.Drawing.Point(213, 324);
-            this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(59, 35);
-            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox14.TabIndex = 63;
-            this.pictureBox14.TabStop = false;
-            // 
-            // pictureBox15
-            // 
-            this.pictureBox15.Image = global::Еscape_from_the_labyrinth_of_death.Properties.Resources.enemy_1_35;
-            this.pictureBox15.Location = new System.Drawing.Point(635, 392);
-            this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(27, 34);
-            this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox15.TabIndex = 64;
-            this.pictureBox15.TabStop = false;
-            // 
             // PlayingForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -911,9 +912,20 @@
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PlayingForm_KeyDown);
             this.playingPn.ResumeLayout(false);
             this.playingPn.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.EvilHobbit2PB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.EvilKnight2PB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.EvilHobbit1PB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BossEggPB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BossWarriorPB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.EvilKnight1PB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.EvilElf2PB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.EvilElf1PB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.EvilDragon2PB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.EvilMask1PB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.playerPB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.EvilDragon1PB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.EvilMask2PB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BossDragonflyPB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.wall_33)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.wall_32)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.wall_31)).EndInit();
@@ -953,17 +965,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.player)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1022,20 +1023,20 @@
         private System.Windows.Forms.Label labelLevel;
         private System.Windows.Forms.Label labelLvNumber;
         private System.Windows.Forms.Label labelCurrentlyEquiped;
-        private System.Windows.Forms.PictureBox pictureBox11;
-        private System.Windows.Forms.PictureBox pictureBox24;
-        private System.Windows.Forms.PictureBox pictureBox22;
+        private System.Windows.Forms.PictureBox BossDragonflyPB;
+        private System.Windows.Forms.PictureBox EvilDragon1PB;
+        private System.Windows.Forms.PictureBox EvilMask2PB;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox player;
-        private System.Windows.Forms.PictureBox pictureBox15;
-        private System.Windows.Forms.PictureBox pictureBox14;
-        private System.Windows.Forms.PictureBox pictureBox13;
-        private System.Windows.Forms.PictureBox pictureBox12;
-        private System.Windows.Forms.PictureBox pictureBox10;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox playerPB;
+        private System.Windows.Forms.PictureBox EvilHobbit2PB;
+        private System.Windows.Forms.PictureBox EvilKnight2PB;
+        private System.Windows.Forms.PictureBox EvilHobbit1PB;
+        private System.Windows.Forms.PictureBox BossEggPB;
+        private System.Windows.Forms.PictureBox BossWarriorPB;
+        private System.Windows.Forms.PictureBox EvilKnight1PB;
+        private System.Windows.Forms.PictureBox EvilElf2PB;
+        private System.Windows.Forms.PictureBox EvilElf1PB;
+        private System.Windows.Forms.PictureBox EvilDragon2PB;
+        private System.Windows.Forms.PictureBox EvilMask1PB;
     }
 }

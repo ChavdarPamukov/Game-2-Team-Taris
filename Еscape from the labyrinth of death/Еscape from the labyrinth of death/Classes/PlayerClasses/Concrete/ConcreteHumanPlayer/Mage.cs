@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Еscape_from_the_labyrinth_of_death.Interfaces;
 using Еscape_from_the_labyrinth_of_death.Classes.EnumClasses;
 using Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Abstract.AbstractHuman;
 
@@ -17,8 +18,10 @@ namespace Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Concrete.Con
         private const byte _mageIntelligence = 80;
         private const PlayerClass _playerClass = PlayerClass.Mage;
 
-        public Mage(PictureBox pictureBoxPlayer, List<PictureBox> pictureBoxListWalls)
-            : base(_mageHealth, _mageAttack, _mageDefence, _mageIntelligence, pictureBoxPlayer, _playerClass, pictureBoxListWalls)
+        public Mage(PictureBox pictureBoxPlayer, List<PictureBox> pictureBoxListWalls,
+            List<INpcPlayer> enemiesList)
+            : base(_mageHealth, _mageAttack, _mageDefence, _mageIntelligence,
+            pictureBoxPlayer, _playerClass, pictureBoxListWalls, enemiesList)
         {
 
         }

@@ -19,9 +19,11 @@ namespace Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Abstract.Abs
         private int _nextLevelAt;
         private IItem _potion;
         private List<PictureBox> _pictureBoxListWalls;
+        private List<INpcPlayer> _enemiesList;
 
         public HumanPlayer(byte health, byte attack, byte defence, byte intelligence,
-            PictureBox pictureBoxPlayer, PlayerClass playerClass, List<PictureBox> pictureBoxListWalls)
+            PictureBox pictureBoxPlayer, PlayerClass playerClass, List<PictureBox> pictureBoxListWalls,
+            List<INpcPlayer> enemiesList)
             : base(health, attack, defence, intelligence, pictureBoxPlayer, true, playerClass)
         {
             this.Level = 1;
@@ -29,6 +31,7 @@ namespace Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Abstract.Abs
             this._nextLevelAt = 10;
             this._potion = null;
             this.PictureBoxListWalls = pictureBoxListWalls;
+            this._enemiesList = enemiesList;
         }
 
         public override byte Level
@@ -72,10 +75,12 @@ namespace Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Abstract.Abs
             Rectangle r = this.PictureBoxPlayer.Bounds;
             r.Y -= 5;
             
-            if (HasColision(r))
+            if (HitWall(r))
             {
                 return;
             }
+
+            this.CheckIfEnemyIsReached(r);
 
             this.PictureBoxPlayer.Bounds = r;
         }
@@ -84,11 +89,13 @@ namespace Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Abstract.Abs
         {
             Rectangle r = this.PictureBoxPlayer.Bounds;
             r.X += 5;
-            
-            if (HasColision(r))
+
+            if (HitWall(r))
             {
                 return;
             }
+
+            this.CheckIfEnemyIsReached(r);
 
             this.PictureBoxPlayer.Bounds = r;
         }
@@ -98,10 +105,12 @@ namespace Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Abstract.Abs
             Rectangle r = this.PictureBoxPlayer.Bounds;
             r.Y += 5;
 
-            if (HasColision(r))
+            if (HitWall(r))
             {
                 return;
             }
+
+            this.CheckIfEnemyIsReached(r);
 
             this.PictureBoxPlayer.Bounds = r;
         }
@@ -111,10 +120,12 @@ namespace Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Abstract.Abs
             Rectangle r = this.PictureBoxPlayer.Bounds;
             r.X -= 5;
 
-            if (HasColision(r))
+            if (HitWall(r))
             {
                 return;
             }
+
+            this.CheckIfEnemyIsReached(r);
 
             this.PictureBoxPlayer.Bounds = r;
         }
@@ -180,7 +191,7 @@ namespace Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Abstract.Abs
             }
         }
 
-        private bool HasColision(Rectangle rect)
+        private bool HitWall(Rectangle rect)
         {
             foreach (PictureBox wall in this.PictureBoxListWalls)
             {
@@ -191,6 +202,23 @@ namespace Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Abstract.Abs
             }
 
             return false;
+        }
+
+        private void CheckIfEnemyIsReached(Rectangle rect)
+        {
+            foreach (INpcPlayer enemy in this._enemiesList)
+            {
+                if (rect.IntersectsWith(enemy.PictureBoxPlayer.Bounds))
+                {
+                    this.BeginCombat(this, enemy);
+                }
+            }
+        }
+
+        private void BeginCombat(IHumanPlayer human, INpcPlayer enemy)
+        {
+            Fighting fightingForm = new Fighting(human, enemy);
+            fightingForm.ShowDialog();
         }
     }
 }

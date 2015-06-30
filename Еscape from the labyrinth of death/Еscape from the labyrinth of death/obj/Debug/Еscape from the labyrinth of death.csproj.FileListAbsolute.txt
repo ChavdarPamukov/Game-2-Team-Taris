@@ -110,3 +110,5 @@ C:\Users\wolfy\Documents\GitHub\Game-2-Team-Taris\Еscape from the labyrinth of 
 C:\Users\wolfy\Documents\GitHub\Game-2-Team-Taris\Еscape from the labyrinth of death\Еscape from the labyrinth of death\bin\Debug\Еscape from the labyrinth of death.pdb
 C:\Users\wolfy\Documents\GitHub\Game-2-Team-Taris\Еscape from the labyrinth of death\Еscape from the labyrinth of death\obj\Debug\Еscape from the labyrinth of death.exe
 C:\Users\wolfy\Documents\GitHub\Game-2-Team-Taris\Еscape from the labyrinth of death\Еscape from the labyrinth of death\obj\Debug\Еscape from the labyrinth of death.pdb
+C:\Users\wolfy\Documents\GitHub\Game-2-Team-Taris\Еscape from the labyrinth of death\Еscape from the labyrinth of death\obj\Debug\Еscape_from_the_labyrinth_of_death.Loser.resources
+C:\Users\wolfy\Documents\GitHub\Game-2-Team-Taris\Еscape from the labyrinth of death\Еscape from the labyrinth of death\obj\Debug\Еscape_from_the_labyrinth_of_death.Winner.resources

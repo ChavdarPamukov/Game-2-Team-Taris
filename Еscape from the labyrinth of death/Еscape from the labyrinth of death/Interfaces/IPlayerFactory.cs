@@ -10,6 +10,8 @@ namespace Еscape_from_the_labyrinth_of_death.Interfaces
 {
     public interface IPlayerFactory
     {
-        IPlayer Create(PictureBox pictureBoxPlayer, List<PictureBox> pictureBoxListWalls, PlayerClass playerClass);
+        IPlayer Create(PictureBox pictureBoxPlayer, List<PictureBox> pictureBoxListWalls,
+            List<INpcPlayer> enemiesList,
+            PlayerClass playerClass);
     }
 }

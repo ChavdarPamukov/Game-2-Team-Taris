@@ -7,19 +7,32 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Еscape_from_the_labyrinth_of_death.Classes.EnumClasses;
+using Еscape_from_the_labyrinth_of_death.Interfaces;
+using Еscape_from_the_labyrinth_of_death.Factories;
 
 namespace Еscape_from_the_labyrinth_of_death
 {
     public partial class PlayingForm : Form
     {
-        private List<PictureBox> _wallsList;
+        private readonly IPlayerFactory _playerFactory = PlayerFactory.PLAYER_FACTORY;
+        private List<PictureBox> _wallsPBList;
+        private List<PictureBox> _enemiesPBList;
+        private List<INpcPlayer> _enemiesList;
+        private IHumanPlayer _player;
 
         public PlayingForm(string UserName, string CharName)
         {
             InitializeComponent();
-            UpdateWallsList();
+
+            this.UpdateWallsList();
+            this.UpdateEnemiesList();
+
             NaPlayer.Text = UserName;
             CharPlayer.Text = CharName;
+
+            this.InitializeEnemies();
+            this.InitializePlayer();
         }
 
         private void PlayingForm_Load(object sender, EventArgs e)
@@ -29,82 +42,26 @@ namespace Еscape_from_the_labyrinth_of_death
 
         private void PlayingForm_KeyDown(object sender, KeyEventArgs e)
         {
-            //Rectangle rect = player.Bounds;
+            if (e.KeyCode == Keys.Left)
+            {
+                this._player.MoveLeft();
+            }
 
-            //if (e.KeyCode == Keys.Left)
-            //{
-            //    this.MoveLeft(rect);
-            //}
+            if (e.KeyCode == Keys.Right)
+            {
+                this._player.MoveRight();
+            }
 
-            //if (e.KeyCode == Keys.Right)
-            //{
-            //    this.MoveRight(rect);
-            //}
+            if (e.KeyCode == Keys.Up)
+            {
+                this._player.MoveUp();
+            }
 
-            //if (e.KeyCode == Keys.Up)
-            //{
-            //    this.MoveUp(rect);
-            //}
-
-            //if (e.KeyCode == Keys.Down)
-            //{
-            //    this.MoveDown(rect);
-            //}
+            if (e.KeyCode == Keys.Down)
+            {
+                this._player.MoveDown();
+            }
         }
-
-        //private void MoveLeft(Rectangle rect)
-        //{
-        //    rect.X -= 5;
-        //    if (HasColision(rect))
-        //    {
-        //        return;
-        //    }
-        //    this.player.Bounds = rect;
-        //}
-
-        //private void MoveRight(Rectangle rect)
-        //{
-        //    rect.X += 5;
-        //    if (HasColision(rect))
-        //    {
-        //        return;
-        //    }
-        //    this.player.Bounds = rect;
-        //}
-
-        //private void MoveDown(Rectangle rect)
-        //{
-        //    rect.Y += 5;
-        //    if (HasColision(rect))
-        //    {
-        //        return;
-        //    }
-        //    this.player.Bounds = rect;
-        //}
-
-        //private void MoveUp(Rectangle rect)
-        //{
-        //    rect.Y -= 5;
-        //    if (HasColision(rect))
-        //    {
-        //        return;
-        //    }
-        //    this.player.Bounds = rect;
-        //}
-
-        //private bool HasColision(Rectangle rect)
-        //{
-        //    foreach (PictureBox wall in this._wallsList)
-        //    {
-        //        if (rect.IntersectsWith(wall.Bounds))
-        //        {
-        //            return true;
-        //        }
-        //    }
-        //    this.player.Bounds = rect;
-
-        //    return false;
-        //}
 
         private void PlayingForm_FormClosed(object sender, FormClosedEventArgs e)
         {
@@ -138,7 +95,7 @@ namespace Еscape_from_the_labyrinth_of_death
 
         private void UpdateWallsList()
         {
-            this._wallsList = new List<PictureBox>()
+            this._wallsPBList = new List<PictureBox>()
             {
                 wall_1,
                 wall_2,
@@ -176,6 +133,67 @@ namespace Еscape_from_the_labyrinth_of_death
             };
         }
 
+        private void UpdateEnemiesList()
+        {
+            this._enemiesPBList = new List<PictureBox>()
+            {
+                this.EvilHobbit1PB,
+                this.EvilHobbit2PB,
+                this.EvilElf1PB,
+                this.EvilElf2PB,
+                this.EvilKnight1PB,
+                this.EvilKnight2PB,
+                this.EvilMask1PB,
+                this.EvilMask2PB,
+                this.EvilDragon1PB,
+                this.EvilDragon2PB,
+                this.BossDragonflyPB,
+                this.BossEggPB,
+                this.BossWarriorPB,
+            };
+        }
+
+        private void InitializeEnemies()
+        {
+            this._enemiesList = new List<INpcPlayer>(this._enemiesPBList.Count)
+            {
+                (INpcPlayer)this._playerFactory.Create(this.EvilHobbit1PB, this._wallsPBList, null, 
+                    PlayerClass.EvilHobbit),
+                (INpcPlayer)this._playerFactory.Create(this.EvilHobbit2PB, this._wallsPBList, null,
+                    PlayerClass.EvilHobbit),
+                (INpcPlayer)this._playerFactory.Create(this.EvilElf1PB, this._wallsPBList, null,
+                    PlayerClass.EvilElf),
+                (INpcPlayer)this._playerFactory.Create(this.EvilElf2PB, this._wallsPBList, null,
+                    PlayerClass.EvilElf),
+                (INpcPlayer)this._playerFactory.Create(this.EvilKnight1PB, this._wallsPBList, null,
+                    PlayerClass.EvilKnight),
+                (INpcPlayer)this._playerFactory.Create(this.EvilKnight2PB, this._wallsPBList, null,
+                    PlayerClass.EvilKnight),
+                (INpcPlayer)this._playerFactory.Create(this.EvilMask1PB, this._wallsPBList, null,
+                    PlayerClass.EvilMask),
+                (INpcPlayer)this._playerFactory.Create(this.EvilMask2PB, this._wallsPBList, null,
+                    PlayerClass.EvilMask),
+                (INpcPlayer)this._playerFactory.Create(this.EvilDragon1PB, this._wallsPBList, null,
+                    PlayerClass.EvilDragon),
+                (INpcPlayer)this._playerFactory.Create(this.EvilDragon2PB, this._wallsPBList, null,
+                    PlayerClass.EvilDragon),
+                (INpcPlayer)this._playerFactory.Create(this.BossDragonflyPB, this._wallsPBList, null,
+                    PlayerClass.BossDragonfly),
+                (INpcPlayer)this._playerFactory.Create(this.BossEggPB, this._wallsPBList, null,
+                    PlayerClass.BossEgg),
+                (INpcPlayer)this._playerFactory.Create(this.BossWarriorPB, this._wallsPBList, null,
+                    PlayerClass.BossWarrior),
+            };
+        }
+
+        private void InitializePlayer()
+        {
+            this._player = (IHumanPlayer)this._playerFactory.Create(this.playerPB, 
+                this._wallsPBList,
+                this._enemiesList,
+                PlayerClass.Knight);
+        }
+
         private void labelCurrentlyEquiped_Click(object sender, EventArgs e)
         {
             Currently_Equiped currentlyEquiped = new Currently_Equiped();
@@ -191,6 +209,11 @@ namespace Еscape_from_the_labyrinth_of_death
         {
             HelpForm helpF = new HelpForm();
             helpF.ShowDialog();
+        }
+
+        private void player_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
