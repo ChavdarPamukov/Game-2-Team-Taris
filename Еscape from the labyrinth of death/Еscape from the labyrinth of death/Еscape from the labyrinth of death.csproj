@@ -53,6 +53,8 @@
     <Compile Include="Classes\ItemClasses\Abstract\Item.cs" />
     <Compile Include="Classes\ItemClasses\Abstract\GenericWeapon.cs" />
     <Compile Include="Classes\ItemClasses\Abstract\Axe.cs" />
+    <Compile Include="Classes\ItemClasses\Abstract\ItemType.cs" />
+    <Compile Include="Classes\ItemClasses\Concrete\HandAxe.cs" />
     <Compile Include="Classes\PlayerClasses\Abstract\AbstractGeneric\GenericPlayer.cs" />
     <Compile Include="Classes\PlayerClasses\Abstract\AbstractHuman\HumanPlayer.cs" />
     <Compile Include="Exceptions\UnreachableLevelException.cs" />
@@ -182,7 +184,6 @@
     <None Include="Resources\maze_ico.ico" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Classes\ItemClasses\Concrete\" />
     <Folder Include="Classes\PlayerClasses\Abstract\AbstractNpc\" />
     <Folder Include="Classes\PlayerClasses\Concrete\" />
   </ItemGroup>

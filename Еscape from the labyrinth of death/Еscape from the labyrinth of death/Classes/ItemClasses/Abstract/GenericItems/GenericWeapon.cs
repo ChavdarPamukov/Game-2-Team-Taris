@@ -6,7 +6,6 @@
         Axe,
         Sword,
         Mace,
-        Flail
     }
     abstract class GenericWeapon : Item
     {
@@ -23,7 +22,7 @@
             string itemName,
             WeaponType weaponType)
 
-            : base(healthBonus,attackBonus,defenseBonus,intelligenceBonus,itemClass,itemName)
+            : base(healthBonus,attackBonus,defenseBonus,intelligenceBonus,ItemClass.Weapon,itemName)
         {
             this.weaponType = weaponType;
         }

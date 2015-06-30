@@ -1,36 +1,36 @@
-﻿namespace Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract
+﻿namespace Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.AbstractWeapons
 {
     using Еscape_from_the_labyrinth_of_death.Interfaces;
-    enum AxeType
+    enum MaceType
     {
-        HandAxe,
-        DoubleAxe,
-        WarAxe,
-        MilitaryPick
+        MorningStar,
+        Flail,
+        WarHammer,
+        SpikedClub
     }
-    abstract class Axe : GenericWeapon
+    abstract class Mace : GenericWeapon
     {
         private byte bonusToHealth;
         private byte bonusToDefense;
         private byte bonusToAttack;
         private byte bonusToIntelligence;
         private string itemName;
-        private const WeaponType weaponType = WeaponType.Axe;
+        private const WeaponType weaponType = WeaponType.Mace;
         private ItemClass itemClass;
-        private AxeType axeType;
+        private MaceType maceType;
 
-        public AxeType AxeType
+        public MaceType MaceType
         {
-            get { return this.axeType; }
+            get { return this.maceType; }
         }
 
-        public Axe(byte healthBonus,
+        public Mace(byte healthBonus,
             byte defenseBonus,
             byte attackBonus,
             byte intelligenceBonus,
             string itemName,
             ItemClass itemClass,
-            AxeType axeType)
+            MaceType maceType)
             : base(healthBonus, attackBonus, defenseBonus, intelligenceBonus, itemName, weaponType)
         {
         }
