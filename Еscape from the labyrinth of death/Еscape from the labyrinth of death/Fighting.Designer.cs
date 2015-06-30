@@ -177,7 +177,7 @@
             this.labelActionNumber.Name = "labelActionNumber";
             this.labelActionNumber.Size = new System.Drawing.Size(31, 33);
             this.labelActionNumber.TabIndex = 12;
-            this.labelActionNumber.Text = "5";
+            this.labelActionNumber.Text = "2";
             // 
             // Fighting
             // 
