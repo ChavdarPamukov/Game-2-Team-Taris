@@ -1,38 +1,37 @@
-﻿namespace Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.AbstractWeapons
+﻿namespace Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.AbstractArmors
 {
     using Еscape_from_the_labyrinth_of_death.Interfaces;
     using Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.GenericItems;
-    enum SwordType
+    enum RingMailType
     {
-        ShortSword,
-        Scimitar,
-        CrystalSword,
-        LongSword
+        Normal,
+        Exceptional,
+        Unique,
     }
-    abstract class Sword : GenericWeapon
+    abstract class RingMail : GenericArmor
     {
         private byte bonusToHealth;
         private byte bonusToDefense;
         private byte bonusToAttack;
         private byte bonusToIntelligence;
         private string itemName;
-        private const WeaponType weaponType = WeaponType.Sword;
+        private const ArmorType armorType = ArmorType.RingMail;
         private ItemClass itemClass;
-        private SwordType swordType;
+        private RingMailType ringMailType;
 
-        public SwordType SwordType
+        public RingMailType RingMailType
         {
-            get { return this.swordType; }
+            get { return this.ringMailType; }
         }
 
-        public Sword(byte healthBonus,
+        public RingMail(byte healthBonus,
             byte defenseBonus,
             byte attackBonus,
             byte intelligenceBonus,
             string itemName,
             ItemClass itemClass,
-            SwordType swordType)
-            : base(healthBonus, attackBonus, defenseBonus, intelligenceBonus, itemName, weaponType)
+            RingMailType ringMailType)
+            : base(healthBonus, attackBonus, defenseBonus, intelligenceBonus, itemName, armorType)
         {
         }
     }

@@ -1,4 +1,4 @@
-﻿namespace Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract
+﻿namespace Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.GenericItems
 {
     using Еscape_from_the_labyrinth_of_death.Interfaces;
     enum WeaponType

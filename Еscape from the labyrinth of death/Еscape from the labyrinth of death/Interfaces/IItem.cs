@@ -3,8 +3,8 @@
     enum ItemClass
     {
         Weapon,
-        Shield,
         Armor,
+        Shield,
         Helmet,
         Potion
     }

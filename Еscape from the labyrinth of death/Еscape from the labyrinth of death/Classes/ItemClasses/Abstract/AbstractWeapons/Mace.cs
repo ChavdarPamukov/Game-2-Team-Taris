@@ -1,6 +1,7 @@
 ﻿namespace Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.AbstractWeapons
 {
     using Еscape_from_the_labyrinth_of_death.Interfaces;
+    using Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.GenericItems;
     enum MaceType
     {
         MorningStar,

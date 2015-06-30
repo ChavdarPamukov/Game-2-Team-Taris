@@ -1,14 +1,13 @@
-﻿namespace Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract
+﻿namespace Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.GenericItems
 {
     using Еscape_from_the_labyrinth_of_death.Interfaces;
     enum ArmorType
     {
         QuiltedArmor,
         LeatherArmor,
-        RingMail,
-        BreastPlate
+        RingMail
     }
-    abstract class GenericWeapon : Item
+    abstract class GenericArmor : Item
     {
         private const ItemClass itemClass = ItemClass.Armor;
         private ArmorType armorType;
@@ -16,7 +15,7 @@
         {
             get { return this.armorType; }
         }
-        public GenericWeapon(byte healthBonus,
+        public GenericArmor(byte healthBonus,
             byte attackBonus,
             byte defenseBonus,
             byte intelligenceBonus,
