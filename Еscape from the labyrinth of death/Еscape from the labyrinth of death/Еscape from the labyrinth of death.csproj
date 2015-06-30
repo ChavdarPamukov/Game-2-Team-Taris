@@ -53,6 +53,8 @@
     <Compile Include="Classes\ItemClasses\Abstract\AbstractArmors\LeatherArmor.cs" />
     <Compile Include="Classes\ItemClasses\Abstract\AbstractArmors\QuiltedArmor.cs" />
     <Compile Include="Classes\ItemClasses\Abstract\AbstractArmors\RingMail.cs" />
+    <Compile Include="Classes\ItemClasses\Abstract\AbstractPotions\HealthPotion.cs" />
+    <Compile Include="Classes\ItemClasses\Abstract\AbstractPotions\IngelligencePotion.cs" />
     <Compile Include="Classes\ItemClasses\Abstract\AbstractHelmets\BoneHelmet.cs" />
     <Compile Include="Classes\ItemClasses\Abstract\AbstractHelmets\IronHelmet.cs" />
     <Compile Include="Classes\ItemClasses\Abstract\AbstractHelmets\LeatherHelmet.cs" />
@@ -63,6 +65,7 @@
     <Compile Include="Classes\ItemClasses\Abstract\AbstractWeapons\Sword.cs" />
     <Compile Include="Classes\ItemClasses\Abstract\GenericItems\GenericArmor.cs" />
     <Compile Include="Classes\ItemClasses\Abstract\GenericItems\GenericHelmet.cs" />
+    <Compile Include="Classes\ItemClasses\Abstract\GenericItems\GenericPotion.cs" />
     <Compile Include="Classes\ItemClasses\Abstract\GenericItems\GenericShield.cs" />
     <Compile Include="Classes\ItemClasses\Abstract\Item.cs" />
     <Compile Include="Classes\ItemClasses\Abstract\GenericItems\GenericWeapon.cs" />
@@ -85,6 +88,12 @@
     <Compile Include="Classes\ItemClasses\Concrete\ConcreteHelmets\LeatherHelmets\Cap.cs" />
     <Compile Include="Classes\ItemClasses\Concrete\ConcreteHelmets\LeatherHelmets\Shako.cs" />
     <Compile Include="Classes\ItemClasses\Concrete\ConcreteHelmets\LeatherHelmets\WarHat.cs" />
+    <Compile Include="Classes\ItemClasses\Concrete\ConcretePotions\HealthPotions\LargeHealthPotion.cs" />
+    <Compile Include="Classes\ItemClasses\Concrete\ConcretePotions\HealthPotions\MediumHealthPotion.cs" />
+    <Compile Include="Classes\ItemClasses\Concrete\ConcretePotions\HealthPotions\SmallHealthPotion.cs" />
+    <Compile Include="Classes\ItemClasses\Concrete\ConcretePotions\IntelligencePotions\LargeIntelligencePotion.cs" />
+    <Compile Include="Classes\ItemClasses\Concrete\ConcretePotions\IntelligencePotions\MediumIntelligencePotion.cs" />
+    <Compile Include="Classes\ItemClasses\Concrete\ConcretePotions\IntelligencePotions\SmallIntelligencePotion.cs" />
     <Compile Include="Classes\ItemClasses\Concrete\ConcreteShields\BoneShields\ExceptionalBoneShield.cs" />
     <Compile Include="Classes\ItemClasses\Concrete\ConcreteShields\BoneShields\NormalBoneShield.cs" />
     <Compile Include="Classes\ItemClasses\Concrete\ConcreteShields\BoneShields\UniqueBoneShield.cs" />
@@ -118,6 +127,7 @@
     <Compile Include="Interfaces\IHumanPlayer.cs" />
     <Compile Include="Interfaces\IItem.cs" />
     <Compile Include="Interfaces\INpcPlayer.cs" />
+    <Compile Include="Interfaces\IPotion.cs" />
     <Compile Include="Interfaces\IPlayer.cs" />
     <Compile Include="PlayingForm.cs">
       <SubType>Form</SubType>
