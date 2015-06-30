@@ -10,10 +10,10 @@
     }
     interface IItem
     {
-        int BonusToHealth { get; }
-        int BonusToDefense { get; }
-        int BonusToAttack { get; }
-        int BonusToIntelligence { get; }
+        byte BonusToHealth { get; }
+        byte BonusToDefense { get; }
+        byte BonusToAttack { get; }
+        byte BonusToIntelligence { get; }
         ItemClass ItemClass { get; }
         string ItemName { get; }
     }
