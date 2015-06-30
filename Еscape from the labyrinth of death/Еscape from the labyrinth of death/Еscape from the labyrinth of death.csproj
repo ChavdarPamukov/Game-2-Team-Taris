@@ -103,6 +103,10 @@
     <Compile Include="Interfaces\INpcPlayer.cs" />
     <Compile Include="Interfaces\IPlayer.cs" />
     <Compile Include="Interfaces\IPlayerFactory.cs" />
+    <Compile Include="Loser.cs" />
+    <Compile Include="Loser.Designer.cs">
+      <DependentUpon>Loser.cs</DependentUpon>
+    </Compile>
     <Compile Include="PlayingForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -111,6 +115,10 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Winner.cs" />
+    <Compile Include="Winner.Designer.cs">
+      <DependentUpon>Winner.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="CharacterForm.resx">
       <DependentUpon>CharacterForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -126,6 +134,9 @@
     <EmbeddedResource Include="HelpForm.resx">
       <DependentUpon>HelpForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Loser.resx">
+      <DependentUpon>Loser.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PlayingForm.resx">
       <DependentUpon>PlayingForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -133,6 +144,9 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winner.resx">
+      <DependentUpon>Winner.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
