@@ -105,6 +105,7 @@ C:\Users\wolfy\Documents\GitHub\Game-2-Team-Taris\Еscape from the labyrinth of 
 C:\Users\wolfy\Documents\GitHub\Game-2-Team-Taris\Еscape from the labyrinth of death\Еscape from the labyrinth of death\obj\Debug\Еscape_from_the_labyrinth_of_death.PlayingForm.resources
 C:\Users\wolfy\Documents\GitHub\Game-2-Team-Taris\Еscape from the labyrinth of death\Еscape from the labyrinth of death\obj\Debug\Еscape_from_the_labyrinth_of_death.Properties.Resources.resources
 C:\Users\wolfy\Documents\GitHub\Game-2-Team-Taris\Еscape from the labyrinth of death\Еscape from the labyrinth of death\obj\Debug\Еscape from the labyrinth of death.csproj.GenerateResource.Cache
+<<<<<<< HEAD
 C:\Users\wolfy\Documents\GitHub\Game-2-Team-Taris\Еscape from the labyrinth of death\Еscape from the labyrinth of death\bin\Debug\Еscape from the labyrinth of death.exe.config
 C:\Users\wolfy\Documents\GitHub\Game-2-Team-Taris\Еscape from the labyrinth of death\Еscape from the labyrinth of death\bin\Debug\Еscape from the labyrinth of death.exe
 C:\Users\wolfy\Documents\GitHub\Game-2-Team-Taris\Еscape from the labyrinth of death\Еscape from the labyrinth of death\bin\Debug\Еscape from the labyrinth of death.pdb
@@ -112,3 +113,16 @@ C:\Users\wolfy\Documents\GitHub\Game-2-Team-Taris\Еscape from the labyrinth of 
 C:\Users\wolfy\Documents\GitHub\Game-2-Team-Taris\Еscape from the labyrinth of death\Еscape from the labyrinth of death\obj\Debug\Еscape from the labyrinth of death.pdb
 C:\Users\wolfy\Documents\GitHub\Game-2-Team-Taris\Еscape from the labyrinth of death\Еscape from the labyrinth of death\obj\Debug\Еscape_from_the_labyrinth_of_death.Loser.resources
 C:\Users\wolfy\Documents\GitHub\Game-2-Team-Taris\Еscape from the labyrinth of death\Еscape from the labyrinth of death\obj\Debug\Еscape_from_the_labyrinth_of_death.Winner.resources
+=======
+D:\Dropbox\html\softuni\Game-2-Team-Taris\Еscape from the labyrinth of death\Еscape from the labyrinth of death\bin\Debug\Еscape from the labyrinth of death.exe.config
+D:\Dropbox\html\softuni\Game-2-Team-Taris\Еscape from the labyrinth of death\Еscape from the labyrinth of death\obj\Debug\Еscape from the labyrinth of death.exe
+D:\Dropbox\html\softuni\Game-2-Team-Taris\Еscape from the labyrinth of death\Еscape from the labyrinth of death\obj\Debug\Еscape from the labyrinth of death.pdb
+D:\Dropbox\html\softuni\Game-2-Team-Taris\Еscape from the labyrinth of death\Еscape from the labyrinth of death\obj\Debug\Еscape from the labyrinth of death.csprojResolveAssemblyReference.cache
+D:\Dropbox\html\softuni\Game-2-Team-Taris\Еscape from the labyrinth of death\Еscape from the labyrinth of death\obj\Debug\Еscape_from_the_labyrinth_of_death.CharacterForm.resources
+D:\Dropbox\html\softuni\Game-2-Team-Taris\Еscape from the labyrinth of death\Еscape from the labyrinth of death\obj\Debug\Еscape_from_the_labyrinth_of_death.StartForm.resources
+D:\Dropbox\html\softuni\Game-2-Team-Taris\Еscape from the labyrinth of death\Еscape from the labyrinth of death\obj\Debug\Еscape_from_the_labyrinth_of_death.PlayingForm.resources
+D:\Dropbox\html\softuni\Game-2-Team-Taris\Еscape from the labyrinth of death\Еscape from the labyrinth of death\obj\Debug\Еscape_from_the_labyrinth_of_death.Properties.Resources.resources
+D:\Dropbox\html\softuni\Game-2-Team-Taris\Еscape from the labyrinth of death\Еscape from the labyrinth of death\obj\Debug\Еscape from the labyrinth of death.csproj.GenerateResource.Cache
+D:\Dropbox\html\softuni\Game-2-Team-Taris\Еscape from the labyrinth of death\Еscape from the labyrinth of death\bin\Debug\Еscape from the labyrinth of death.exe
+D:\Dropbox\html\softuni\Game-2-Team-Taris\Еscape from the labyrinth of death\Еscape from the labyrinth of death\bin\Debug\Еscape from the labyrinth of death.pdb
+>>>>>>> origin/KirilTest
