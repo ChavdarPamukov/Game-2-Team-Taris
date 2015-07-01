@@ -158,31 +158,31 @@ namespace Еscape_from_the_labyrinth_of_death
             this._enemiesList = new List<INpcPlayer>(this._enemiesPBList.Count)
             {
                 (INpcPlayer)this._playerFactory.Create(this.EvilHobbit1PB, this._wallsPBList, null, 
-                    PlayerClass.EvilHobbit),
+                    PlayerClass.EvilHobbit, null),
                 (INpcPlayer)this._playerFactory.Create(this.EvilHobbit2PB, this._wallsPBList, null,
-                    PlayerClass.EvilHobbit),
+                    PlayerClass.EvilHobbit, null),
                 (INpcPlayer)this._playerFactory.Create(this.EvilElf1PB, this._wallsPBList, null,
-                    PlayerClass.EvilElf),
+                    PlayerClass.EvilElf, null),
                 (INpcPlayer)this._playerFactory.Create(this.EvilElf2PB, this._wallsPBList, null,
-                    PlayerClass.EvilElf),
+                    PlayerClass.EvilElf, null),
                 (INpcPlayer)this._playerFactory.Create(this.EvilKnight1PB, this._wallsPBList, null,
-                    PlayerClass.EvilKnight),
+                    PlayerClass.EvilKnight, null),
                 (INpcPlayer)this._playerFactory.Create(this.EvilKnight2PB, this._wallsPBList, null,
-                    PlayerClass.EvilKnight),
+                    PlayerClass.EvilKnight, null),
                 (INpcPlayer)this._playerFactory.Create(this.EvilMask1PB, this._wallsPBList, null,
-                    PlayerClass.EvilMask),
+                    PlayerClass.EvilMask, null),
                 (INpcPlayer)this._playerFactory.Create(this.EvilMask2PB, this._wallsPBList, null,
-                    PlayerClass.EvilMask),
+                    PlayerClass.EvilMask, null),
                 (INpcPlayer)this._playerFactory.Create(this.EvilDragon1PB, this._wallsPBList, null,
-                    PlayerClass.EvilDragon),
+                    PlayerClass.EvilDragon, null),
                 (INpcPlayer)this._playerFactory.Create(this.EvilDragon2PB, this._wallsPBList, null,
-                    PlayerClass.EvilDragon),
+                    PlayerClass.EvilDragon, null),
                 (INpcPlayer)this._playerFactory.Create(this.BossDragonflyPB, this._wallsPBList, null,
-                    PlayerClass.BossDragonfly),
+                    PlayerClass.BossDragonfly, null),
                 (INpcPlayer)this._playerFactory.Create(this.BossEggPB, this._wallsPBList, null,
-                    PlayerClass.BossEgg),
+                    PlayerClass.BossEgg, null),
                 (INpcPlayer)this._playerFactory.Create(this.BossWarriorPB, this._wallsPBList, null,
-                    PlayerClass.BossWarrior),
+                    PlayerClass.BossWarrior, null),
             };
         }
 
@@ -191,7 +191,8 @@ namespace Еscape_from_the_labyrinth_of_death
             this._player = (IHumanPlayer)this._playerFactory.Create(this.playerPB, 
                 this._wallsPBList,
                 this._enemiesList,
-                PlayerClass.Knight);
+                PlayerClass.Knight,
+                NaPlayer.Text);
         }
 
         private void labelCurrentlyEquiped_Click(object sender, EventArgs e)

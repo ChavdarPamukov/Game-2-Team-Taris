@@ -12,6 +12,6 @@ namespace Еscape_from_the_labyrinth_of_death.Interfaces
     {
         IPlayer Create(PictureBox pictureBoxPlayer, List<PictureBox> pictureBoxListWalls,
             List<INpcPlayer> enemiesList,
-            PlayerClass playerClass);
+            PlayerClass playerClass, string name);
     }
 }

@@ -36,10 +36,10 @@
             this.pictureBoxEnemy = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.PlayerHealthPoints = new System.Windows.Forms.Label();
+            this.EnemyHealthPoints = new System.Windows.Forms.Label();
+            this.EnemyName = new System.Windows.Forms.Label();
+            this.HumanName = new System.Windows.Forms.Label();
             this.labelAction = new System.Windows.Forms.Label();
             this.labelActionNumber = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPlayer)).BeginInit();
@@ -51,7 +51,7 @@
             // buttonAttack
             // 
             this.buttonAttack.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.buttonAttack.Font = new System.Drawing.Font("Monotype Corsiva", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonAttack.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonAttack.Location = new System.Drawing.Point(428, 444);
             this.buttonAttack.Name = "buttonAttack";
             this.buttonAttack.Size = new System.Drawing.Size(99, 34);
@@ -62,7 +62,7 @@
             // buttonHeal
             // 
             this.buttonHeal.BackColor = System.Drawing.Color.Green;
-            this.buttonHeal.Font = new System.Drawing.Font("Monotype Corsiva", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonHeal.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonHeal.Location = new System.Drawing.Point(223, 444);
             this.buttonHeal.Name = "buttonHeal";
             this.buttonHeal.Size = new System.Drawing.Size(99, 34);
@@ -73,7 +73,7 @@
             // buttonForfeit
             // 
             this.buttonForfeit.BackColor = System.Drawing.Color.Green;
-            this.buttonForfeit.Font = new System.Drawing.Font("Monotype Corsiva", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonForfeit.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonForfeit.Location = new System.Drawing.Point(622, 444);
             this.buttonForfeit.Name = "buttonForfeit";
             this.buttonForfeit.Size = new System.Drawing.Size(99, 34);
@@ -119,53 +119,53 @@
             this.pictureBox2.TabIndex = 6;
             this.pictureBox2.TabStop = false;
             // 
-            // label1
+            // PlayerHealthPoints
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(137, 71);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(79, 29);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "label1";
+            this.PlayerHealthPoints.AutoSize = true;
+            this.PlayerHealthPoints.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.PlayerHealthPoints.Location = new System.Drawing.Point(137, 71);
+            this.PlayerHealthPoints.Name = "PlayerHealthPoints";
+            this.PlayerHealthPoints.Size = new System.Drawing.Size(79, 29);
+            this.PlayerHealthPoints.TabIndex = 7;
+            this.PlayerHealthPoints.Text = "label1";
             // 
-            // label2
+            // EnemyHealthPoints
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(723, 75);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(79, 29);
-            this.label2.TabIndex = 8;
-            this.label2.Text = "label2";
+            this.EnemyHealthPoints.AutoSize = true;
+            this.EnemyHealthPoints.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.EnemyHealthPoints.Location = new System.Drawing.Point(723, 75);
+            this.EnemyHealthPoints.Name = "EnemyHealthPoints";
+            this.EnemyHealthPoints.Size = new System.Drawing.Size(79, 29);
+            this.EnemyHealthPoints.TabIndex = 8;
+            this.EnemyHealthPoints.Text = "label2";
             // 
-            // label3
+            // EnemyName
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Monotype Corsiva", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3.Location = new System.Drawing.Point(817, 9);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(63, 25);
-            this.label3.TabIndex = 9;
-            this.label3.Text = "Enemy";
+            this.EnemyName.AutoSize = true;
+            this.EnemyName.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.EnemyName.Location = new System.Drawing.Point(817, 9);
+            this.EnemyName.Name = "EnemyName";
+            this.EnemyName.Size = new System.Drawing.Size(78, 25);
+            this.EnemyName.TabIndex = 9;
+            this.EnemyName.Text = "Enemy";
             // 
-            // label4
+            // HumanName
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Monotype Corsiva", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label4.Location = new System.Drawing.Point(52, 9);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(59, 25);
-            this.label4.TabIndex = 10;
-            this.label4.Text = "Player";
+            this.HumanName.AutoSize = true;
+            this.HumanName.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.HumanName.Location = new System.Drawing.Point(52, 9);
+            this.HumanName.Name = "HumanName";
+            this.HumanName.Size = new System.Drawing.Size(73, 25);
+            this.HumanName.TabIndex = 10;
+            this.HumanName.Text = "Player";
             // 
             // labelAction
             // 
             this.labelAction.AutoSize = true;
-            this.labelAction.Font = new System.Drawing.Font("Monotype Corsiva", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelAction.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelAction.Location = new System.Drawing.Point(449, 9);
             this.labelAction.Name = "labelAction";
-            this.labelAction.Size = new System.Drawing.Size(62, 25);
+            this.labelAction.Size = new System.Drawing.Size(72, 25);
             this.labelAction.TabIndex = 11;
             this.labelAction.Text = "Action";
             // 
@@ -187,10 +187,10 @@
             this.ClientSize = new System.Drawing.Size(939, 509);
             this.Controls.Add(this.labelActionNumber);
             this.Controls.Add(this.labelAction);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.HumanName);
+            this.Controls.Add(this.EnemyName);
+            this.Controls.Add(this.EnemyHealthPoints);
+            this.Controls.Add(this.PlayerHealthPoints);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pictureBoxEnemy);
@@ -222,10 +222,10 @@
         private System.Windows.Forms.PictureBox pictureBoxEnemy;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label PlayerHealthPoints;
+        private System.Windows.Forms.Label EnemyHealthPoints;
+        private System.Windows.Forms.Label EnemyName;
+        private System.Windows.Forms.Label HumanName;
         private System.Windows.Forms.Label labelAction;
         private System.Windows.Forms.Label labelActionNumber;
     }

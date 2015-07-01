@@ -23,8 +23,9 @@ namespace Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Abstract.Abs
 
         public HumanPlayer(byte health, byte attack, byte defence, byte intelligence,
             PictureBox pictureBoxPlayer, PlayerClass playerClass, List<PictureBox> pictureBoxListWalls,
-            List<INpcPlayer> enemiesList)
-            : base(health, attack, defence, intelligence, pictureBoxPlayer, true, playerClass)
+            List<INpcPlayer> enemiesList, string name, Image smallImage, Image largeImage)
+            : base(health, attack, defence, intelligence, pictureBoxPlayer, true, 
+            playerClass, name, smallImage, largeImage)
         {
             this.Level = 1;
             this.Experience = 1;
@@ -208,7 +209,8 @@ namespace Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Abstract.Abs
         {
             foreach (INpcPlayer enemy in this._enemiesList)
             {
-                if (rect.IntersectsWith(enemy.PictureBoxPlayer.Bounds))
+                if (!(enemy.IsDead) && 
+                    rect.IntersectsWith(enemy.PictureBoxPlayer.Bounds))
                 {
                     this.BeginCombat(this, enemy);
                 }

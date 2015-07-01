@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Drawing;
 using Еscape_from_the_labyrinth_of_death.Interfaces;
 using Еscape_from_the_labyrinth_of_death.Classes.EnumClasses;
 
@@ -24,9 +25,13 @@ namespace Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Abstract.Abs
         private bool _isDead;
         private readonly bool _isHuman;
         private readonly PlayerClass _playerClass;
+        private string _name;
+        private Image _smallImage;
+        private Image _largeImage;
 
         public GenericPlayer(byte health, byte attack, byte defence, byte intelligence,
-            PictureBox pictureBoxPlayer, bool isHuman, PlayerClass playerClass)
+            PictureBox pictureBoxPlayer, bool isHuman, PlayerClass playerClass, 
+            string name, Image smallImage, Image largeImage)
         {
             this.Health = health;
             this.Attack = attack;
@@ -41,6 +46,10 @@ namespace Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Abstract.Abs
             this._helmet = default(IItem);
             this._shield = default(IItem);
             this._weapon = default(IItem);
+            this.Name = name;
+            this.SmallImage = smallImage;
+            this.LargeImage = largeImage;
+            this.PictureBoxPlayer.Image = this.SmallImage;
         }
 
         public abstract byte Level { set; get; }
@@ -166,6 +175,42 @@ namespace Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Abstract.Abs
             get
             {
                 return this._weapon;
+            }
+        }
+
+        public string Name
+        {
+            get
+            {
+                return this._name;
+            }
+            protected set
+            {
+                this._name = value;
+            }
+        }
+
+        public Image SmallImage 
+        {
+            get 
+            {
+                return this._smallImage;
+            }
+            private set
+            {
+                this._smallImage = value;
+            }
+        }
+
+        public Image LargeImage
+        {
+            get
+            {
+                return this._largeImage;
+            }
+            private set
+            {
+                this._largeImage = value;
             }
         }
 

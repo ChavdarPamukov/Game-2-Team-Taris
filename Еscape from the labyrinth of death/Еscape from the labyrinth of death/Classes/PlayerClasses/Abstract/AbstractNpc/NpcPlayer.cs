@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Drawing;
 using Еscape_from_the_labyrinth_of_death.Exceptions;
 using Еscape_from_the_labyrinth_of_death.Interfaces;
 using Еscape_from_the_labyrinth_of_death.Classes.EnumClasses;
@@ -20,8 +21,10 @@ namespace Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Abstract.Abs
         private bool _isBoss;
 
         public NpcPlayer(byte health, byte attack, byte defence, byte intelligence,
-            PictureBox pictureBoxPlayer, byte level, uint respawnInterval, PlayerClass playerClass, bool isBoss)
-            : base(health, attack, defence, intelligence, pictureBoxPlayer, false, playerClass)
+            PictureBox pictureBoxPlayer, byte level, uint respawnInterval,
+            PlayerClass playerClass, bool isBoss, string name, Image smallImage, Image largeImage)
+            : base(health, attack, defence, intelligence, pictureBoxPlayer, false, 
+            playerClass, name, smallImage, largeImage)
         {
             this._level = level;
             this.RespawnInterval = respawnInterval;
@@ -73,6 +76,7 @@ namespace Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Abstract.Abs
                 }
                 else
                 {
+                    this.PictureBoxPlayer.Visible = false;
                     this.BeginRespawnCount();
                 }
             }
@@ -94,11 +98,13 @@ namespace Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Abstract.Abs
 
         private void RespawnCountdown()
         {
+            this._respawnCounter = 0;
             while (this._respawnCounter < this.RespawnInterval)
             {
+                Thread.Sleep(1000);
                 this._respawnCounter++;
             }
-            this.Respawn();
+            this.IsDead = false;
         }
     }
 }

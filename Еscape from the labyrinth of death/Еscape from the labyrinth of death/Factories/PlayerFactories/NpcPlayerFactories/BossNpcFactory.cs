@@ -22,7 +22,7 @@ namespace Еscape_from_the_labyrinth_of_death.Factories.PlayerFactories.NpcPlaye
 
         public override IPlayer Create(PictureBox pictureBoxPlayer, List<PictureBox> pictureBoxListWalls,
             List<INpcPlayer> enemiesList,
-            PlayerClass playerClass)
+            PlayerClass playerClass, string name)
         {
             switch (playerClass)
             {
@@ -38,17 +38,20 @@ namespace Еscape_from_the_labyrinth_of_death.Factories.PlayerFactories.NpcPlaye
             }
         }
 
-        private IPlayer CreateDragonFly(PictureBox pictureBoxPlayer, List<PictureBox> pictureBoxListWalls)
+        private IPlayer CreateDragonFly(PictureBox pictureBoxPlayer, 
+            List<PictureBox> pictureBoxListWalls)
         {
             return new BossNpcDragonfly(pictureBoxPlayer, pictureBoxListWalls);
         }
 
-        private IPlayer CreateEgg(PictureBox pictureBoxPlayer, List<PictureBox> pictureBoxListWalls)
+        private IPlayer CreateEgg(PictureBox pictureBoxPlayer, 
+            List<PictureBox> pictureBoxListWalls)
         {
             return new BossNpcEgg(pictureBoxPlayer, pictureBoxListWalls);
         }
 
-        private IPlayer CreateWarrior(PictureBox pictureBoxPlayer, List<PictureBox> pictureBoxListWalls)
+        private IPlayer CreateWarrior(PictureBox pictureBoxPlayer, 
+            List<PictureBox> pictureBoxListWalls)
         {
             return new BossNpcWarrior(pictureBoxPlayer, pictureBoxListWalls);
         }

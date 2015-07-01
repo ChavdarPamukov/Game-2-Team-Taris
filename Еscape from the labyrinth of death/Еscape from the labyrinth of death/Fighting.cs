@@ -15,6 +15,8 @@ namespace Еscape_from_the_labyrinth_of_death
     {
         private readonly IHumanPlayer _human;
         private readonly INpcPlayer _enemy;
+        private byte _humanHealth;
+        private byte _enemyHealth;
 
         public Fighting(IHumanPlayer human, INpcPlayer enemy)
         {
@@ -22,11 +24,42 @@ namespace Еscape_from_the_labyrinth_of_death
 
             this._human = human;
             this._enemy = enemy;
+
+            this._humanHealth = this._human.Health;
+            this._enemyHealth = this._enemy.Health;
+
+            this.UpdateHealthPoints();
+            this.SetImages();
+            this.SetNames();
+            this.BeginCombat();
         }
 
         private void Fighting_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void BeginCombat()
+        {
+
+        }
+
+        private void UpdateHealthPoints()
+        {
+            this.PlayerHealthPoints.Text = this._humanHealth.ToString();
+            this.EnemyHealthPoints.Text = this._enemyHealth.ToString();
+        }
+
+        private void SetNames()
+        {
+            this.HumanName.Text = this._human.Name;
+            this.EnemyName.Text = this._enemy.Name;
+        }
+
+        private void SetImages()
+        {
+            this.pictureBoxPlayer.Image = this._human.LargeImage;
+            this.pictureBoxEnemy.Image = this._enemy.LargeImage;
         }
     }
 }

@@ -22,16 +22,16 @@ namespace Еscape_from_the_labyrinth_of_death.Factories.PlayerFactories
 
         public override IPlayer Create(PictureBox pictureBoxPlayer, List<PictureBox> pictureBoxListWalls,
             List<INpcPlayer> enemiesList,
-            PlayerClass playerClass)
+            PlayerClass playerClass, string name)
         {
             switch (playerClass)
             {
                 case PlayerClass.Elf:
-                    return this.CreateElf(pictureBoxPlayer, pictureBoxListWalls, enemiesList);
+                    return this.CreateElf(pictureBoxPlayer, pictureBoxListWalls, enemiesList, name);
                 case PlayerClass.Knight:
-                    return this.CreateKnight(pictureBoxPlayer, pictureBoxListWalls, enemiesList);
+                    return this.CreateKnight(pictureBoxPlayer, pictureBoxListWalls, enemiesList, name);
                 case PlayerClass.Mage:
-                    return this.CreateMage(pictureBoxPlayer, pictureBoxListWalls, enemiesList);
+                    return this.CreateMage(pictureBoxPlayer, pictureBoxListWalls, enemiesList, name);
                 default:
                     throw new InvalidPlayerClassException("Could not create new Human player. Invalid class provided: " + 
                         playerClass.ToString());
@@ -39,21 +39,21 @@ namespace Еscape_from_the_labyrinth_of_death.Factories.PlayerFactories
         }
 
         private IPlayer CreateElf(PictureBox pictureBoxPlayer, List<PictureBox> pictureBoxListWalls,
-            List<INpcPlayer> enemiesList)
+            List<INpcPlayer> enemiesList, string name)
         {
-            return new Elf(pictureBoxPlayer, pictureBoxListWalls, enemiesList);
+            return new Elf(pictureBoxPlayer, pictureBoxListWalls, enemiesList, name);
         }
 
         private IPlayer CreateKnight(PictureBox pictureBoxPlayer, List<PictureBox> pictureBoxListWalls,
-            List<INpcPlayer> enemiesList)
+            List<INpcPlayer> enemiesList, string name)
         {
-            return new Knight(pictureBoxPlayer, pictureBoxListWalls, enemiesList);
+            return new Knight(pictureBoxPlayer, pictureBoxListWalls, enemiesList, name);
         }
 
         private IPlayer CreateMage(PictureBox pictureBoxPlayer, List<PictureBox> pictureBoxListWalls,
-            List<INpcPlayer> enemiesList)
+            List<INpcPlayer> enemiesList, string name)
         {
-            return new Mage(pictureBoxPlayer, pictureBoxListWalls, enemiesList);
+            return new Mage(pictureBoxPlayer, pictureBoxListWalls, enemiesList, name);
         }
     }
 }
