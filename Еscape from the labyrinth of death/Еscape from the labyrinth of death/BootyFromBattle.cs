@@ -10,26 +10,25 @@ using System.Windows.Forms;
 
 namespace Еscape_from_the_labyrinth_of_death
 {
-    public partial class HelpForm : Form
+    public partial class BootyFromBattle : Form
     {
-        public HelpForm()
+        public BootyFromBattle()
         {
             InitializeComponent();
         }
 
+        private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void pictureBox5_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-
 
         }
     }

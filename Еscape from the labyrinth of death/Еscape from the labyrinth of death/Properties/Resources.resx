@@ -127,20 +127,32 @@
   <data name="maze_ico" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\maze_ico.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="br_501" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\br_501.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boss_1_35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\boss_1_35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enemy_4_35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enemy_4_35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="wall1___vr" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\wall1 - vr.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="wall2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\wall2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="maze_ico1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\maze_ico.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="warrior_35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\warrior_35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="sh2_50" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sh2_50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="sh2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sh2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="elf_35" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\elf_352.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="enemy_3_35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enemy_3_35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boss_3_35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\boss_3_35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="wizard_248" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\wizard_248.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -150,6 +162,9 @@
   </data>
   <data name="sh" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="start_pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\start_pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="br_50" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\br_50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -169,17 +184,23 @@
   <data name="boss_3_248" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\boss_3_248.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="wall_1_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\wall_1_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="sh2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sh2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="boss_2_248" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\boss_2_248.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="enemy_5_35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enemy_5_35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="wizard_35" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\wizard_35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boss_2_35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\boss_2_35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enemy_5_248" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enemy_5_248.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wall_1_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wall_1_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boss_2_248" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\boss_2_248.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="enemy_3_248" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\enemy_3_248.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -187,17 +208,29 @@
   <data name="wall1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\wall1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="maze_ico1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\maze_ico.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="in1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\in1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="warrior_35" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\warrior_35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="boss_1_248" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\boss_1_248.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sh1_50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sh1_50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="br" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\br.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="boss_1_248" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\boss_1_248.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="enemy_1_35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enemy_1_35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="elf_35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\elf_352.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enemy_2_35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enemy_2_35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="enemy_1_248" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\enemy_1_248.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -205,46 +238,16 @@
   <data name="enemy_2_248" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\enemy_2_248.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="sh1_50" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sh1_50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="enemy_4_248" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\enemy_4_248.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="sh2_50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sh2_50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="hart_50" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hart_50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="br_501" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\br_501.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="enemy_4_248" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enemy_4_248.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="enemy_5_248" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\enemy_5_248.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="enemy_5_35" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\enemy_5_35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="enemy_4_35" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\enemy_4_35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="boss_1_35" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\boss_1_35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="boss_2_35" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\boss_2_35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="boss_3_35" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\boss_3_35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="enemy_1_35" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\enemy_1_35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="enemy_2_35" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\enemy_2_35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="enemy_3_35" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\enemy_3_35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="start_pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\start_pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="startimg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\startimg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

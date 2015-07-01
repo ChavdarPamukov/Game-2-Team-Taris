@@ -44,6 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BootyFromBattle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BootyFromBattle.Designer.cs">
+      <DependentUpon>BootyFromBattle.cs</DependentUpon>
+    </Compile>
     <Compile Include="CharacterForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -185,6 +191,9 @@
     <Compile Include="Winner.Designer.cs">
       <DependentUpon>Winner.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="BootyFromBattle.resx">
+      <DependentUpon>BootyFromBattle.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CharacterForm.resx">
       <DependentUpon>CharacterForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -363,6 +372,9 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\startimg.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

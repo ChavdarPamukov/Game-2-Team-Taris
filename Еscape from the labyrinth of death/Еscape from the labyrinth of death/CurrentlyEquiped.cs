@@ -76,5 +76,15 @@ namespace Еscape_from_the_labyrinth_of_death
         {
 
         }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
