@@ -45,6 +45,7 @@
             this.CreditsButton.TabIndex = 1;
             this.CreditsButton.Text = "CREDITS";
             this.CreditsButton.UseVisualStyleBackColor = false;
+            this.CreditsButton.Click += new System.EventHandler(this.CreditsButton_Click);
             // 
             // StartButton
             // 
@@ -73,8 +74,9 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.label1.BackColor = System.Drawing.Color.DarkSlateGray;
             this.label1.Font = new System.Drawing.Font("Monotype Corsiva", 32.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.label1.Location = new System.Drawing.Point(3, 114);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(550, 52);
@@ -85,7 +87,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Еscape_from_the_labyrinth_of_death.Properties.Resources.stones_wall;
+            this.BackgroundImage = global::Еscape_from_the_labyrinth_of_death.Properties.Resources.startimg;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(556, 437);
             this.Controls.Add(this.label1);

@@ -34,5 +34,10 @@ namespace Еscape_from_the_labyrinth_of_death
             HelpForm helpF = new HelpForm();
             helpF.ShowDialog();
         }
+
+        private void CreditsButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Created by a team \"Taris\"", "SoftUni Battle In The Sea About");
+        }
     }
 }

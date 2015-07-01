@@ -403,6 +403,16 @@ namespace Еscape_from_the_labyrinth_of_death.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap startimg {
+            get {
+                object obj = ResourceManager.GetObject("startimg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap stones_wall {
             get {
                 object obj = ResourceManager.GetObject("stones_wall", resourceCulture);
