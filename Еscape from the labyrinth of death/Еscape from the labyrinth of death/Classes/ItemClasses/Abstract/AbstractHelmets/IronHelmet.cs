@@ -1,13 +1,10 @@
-﻿namespace Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.AbstractHelmets
+﻿using Еscape_from_the_labyrinth_of_death.Classes.EnumClasses;
+using Еscape_from_the_labyrinth_of_death.Classes.EnumClasses.ItemTypes.HelmetTypes;
+using Еscape_from_the_labyrinth_of_death.Interfaces;
+using Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.GenericItems;
+
+namespace Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.AbstractHelmets
 {
-    using Еscape_from_the_labyrinth_of_death.Interfaces;
-    using Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.GenericItems;
-    enum IronHelmetType
-    {
-        FullHelm,
-        Basinet,
-        GiantConch,
-    }
     abstract class IronHelmet : GenericHelmet
     {
         private byte bonusToHealth;
@@ -33,6 +30,7 @@
             IronHelmetType ironHelmetType)
             : base(healthBonus, attackBonus, defenseBonus, intelligenceBonus, itemName, helmetType)
         {
+            this.ironHelmetType = ironHelmetType;
         }
     }
 }

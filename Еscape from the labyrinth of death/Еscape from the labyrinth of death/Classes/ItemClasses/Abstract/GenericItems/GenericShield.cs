@@ -1,12 +1,9 @@
-﻿namespace Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.GenericItems
+﻿using Еscape_from_the_labyrinth_of_death.Classes.EnumClasses;
+using Еscape_from_the_labyrinth_of_death.Classes.EnumClasses.ItemTypes.ShieldTypes;
+using Еscape_from_the_labyrinth_of_death.Interfaces;
+
+namespace Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.GenericItems
 {
-    using Еscape_from_the_labyrinth_of_death.Interfaces;
-    enum ShieldType
-    {
-        SmallShield,
-        LargeShield,
-        BoneShield
-    }
     abstract class GenericShield : Item
     {
         private const ItemClass itemClass = ItemClass.Shield;

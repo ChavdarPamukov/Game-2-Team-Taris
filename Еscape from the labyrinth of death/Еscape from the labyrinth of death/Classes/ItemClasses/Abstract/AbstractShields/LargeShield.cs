@@ -1,13 +1,10 @@
-﻿namespace Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.AbstractShields
+﻿using Еscape_from_the_labyrinth_of_death.Classes.EnumClasses;
+using Еscape_from_the_labyrinth_of_death.Classes.EnumClasses.ItemTypes.ShieldTypes;
+using Еscape_from_the_labyrinth_of_death.Interfaces;
+using Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.GenericItems;
+
+namespace Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.AbstractShields
 {
-    using Еscape_from_the_labyrinth_of_death.Interfaces;
-    using Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.GenericItems;
-    enum LargeShieldType
-    {
-        Normal,
-        Exceptional,
-        Unique,
-    }
     abstract class LargeShield : GenericShield
     {
         private byte bonusToHealth;
@@ -33,6 +30,7 @@
             LargeShieldType largeShieldType)
             : base(healthBonus, attackBonus, defenseBonus, intelligenceBonus, itemName, shieldType)
         {
+            this.largeShieldType = largeShieldType;
         }
     }
 }

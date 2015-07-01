@@ -1,4 +1,6 @@
-﻿namespace Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract
+﻿using Еscape_from_the_labyrinth_of_death.Classes.EnumClasses;
+
+namespace Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract
 {
     using Еscape_from_the_labyrinth_of_death.Interfaces;
     abstract class Item : IItem

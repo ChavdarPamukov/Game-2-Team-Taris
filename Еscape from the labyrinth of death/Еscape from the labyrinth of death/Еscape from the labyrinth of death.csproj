@@ -50,6 +50,26 @@
     <Compile Include="CharacterForm.Designer.cs">
       <DependentUpon>CharacterForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Classes\EnumClasses\ItemClass.cs" />
+    <Compile Include="Classes\EnumClasses\ItemTypes\ArmorTypes\ArmorType.cs" />
+    <Compile Include="Classes\EnumClasses\ItemTypes\ArmorTypes\LeatherArmorType.cs" />
+    <Compile Include="Classes\EnumClasses\ItemTypes\ArmorTypes\QuiltedArmorType.cs" />
+    <Compile Include="Classes\EnumClasses\ItemTypes\ArmorTypes\RingMailType.cs" />
+    <Compile Include="Classes\EnumClasses\ItemTypes\HelmetTypes\HelmetType.cs" />
+    <Compile Include="Classes\EnumClasses\ItemTypes\PotionTypes\PotionType.cs" />
+    <Compile Include="Classes\EnumClasses\ItemTypes\ShieldTypes\ShieldType.cs" />
+    <Compile Include="Classes\EnumClasses\ItemTypes\WeaponTypes\AxeType.cs" />
+    <Compile Include="Classes\EnumClasses\ItemTypes\HelmetTypes\BoneHelmetType.cs" />
+    <Compile Include="Classes\EnumClasses\ItemTypes\HelmetTypes\IronHelmetType.cs" />
+    <Compile Include="Classes\EnumClasses\ItemTypes\HelmetTypes\LeatherHelmetType.cs" />
+    <Compile Include="Classes\EnumClasses\ItemTypes\PotionTypes\HealthPotionType.cs" />
+    <Compile Include="Classes\EnumClasses\ItemTypes\PotionTypes\IntelligencePotionType.cs" />
+    <Compile Include="Classes\EnumClasses\ItemTypes\ShieldTypes\BoneShieldType.cs" />
+    <Compile Include="Classes\EnumClasses\ItemTypes\ShieldTypes\LargeShieldType.cs" />
+    <Compile Include="Classes\EnumClasses\ItemTypes\ShieldTypes\SmallShieldType.cs" />
+    <Compile Include="Classes\EnumClasses\ItemTypes\WeaponTypes\MaceType.cs" />
+    <Compile Include="Classes\EnumClasses\ItemTypes\WeaponTypes\SwordType.cs" />
+    <Compile Include="Classes\EnumClasses\ItemTypes\WeaponTypes\WeaponType.cs" />
     <Compile Include="Classes\ItemClasses\Abstract\AbstractArmors\LeatherArmor.cs" />
     <Compile Include="Classes\ItemClasses\Abstract\AbstractArmors\QuiltedArmor.cs" />
     <Compile Include="Classes\ItemClasses\Abstract\AbstractArmors\RingMail.cs" />
@@ -364,6 +384,7 @@
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

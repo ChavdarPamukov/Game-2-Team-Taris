@@ -1,13 +1,10 @@
-﻿namespace Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.AbstractPotions
+﻿using Еscape_from_the_labyrinth_of_death.Classes.EnumClasses;
+using Еscape_from_the_labyrinth_of_death.Classes.EnumClasses.ItemTypes.PotionTypes;
+using Еscape_from_the_labyrinth_of_death.Interfaces;
+using Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.GenericItems;
+
+namespace Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.AbstractPotions
 {
-    using Еscape_from_the_labyrinth_of_death.Interfaces;
-    using Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.GenericItems;
-    enum HealthPotionType
-    {
-        Small,
-        Medium,
-        Large,
-    }
     abstract class HealthPotion : GenericPotion
     {
         private byte bonusToHealth;
@@ -33,6 +30,7 @@
             HealthPotionType healthPotionType)
             : base(healthBonus, attackBonus, defenseBonus, intelligenceBonus, itemName, potionType)
         {
+            this.healthPotionType = healthPotionType;
         }
     }
 }

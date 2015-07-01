@@ -1,13 +1,10 @@
-﻿namespace Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.AbstractHelmets
+﻿using Еscape_from_the_labyrinth_of_death.Classes.EnumClasses;
+using Еscape_from_the_labyrinth_of_death.Classes.EnumClasses.ItemTypes.HelmetTypes;
+using Еscape_from_the_labyrinth_of_death.Interfaces;
+using Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.GenericItems;
+
+namespace Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.AbstractHelmets
 {
-    using Еscape_from_the_labyrinth_of_death.Interfaces;
-    using Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.GenericItems;
-    enum BoneHelmetType
-    {
-        BoneHelm,
-        GrimHelm,
-        BoneVisage,
-    }
     abstract class BoneHelmet : GenericHelmet
     {
         private byte bonusToHealth;
@@ -33,6 +30,7 @@
             BoneHelmetType boneHelmetType)
             : base(healthBonus, attackBonus, defenseBonus, intelligenceBonus, itemName, helmetType)
         {
+            this.boneHelmetType = boneHelmetType;
         }
     }
 }

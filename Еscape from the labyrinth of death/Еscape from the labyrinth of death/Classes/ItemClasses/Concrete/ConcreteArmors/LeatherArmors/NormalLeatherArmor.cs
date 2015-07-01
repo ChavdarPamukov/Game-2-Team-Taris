@@ -1,4 +1,8 @@
-﻿namespace Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Concrete
+﻿using Еscape_from_the_labyrinth_of_death.Classes.EnumClasses;
+using Еscape_from_the_labyrinth_of_death.Classes.EnumClasses.ItemTypes.ArmorTypes;
+
+
+namespace Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Concrete
 {
     using Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.AbstractArmors;
     using Еscape_from_the_labyrinth_of_death.Interfaces;

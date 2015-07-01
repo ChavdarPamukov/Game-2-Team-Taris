@@ -1,14 +1,10 @@
-﻿namespace Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.AbstractWeapons
+﻿using Еscape_from_the_labyrinth_of_death.Classes.EnumClasses;
+using Еscape_from_the_labyrinth_of_death.Classes.EnumClasses.ItemTypes.WeaponTypes;
+using Еscape_from_the_labyrinth_of_death.Interfaces;
+using Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.GenericItems;
+
+namespace Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.AbstractWeapons
 {
-    using Еscape_from_the_labyrinth_of_death.Interfaces;
-    using Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.GenericItems;
-    enum AxeType
-    {
-        HandAxe,
-        DoubleAxe,
-        WarAxe,
-        MilitaryPick
-    }
     abstract class Axe : GenericWeapon
     {
         private byte bonusToHealth;
@@ -34,6 +30,7 @@
             AxeType axeType)
             : base(healthBonus, attackBonus, defenseBonus, intelligenceBonus, itemName, weaponType)
         {
+            this.axeType = axeType;
         }
     }
 }

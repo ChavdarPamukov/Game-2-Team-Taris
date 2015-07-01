@@ -41,7 +41,7 @@
             this.EnemyName = new System.Windows.Forms.Label();
             this.HumanName = new System.Windows.Forms.Label();
             this.labelAction = new System.Windows.Forms.Label();
-            this.labelActionNumber = new System.Windows.Forms.Label();
+            this.ActionCount = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPlayer)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxEnemy)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -169,15 +169,15 @@
             this.labelAction.TabIndex = 11;
             this.labelAction.Text = "Action";
             // 
-            // labelActionNumber
+            // ActionCount
             // 
-            this.labelActionNumber.AutoSize = true;
-            this.labelActionNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelActionNumber.Location = new System.Drawing.Point(467, 54);
-            this.labelActionNumber.Name = "labelActionNumber";
-            this.labelActionNumber.Size = new System.Drawing.Size(31, 33);
-            this.labelActionNumber.TabIndex = 12;
-            this.labelActionNumber.Text = "2";
+            this.ActionCount.AutoSize = true;
+            this.ActionCount.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ActionCount.Location = new System.Drawing.Point(467, 54);
+            this.ActionCount.Name = "ActionCount";
+            this.ActionCount.Size = new System.Drawing.Size(31, 33);
+            this.ActionCount.TabIndex = 12;
+            this.ActionCount.Text = "2";
             // 
             // Fighting
             // 
@@ -185,7 +185,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.ClientSize = new System.Drawing.Size(939, 509);
-            this.Controls.Add(this.labelActionNumber);
+            this.Controls.Add(this.ActionCount);
             this.Controls.Add(this.labelAction);
             this.Controls.Add(this.HumanName);
             this.Controls.Add(this.EnemyName);
@@ -227,6 +227,6 @@
         private System.Windows.Forms.Label EnemyName;
         private System.Windows.Forms.Label HumanName;
         private System.Windows.Forms.Label labelAction;
-        private System.Windows.Forms.Label labelActionNumber;
+        private System.Windows.Forms.Label ActionCount;
     }
 }

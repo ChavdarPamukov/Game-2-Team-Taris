@@ -1,11 +1,9 @@
-﻿namespace Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.GenericItems
+﻿using Еscape_from_the_labyrinth_of_death.Classes.EnumClasses;
+using Еscape_from_the_labyrinth_of_death.Classes.EnumClasses.ItemTypes.PotionTypes;
+using Еscape_from_the_labyrinth_of_death.Interfaces;
+
+namespace Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.GenericItems
 {
-    using Еscape_from_the_labyrinth_of_death.Interfaces;
-    enum PotionType
-    {
-        HealthPotion,
-        IntelligencePotion,
-    }
     abstract class GenericPotion : Item, IPotion
     {
         private const ItemClass itemClass = ItemClass.Potion;

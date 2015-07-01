@@ -1,12 +1,9 @@
-﻿namespace Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.GenericItems
+﻿using Еscape_from_the_labyrinth_of_death.Classes.EnumClasses;
+using Еscape_from_the_labyrinth_of_death.Classes.EnumClasses.ItemTypes.HelmetTypes;
+using Еscape_from_the_labyrinth_of_death.Interfaces;
+
+namespace Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.GenericItems
 {
-    using Еscape_from_the_labyrinth_of_death.Interfaces;
-    enum HelmetType
-    {
-        LeatherHelmet,
-        IronHelmet,
-        BoneHelmet
-    }
     abstract class GenericHelmet: Item
     {
         private const ItemClass itemClass = ItemClass.Helmet;

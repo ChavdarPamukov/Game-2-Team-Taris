@@ -1,12 +1,9 @@
-﻿namespace Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.GenericItems
+﻿using Еscape_from_the_labyrinth_of_death.Classes.EnumClasses;
+using Еscape_from_the_labyrinth_of_death.Classes.EnumClasses.ItemTypes.ArmorTypes;
+using Еscape_from_the_labyrinth_of_death.Interfaces;
+
+namespace Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.GenericItems
 {
-    using Еscape_from_the_labyrinth_of_death.Interfaces;
-    enum ArmorType
-    {
-        QuiltedArmor,
-        LeatherArmor,
-        RingMail
-    }
     abstract class GenericArmor : Item
     {
         private const ItemClass itemClass = ItemClass.Armor;
