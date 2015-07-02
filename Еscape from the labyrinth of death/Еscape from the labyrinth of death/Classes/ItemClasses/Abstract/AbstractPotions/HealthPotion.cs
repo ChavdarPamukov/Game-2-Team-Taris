@@ -5,15 +5,9 @@ using Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.GenericIt
 
 namespace Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.AbstractPotions
 {
-    abstract class HealthPotion : GenericPotion
+    public abstract class HealthPotion : GenericPotion
     {
-        private byte bonusToHealth;
-        private byte bonusToDefense;
-        private byte bonusToAttack;
-        private byte bonusToIntelligence;
-        private string itemName;
         private const PotionType potionType = PotionType.HealthPotion;
-        private ItemClass itemClass;
         private HealthPotionType healthPotionType;
 
         public HealthPotionType HealthPotionType

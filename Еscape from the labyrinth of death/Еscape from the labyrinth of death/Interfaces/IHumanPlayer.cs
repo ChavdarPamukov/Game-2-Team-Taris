@@ -10,7 +10,6 @@ namespace Еscape_from_the_labyrinth_of_death.Interfaces
 {
     public interface IHumanPlayer : IPlayer
     {
-        //byte Level { set; get; }
         int Experience { set; get; }
         void MoveUp();
         void MoveRight();

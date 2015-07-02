@@ -1,9 +1,9 @@
 ﻿using Еscape_from_the_labyrinth_of_death.Classes.EnumClasses;
+using Еscape_from_the_labyrinth_of_death.Interfaces;
 
 namespace Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract
 {
-    using Еscape_from_the_labyrinth_of_death.Interfaces;
-    abstract class Item : IItem
+    public abstract class Item : IItem
     {
         private byte bonusToHealth;
         private byte bonusToDefense;
@@ -40,6 +40,18 @@ namespace Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract
         public ItemClass ItemClass
         {
             get { return this.itemClass; }
+        }
+
+        public override string ToString()
+        {
+            return string.Format("Defence: +{0}\n" +
+                "Attack: +{1}\n" +
+                "Intelligence: +{2}\n" +
+                "Health: +{3}",
+                this.BonusToDefense,
+                this.BonusToAttack,
+                this.BonusToIntelligence,
+                this.BonusToHealth);
         }
 
         public Item(byte healthBonus, byte attackBonus, byte defenseBonus, byte intelligenceBonus, ItemClass itemClass, string itemName)

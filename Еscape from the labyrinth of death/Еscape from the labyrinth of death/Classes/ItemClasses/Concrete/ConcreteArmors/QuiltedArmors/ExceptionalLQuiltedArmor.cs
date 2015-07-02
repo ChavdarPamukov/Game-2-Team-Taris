@@ -1,24 +1,23 @@
 ﻿using Еscape_from_the_labyrinth_of_death.Classes.EnumClasses;
 using Еscape_from_the_labyrinth_of_death.Classes.EnumClasses.ItemTypes.ArmorTypes;
+using Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.AbstractArmors;
+using Еscape_from_the_labyrinth_of_death.Interfaces;
 
 namespace Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Concrete
 {
-    using Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.AbstractArmors;
-    using Еscape_from_the_labyrinth_of_death.Interfaces;
-    class ExceptionalQuiltedArmor : QuiltedArmor
+    public class ExceptionalQuiltedArmor : QuiltedArmor
     {
+        private const string name = "Exceptional Quilted Armor";
         private const byte bonusToHealth = 0;
         private const byte bonusToDefense = 17;
         private const byte bonusToAttack = 0;
         private const byte bonusToIntelligence = 0;
-        private string itemName;
         private const ItemClass itemClass = ItemClass.Armor;
         private const QuiltedArmorType quiltedArmorType = QuiltedArmorType.Exceptional;
 
-        public ExceptionalQuiltedArmor(string name)
-            : base(bonusToHealth, bonusToDefense, bonusToAttack, bonusToIntelligence, name, itemClass, quiltedArmorType)
+        public ExceptionalQuiltedArmor()
+            : base(bonusToHealth, bonusToDefense, bonusToAttack, bonusToIntelligence, name, quiltedArmorType)
         {
-            this.itemName = name;
         }
 
     }

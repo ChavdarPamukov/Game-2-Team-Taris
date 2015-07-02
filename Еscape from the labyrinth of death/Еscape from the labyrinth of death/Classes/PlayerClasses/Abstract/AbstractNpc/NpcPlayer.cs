@@ -6,6 +6,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Drawing;
+using Еscape_from_the_labyrinth_of_death.Factories;
 using Еscape_from_the_labyrinth_of_death.Exceptions;
 using Еscape_from_the_labyrinth_of_death.Interfaces;
 using Еscape_from_the_labyrinth_of_death.Classes.EnumClasses;
@@ -15,6 +16,7 @@ namespace Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Abstract.Abs
 {
     public abstract class NpcPlayer : GenericPlayer, INpcPlayer
     {
+        private readonly IItemFactory _itemFactory;
         private readonly byte _level;
         private uint _respawnInterval;
         private uint _respawnCounter;
@@ -30,6 +32,9 @@ namespace Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Abstract.Abs
             this.RespawnInterval = respawnInterval;
             this._respawnCounter = 0;
             this._isBoss = isBoss;
+            this._itemFactory = ItemFactory.ITEM_FACTORY;
+
+            this.CreateItems();
         }
 
         public override byte Level
@@ -105,6 +110,24 @@ namespace Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Abstract.Abs
                 this._respawnCounter++;
             }
             this.IsDead = false;
+        }
+
+        private void CreateItems()
+        {
+            IItem weapon = this._itemFactory.CreateRandom(ItemClass.Weapon);
+            IItem shield = this._itemFactory.CreateRandom(ItemClass.Shield);
+            IItem armor = this._itemFactory.CreateRandom(ItemClass.Armor);
+            IItem helmet = this._itemFactory.CreateRandom(ItemClass.Helmet);
+            IItem potion = this._itemFactory.CreateRandom(ItemClass.Potion);
+
+            this.Inventory = new List<IItem>()
+            {
+                weapon,
+                armor,
+                shield,
+                helmet,
+                potion,
+            };
         }
     }
 }

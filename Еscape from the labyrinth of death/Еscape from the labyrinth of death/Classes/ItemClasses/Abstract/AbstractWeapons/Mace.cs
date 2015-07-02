@@ -5,17 +5,9 @@ using Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.GenericIt
 
 namespace Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.AbstractWeapons
 {
-    using Еscape_from_the_labyrinth_of_death.Interfaces;
-    using Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.GenericItems;
-    abstract class Mace : GenericWeapon
+    public abstract class Mace : GenericWeapon
     {
-        private byte bonusToHealth;
-        private byte bonusToDefense;
-        private byte bonusToAttack;
-        private byte bonusToIntelligence;
-        private string itemName;
         private const WeaponType weaponType = WeaponType.Mace;
-        private ItemClass itemClass;
         private MaceType maceType;
 
         public MaceType MaceType

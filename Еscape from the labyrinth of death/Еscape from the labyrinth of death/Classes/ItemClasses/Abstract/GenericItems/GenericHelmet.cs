@@ -4,7 +4,7 @@ using Еscape_from_the_labyrinth_of_death.Interfaces;
 
 namespace Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.GenericItems
 {
-    abstract class GenericHelmet: Item
+    public abstract class GenericHelmet: Item
     {
         private const ItemClass itemClass = ItemClass.Helmet;
         private HelmetType helmetType;

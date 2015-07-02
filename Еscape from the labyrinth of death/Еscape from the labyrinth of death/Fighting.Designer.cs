@@ -58,6 +58,7 @@
             this.buttonAttack.TabIndex = 0;
             this.buttonAttack.Text = "Attack";
             this.buttonAttack.UseVisualStyleBackColor = false;
+            this.buttonAttack.Click += new System.EventHandler(this.buttonAttack_EventHandler);
             // 
             // buttonHeal
             // 
@@ -69,6 +70,7 @@
             this.buttonHeal.TabIndex = 1;
             this.buttonHeal.Text = "Heal";
             this.buttonHeal.UseVisualStyleBackColor = false;
+            this.buttonHeal.Click += new System.EventHandler(this.buttonHeal_EventHandler);
             // 
             // buttonForfeit
             // 
@@ -80,6 +82,7 @@
             this.buttonForfeit.TabIndex = 2;
             this.buttonForfeit.Text = "Forfeit";
             this.buttonForfeit.UseVisualStyleBackColor = false;
+            this.buttonForfeit.Click += new System.EventHandler(this.butonForfeit_eventHandler);
             // 
             // pictureBoxPlayer
             // 

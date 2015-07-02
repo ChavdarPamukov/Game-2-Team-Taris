@@ -5,7 +5,7 @@ using Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.GenericIt
 
 namespace Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.AbstractArmors
 {
-    abstract class LeatherArmor : GenericArmor
+    public abstract class LeatherArmor : GenericArmor
     {
         private const ArmorType armorType = ArmorType.LeatherArmor;
         private LeatherArmorType leatherArmorType;

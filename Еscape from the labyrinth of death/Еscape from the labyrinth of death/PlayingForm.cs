@@ -33,6 +33,8 @@ namespace Еscape_from_the_labyrinth_of_death
 
             this.InitializeEnemies();
             this.InitializePlayer();
+
+            this.UpdateLevelLabel();
         }
 
         private void PlayingForm_Load(object sender, EventArgs e)
@@ -61,6 +63,8 @@ namespace Еscape_from_the_labyrinth_of_death
             {
                 this._player.MoveDown();
             }
+
+            this.UpdateLevelLabel();
         }
 
         private void PlayingForm_FormClosed(object sender, FormClosedEventArgs e)
@@ -195,9 +199,14 @@ namespace Еscape_from_the_labyrinth_of_death
                 NaPlayer.Text);
         }
 
+        private void UpdateLevelLabel()
+        {
+            this.labelLvNumber.Text = this._player.Level.ToString();
+        }
+
         private void labelCurrentlyEquiped_Click(object sender, EventArgs e)
         {
-            Currently_Equiped currentlyEquiped = new Currently_Equiped();
+            Currently_Equiped currentlyEquiped = new Currently_Equiped(this._player);
             currentlyEquiped.ShowDialog();
         }
 

@@ -5,15 +5,9 @@ using Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.GenericIt
 
 namespace Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.AbstractShields
 {
-    abstract class BoneShield : GenericShield
+    public abstract class BoneShield : GenericShield
     {
-        private byte bonusToHealth;
-        private byte bonusToDefense;
-        private byte bonusToAttack;
-        private byte bonusToIntelligence;
-        private string itemName;
         private const ShieldType shieldType = ShieldType.BoneShield;
-        private ItemClass itemClass;
         private BoneShieldType boneShieldType;
 
         public BoneShieldType BoneShieldType

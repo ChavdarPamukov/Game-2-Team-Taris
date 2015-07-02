@@ -1,24 +1,23 @@
 ﻿using Еscape_from_the_labyrinth_of_death.Classes.EnumClasses;
 using Еscape_from_the_labyrinth_of_death.Classes.EnumClasses.ItemTypes.HelmetTypes;
+using Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.AbstractHelmets;
+using Еscape_from_the_labyrinth_of_death.Interfaces;
 
 namespace Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Concrete
 {
-    using Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.AbstractHelmets;
-    using Еscape_from_the_labyrinth_of_death.Interfaces;
-    class BoneHelm : BoneHelmet
+    public class BoneHelm : BoneHelmet
     {
+        private const string name = "Bone Helm";
         private const byte bonusToHealth = 0;
         private const byte bonusToDefense = 7;
         private const byte bonusToAttack = 0;
         private const byte bonusToIntelligence = 0;
-        private string itemName;
         private const ItemClass itemClass = ItemClass.Helmet;
         private const BoneHelmetType boneHelmetType = BoneHelmetType.BoneHelm;
 
-        public BoneHelm(string name)
+        public BoneHelm()
             : base(bonusToHealth, bonusToDefense, bonusToAttack, bonusToIntelligence, name, itemClass, boneHelmetType)
         {
-            this.itemName = name;
         }
 
     }

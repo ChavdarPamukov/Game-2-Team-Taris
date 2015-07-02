@@ -21,5 +21,10 @@ namespace Еscape_from_the_labyrinth_of_death
         {
 
         }
+
+        private void Loser_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

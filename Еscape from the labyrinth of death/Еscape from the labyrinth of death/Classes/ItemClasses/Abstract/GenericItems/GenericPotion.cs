@@ -4,7 +4,7 @@ using Еscape_from_the_labyrinth_of_death.Interfaces;
 
 namespace Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.GenericItems
 {
-    abstract class GenericPotion : Item, IPotion
+    public abstract class GenericPotion : Item, IPotion
     {
         private const ItemClass itemClass = ItemClass.Potion;
         private bool isUsed;

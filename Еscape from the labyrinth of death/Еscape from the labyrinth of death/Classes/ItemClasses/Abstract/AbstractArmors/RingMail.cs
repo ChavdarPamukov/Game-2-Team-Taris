@@ -5,7 +5,7 @@ using Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.GenericIt
 
 namespace Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.AbstractArmors
 {
-    abstract class RingMail : GenericArmor
+    public abstract class RingMail : GenericArmor
     {
         private const ArmorType armorType = ArmorType.RingMail;
         private RingMailType ringMailType;

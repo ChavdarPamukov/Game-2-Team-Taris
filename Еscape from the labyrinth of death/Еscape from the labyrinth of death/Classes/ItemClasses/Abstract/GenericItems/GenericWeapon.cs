@@ -4,7 +4,7 @@ using Еscape_from_the_labyrinth_of_death.Interfaces;
 
 namespace Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.GenericItems
 {
-    abstract class GenericWeapon : Item
+    public abstract class GenericWeapon : Item
     {
         private const ItemClass itemClass = ItemClass.Weapon;
         private WeaponType weaponType;

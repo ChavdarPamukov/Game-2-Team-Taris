@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Еscape_from_the_labyrinth_of_death.Classes.EnumClasses.ItemTypes.ShieldTypes
 {
-    enum LargeShieldType
+    public enum LargeShieldType
     {
         Normal,
         Exceptional,

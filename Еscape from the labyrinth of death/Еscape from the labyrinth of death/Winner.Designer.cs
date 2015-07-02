@@ -37,7 +37,7 @@
             // label1
             // 
             this.label1.BackColor = System.Drawing.Color.Goldenrod;
-            this.label1.Font = new System.Drawing.Font("Kristen ITC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(29, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(377, 241);
@@ -67,6 +67,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Winner";
             this.Text = "Winner";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Winner_FormClosing);
             this.Load += new System.EventHandler(this.Winner_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

@@ -44,6 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BootyFromBattle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BootyFromBattle.Designer.cs">
+      <DependentUpon>BootyFromBattle.cs</DependentUpon>
+    </Compile>
     <Compile Include="CharacterForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -141,6 +147,27 @@
     <Compile Include="CurrentlyEquiped.Designer.cs">
       <DependentUpon>CurrentlyEquiped.cs</DependentUpon>
     </Compile>
+    <Compile Include="Exceptions\InvalidPlayerTypeException.cs" />
+    <Compile Include="Exceptions\UnsupportedPlayerActionException.cs" />
+    <Compile Include="Factories\ItemFactories\ArmorFactories\LeatherArmorFactory.cs" />
+    <Compile Include="Factories\ItemFactories\ArmorFactories\QuiltedArmorFactory.cs" />
+    <Compile Include="Factories\ItemFactories\ArmorFactories\RingMailFactory.cs" />
+    <Compile Include="Factories\ItemFactories\ArmorFactory.cs" />
+    <Compile Include="Factories\ItemFactories\HelmetFactories\BoneHelmetFactory.cs" />
+    <Compile Include="Factories\ItemFactories\HelmetFactories\IronHelmetFactory.cs" />
+    <Compile Include="Factories\ItemFactories\HelmetFactories\LeatherHelmetFactory.cs" />
+    <Compile Include="Factories\ItemFactories\HelmetFactory.cs" />
+    <Compile Include="Factories\ItemFactories\PotionFactories\HealthPotionFactory.cs" />
+    <Compile Include="Factories\ItemFactories\PotionFactory.cs" />
+    <Compile Include="Factories\ItemFactories\ShieldFactories\BoneShieldFactory.cs" />
+    <Compile Include="Factories\ItemFactories\ShieldFactories\LargeShieldFactory.cs" />
+    <Compile Include="Factories\ItemFactories\ShieldFactories\SmallShieldFactory.cs" />
+    <Compile Include="Factories\ItemFactories\ShieldFactory.cs" />
+    <Compile Include="Factories\ItemFactories\WeaponFactories\AxeFactory.cs" />
+    <Compile Include="Factories\ItemFactories\WeaponFactories\MaceFactory.cs" />
+    <Compile Include="Factories\ItemFactories\WeaponFactories\SwordFactory.cs" />
+    <Compile Include="Factories\ItemFactories\WeaponFactory.cs" />
+    <Compile Include="Factories\ItemFactory.cs" />
     <Compile Include="Fighting.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -185,11 +212,14 @@
     </Compile>
     <Compile Include="Interfaces\IHumanPlayer.cs" />
     <Compile Include="Interfaces\IItem.cs" />
+    <Compile Include="Interfaces\IItemFactory.cs" />
     <Compile Include="Interfaces\INpcPlayer.cs" />
     <Compile Include="Interfaces\IPotion.cs" />
     <Compile Include="Interfaces\IPlayer.cs" />
     <Compile Include="Interfaces\IPlayerFactory.cs" />
-    <Compile Include="Loser.cs" />
+    <Compile Include="Loser.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Loser.Designer.cs">
       <DependentUpon>Loser.cs</DependentUpon>
     </Compile>
@@ -201,10 +231,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Winner.cs" />
+    <Compile Include="Winner.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Winner.Designer.cs">
       <DependentUpon>Winner.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="BootyFromBattle.resx">
+      <DependentUpon>BootyFromBattle.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CharacterForm.resx">
       <DependentUpon>CharacterForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -384,7 +419,9 @@
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\startimg.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

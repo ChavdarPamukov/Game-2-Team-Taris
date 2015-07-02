@@ -14,7 +14,7 @@ namespace Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Concrete.Con
     public class StandardEvilKnight : StandardNpcPlayer
     {
         private const byte _evilKnightHealth = 55;
-        private const byte _evilKnightAttack = 40;
+        private const byte _evilKnightAttack = 50;
         private const byte _evilKnightDefence = 45;
         private const byte _evilKnightIntelligence = 40;
         private const PlayerClass _playerClass = PlayerClass.EvilKnight;

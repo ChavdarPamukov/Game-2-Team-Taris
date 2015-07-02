@@ -50,6 +50,14 @@ namespace Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Abstract.Abs
             this.SmallImage = smallImage;
             this.LargeImage = largeImage;
             this.PictureBoxPlayer.Image = this.SmallImage;
+            this.Inventory = new List<IItem>(5)
+            {
+                default(IItem),
+                default(IItem),
+                default(IItem),
+                default(IItem),
+                default(IItem),
+            };
         }
 
         public abstract byte Level { set; get; }
@@ -244,8 +252,54 @@ namespace Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Abstract.Abs
 
         private void CalculateBonuses()
         {
-            //BOnuses will be added to Health, Attack, Defence and Intelligence here.
-            throw new NotImplementedException();
+            this.AddWeaponBonuses();
+            this.AddArmorBonuses();
+            this.AddShieldBonuses();
+            this.AddHelmetBonuses();
+        }
+
+        private void AddWeaponBonuses()
+        {
+            if (this.Weapon != default(IItem))
+            {
+                this.Health += this.Weapon.BonusToHealth;
+                this.Attack += this.Weapon.BonusToAttack;
+                this.Intelligence += this.Weapon.BonusToIntelligence;
+                this.Defence += this.Weapon.BonusToDefense;
+            }
+        }
+
+        private void AddArmorBonuses()
+        {
+            if (this.BodyArmor != default(IItem))
+            {
+                this.Health += this.BodyArmor.BonusToHealth;
+                this.Attack += this.BodyArmor.BonusToAttack;
+                this.Intelligence += this.BodyArmor.BonusToIntelligence;
+                this.Defence += this.BodyArmor.BonusToDefense;
+            }
+        }
+
+        private void AddShieldBonuses()
+        {
+            if (this.Shield != default(IItem))
+            {
+                this.Health += this.Shield.BonusToHealth;
+                this.Attack += this.Shield.BonusToAttack;
+                this.Intelligence += this.Shield.BonusToIntelligence;
+                this.Defence += this.Shield.BonusToDefense;
+            }
+        }
+
+        private void AddHelmetBonuses()
+        {
+            if (this.Helmet != default(IItem))
+            {
+                this.Health += this.Helmet.BonusToHealth;
+                this.Attack += this.Helmet.BonusToAttack;
+                this.Intelligence += this.Helmet.BonusToIntelligence;
+                this.Defence += this.Helmet.BonusToDefense;
+            }
         }
     }
 }

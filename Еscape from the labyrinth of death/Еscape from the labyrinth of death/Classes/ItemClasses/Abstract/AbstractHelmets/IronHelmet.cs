@@ -5,15 +5,9 @@ using Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.GenericIt
 
 namespace Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.AbstractHelmets
 {
-    abstract class IronHelmet : GenericHelmet
+    public abstract class IronHelmet : GenericHelmet
     {
-        private byte bonusToHealth;
-        private byte bonusToDefense;
-        private byte bonusToAttack;
-        private byte bonusToIntelligence;
-        private string itemName;
         private const HelmetType helmetType = HelmetType.IronHelmet;
-        private ItemClass itemClass;
         private IronHelmetType ironHelmetType;
 
         public IronHelmetType IronHelmetType

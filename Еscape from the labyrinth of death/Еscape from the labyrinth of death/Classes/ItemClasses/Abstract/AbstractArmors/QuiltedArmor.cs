@@ -5,7 +5,7 @@ using Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.GenericIt
 
 namespace Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.AbstractArmors
 {
-    abstract class QuiltedArmor : GenericArmor
+    public abstract class QuiltedArmor : GenericArmor
     {
         private const ArmorType armorType = ArmorType.QuiltedArmor;
         private QuiltedArmorType quiltedArmorType;

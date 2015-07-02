@@ -273,20 +273,20 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Monotype Corsiva", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label6.Location = new System.Drawing.Point(601, 36);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(107, 33);
+            this.label6.Size = new System.Drawing.Size(128, 31);
             this.label6.TabIndex = 16;
             this.label6.Text = "Equipped";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Monotype Corsiva", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label7.Location = new System.Drawing.Point(57, 36);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(115, 33);
+            this.label7.Size = new System.Drawing.Size(134, 31);
             this.label7.TabIndex = 17;
             this.label7.Text = " Inventory";
             // 
@@ -509,10 +509,10 @@
             // label19
             // 
             this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Monotype Corsiva", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label19.Location = new System.Drawing.Point(258, 36);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(264, 33);
+            this.label19.Size = new System.Drawing.Size(332, 31);
             this.label19.TabIndex = 39;
             this.label19.Text = "Characteristics of the hero";
             // 
@@ -711,6 +711,7 @@
             this.Name = "Currently_Equiped";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Currently Equiped";
+            this.Load += new System.EventHandler(this.Currently_Equiped_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();

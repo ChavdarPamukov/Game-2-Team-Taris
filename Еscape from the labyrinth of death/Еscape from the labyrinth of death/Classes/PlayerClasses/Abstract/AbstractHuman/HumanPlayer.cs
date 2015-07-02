@@ -27,8 +27,8 @@ namespace Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Abstract.Abs
             : base(health, attack, defence, intelligence, pictureBoxPlayer, true, 
             playerClass, name, smallImage, largeImage)
         {
-            this.Level = 1;
-            this.Experience = 1;
+            this._level = 1;
+            this._experience = 1;
             this._nextLevelAt = 10;
             this._potion = null;
             this.PictureBoxListWalls = pictureBoxListWalls;
@@ -59,6 +59,7 @@ namespace Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Abstract.Abs
                     this.Level += 1;
                     this._experience = value;
                     this.AdjustNextLevelValue();
+                    this.AddNewLevelBonuses();
                 }
                 else
                 {
@@ -221,6 +222,19 @@ namespace Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Abstract.Abs
         {
             Fighting fightingForm = new Fighting(human, enemy);
             fightingForm.ShowDialog();
+
+            if (this.IsDead == true)
+            {
+                Loser loserForm = new Loser();
+                loserForm.ShowDialog();
+            }
+        }
+
+        private void AddNewLevelBonuses()
+        {
+            this.Attack += 10;
+            this.Defence += 10;
+            this.Intelligence += 10;
         }
     }
 }
