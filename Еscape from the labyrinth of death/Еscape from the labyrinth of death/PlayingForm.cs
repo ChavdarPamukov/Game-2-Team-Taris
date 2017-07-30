@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using Еscape_from_the_labyrinth_of_death.Classes.EnumClasses;
 using Еscape_from_the_labyrinth_of_death.Interfaces;
 using Еscape_from_the_labyrinth_of_death.Factories;
+using Еscape_from_the_labyrinth_of_death.Engine;
 
 namespace Еscape_from_the_labyrinth_of_death
 {

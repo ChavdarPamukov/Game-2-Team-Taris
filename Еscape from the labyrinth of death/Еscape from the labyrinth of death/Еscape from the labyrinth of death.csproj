@@ -147,6 +147,7 @@
     <Compile Include="CurrentlyEquiped.Designer.cs">
       <DependentUpon>CurrentlyEquiped.cs</DependentUpon>
     </Compile>
+    <Compile Include="Engine\GameEngine.cs" />
     <Compile Include="Exceptions\InvalidPlayerTypeException.cs" />
     <Compile Include="Exceptions\UnsupportedPlayerActionException.cs" />
     <Compile Include="Factories\ItemFactories\ArmorFactories\LeatherArmorFactory.cs" />
@@ -223,9 +224,7 @@
     <Compile Include="Loser.Designer.cs">
       <DependentUpon>Loser.cs</DependentUpon>
     </Compile>
-    <Compile Include="PlayingForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="PlayingForm.cs" />
     <Compile Include="PlayingForm.Designer.cs">
       <DependentUpon>PlayingForm.cs</DependentUpon>
     </Compile>
@@ -269,6 +268,7 @@
     <EmbeddedResource Include="Winner.resx">
       <DependentUpon>Winner.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

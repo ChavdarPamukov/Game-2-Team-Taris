@@ -18,5 +18,6 @@ namespace Еscape_from_the_labyrinth_of_death.Interfaces
         IItem Potion { set; get; }
         void AddToInventory(IItem item);
         List<PictureBox> PictureBoxListWalls { set; get; }
+        List<PictureBox> EnemiesBoxList { set; get; }
     }
 }

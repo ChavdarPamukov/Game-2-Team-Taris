@@ -1,0 +1,1066 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Еscape_from_the_labyrinth_of_death.BootyFromBattle" Collapsed="true">
+    <Position X="113.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/wgIYhQAISHEARAAEACAQAASAMg5EAAAQPAuAABAEjA=</HashCode>
+      <FileName>BootyFromBattle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.CharacterForm" Collapsed="true">
+    <Position X="115.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAKAQAAASAAAhBIEADAAQwCAAAAAQAgBAQAAAAAAAA=</HashCode>
+      <FileName>CharacterForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Currently_Equiped" Collapsed="true">
+    <Position X="106.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/yAAMhWAEPAAARgBAICMTAQCAMy7AIgAwfgvAIhgYDI=</HashCode>
+      <FileName>CurrentlyEquiped.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Fighting" Collapsed="true">
+    <Position X="108.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAYBgAAACAEGACHADSBMIESAAgFIAQgAgCAAAhAgAg=</HashCode>
+      <FileName>Fighting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.StartForm" Collapsed="true">
+    <Position X="115.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAQAAAQCAAABAAAACAAIACAQAAAAgAAAAAAAAAgAA=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.HelpForm" Collapsed="true">
+    <Position X="113.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIhAAACAAABAAAACAQAQCAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>HelpForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Loser" Collapsed="true">
+    <Position X="106.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAAACAAAACAABAAAAAAACAAABAAAA=</HashCode>
+      <FileName>Loser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.PlayingForm" Collapsed="true">
+    <Position X="110.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABFAIGyABDAICXBIARiASJCCBIIk4H9ISAAgAegAABg=</HashCode>
+      <FileName>PlayingForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Program" Collapsed="true">
+    <Position X="113.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Winner" Collapsed="true">
+    <Position X="113.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAACAAABACAACAAAACAAAAAAAAAAAAAAhAAAA=</HashCode>
+      <FileName>Winner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.AbstractArmors.LeatherArmor" Collapsed="true">
+    <Position X="7.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAIAAAAAAABAA=</HashCode>
+      <FileName>Classes\ItemClasses\Abstract\AbstractArmors\LeatherArmor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.AbstractArmors.QuiltedArmor" Collapsed="true">
+    <Position X="14.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAIAAAAAIAAAA=</HashCode>
+      <FileName>Classes\ItemClasses\Abstract\AbstractArmors\QuiltedArmor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.AbstractArmors.RingMail" Collapsed="true">
+    <Position X="21" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Classes\ItemClasses\Abstract\AbstractArmors\RingMail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.AbstractHelmets.BoneHelmet" Collapsed="true">
+    <Position X="27.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAQAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\ItemClasses\Abstract\AbstractHelmets\BoneHelmet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.AbstractHelmets.IronHelmet" Collapsed="true">
+    <Position X="34.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAACAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\ItemClasses\Abstract\AbstractHelmets\IronHelmet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.AbstractHelmets.LeatherHelmet" Collapsed="true">
+    <Position X="41.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAIAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Classes\ItemClasses\Abstract\AbstractHelmets\LeatherHelmet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.AbstractPotions.HealthPotion" Collapsed="true">
+    <Position X="48" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAIAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Classes\ItemClasses\Abstract\AbstractPotions\HealthPotion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.AbstractPotions.IntelligencePotion" Collapsed="true">
+    <Position X="54.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAIAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\ItemClasses\Abstract\AbstractPotions\IngelligencePotion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.AbstractShields.BoneShield" Collapsed="true">
+    <Position X="61.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAQQAAAAAAAAA=</HashCode>
+      <FileName>Classes\ItemClasses\Abstract\AbstractShields\BoneShield.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.AbstractShields.LargeShield" Collapsed="true">
+    <Position X="68.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Classes\ItemClasses\Abstract\AbstractShields\LargeShield.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.AbstractShields.SmallShield" Collapsed="true">
+    <Position X="75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAABAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Classes\ItemClasses\Abstract\AbstractShields\SmallShield.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.AbstractWeapons.Axe" Collapsed="true">
+    <Position X="83" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAICAAA=</HashCode>
+      <FileName>Classes\ItemClasses\Abstract\AbstractWeapons\Axe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.AbstractWeapons.Mace" Collapsed="true">
+    <Position X="92" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Classes\ItemClasses\Abstract\AbstractWeapons\Mace.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.AbstractWeapons.Sword" Collapsed="true">
+    <Position X="101" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAACAIAAAA=</HashCode>
+      <FileName>Classes\ItemClasses\Abstract\AbstractWeapons\Sword.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.GenericItems.GenericArmor" Collapsed="true">
+    <Position X="14.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAg=</HashCode>
+      <FileName>Classes\ItemClasses\Abstract\GenericItems\GenericArmor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.GenericItems.GenericHelmet" Collapsed="true">
+    <Position X="34.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Classes\ItemClasses\Abstract\GenericItems\GenericHelmet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.GenericItems.GenericPotion" Collapsed="true">
+    <Position X="51.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAIAAAAAAAAAAAAAAAIAAgAAAAAAAAQAAAg=</HashCode>
+      <FileName>Classes\ItemClasses\Abstract\GenericItems\GenericPotion.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.GenericItems.GenericShield" Collapsed="true">
+    <Position X="68.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAg=</HashCode>
+      <FileName>Classes\ItemClasses\Abstract\GenericItems\GenericShield.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.GenericItems.GenericWeapon" Collapsed="true">
+    <Position X="92" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAg=</HashCode>
+      <FileName>Classes\ItemClasses\Abstract\GenericItems\GenericWeapon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Abstract.Item" Collapsed="true">
+    <Position X="54.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ggAEAAIABAAAAAAEAAAAACIAAAAiAAAAAAAACIAAAAg=</HashCode>
+      <FileName>Classes\ItemClasses\Abstract\Item.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Concrete.ExceptionalLeatherArmor" Collapsed="true">
+    <Position X="5.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAIAAAAAAAAAAAAAACAABAAGAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Classes\ItemClasses\Concrete\ConcreteArmors\LeatherArmors\ExceptionalLeatherArmor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Concrete.NormalLeatherArmor" Collapsed="true">
+    <Position X="7.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAIAAAAAAAAAAAAAACAABAAGAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Classes\ItemClasses\Concrete\ConcreteArmors\LeatherArmors\NormalLeatherArmor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Concrete.UniqueLeatherArmor" Collapsed="true">
+    <Position X="9.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAIAAAAAAAAAAAAAACAABAAGAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Classes\ItemClasses\Concrete\ConcreteArmors\LeatherArmors\UniqueLeatherArmor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Concrete.ExceptionalQuiltedArmor" Collapsed="true">
+    <Position X="12" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAIAAAAAAAAAAAAAgCAAAAAGAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Classes\ItemClasses\Concrete\ConcreteArmors\QuiltedArmors\ExceptionalLQuiltedArmor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Concrete.NormalQuiltedArmor" Collapsed="true">
+    <Position X="14.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAIAAAAAAAAAAAAAgCAAAAAGAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Classes\ItemClasses\Concrete\ConcreteArmors\QuiltedArmors\NormalQuiltedArmor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Concrete.UniqueQuiltedArmor" Collapsed="true">
+    <Position X="16.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAIAAAAAAAAAAAAAgCAAAAAGAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Classes\ItemClasses\Concrete\ConcreteArmors\QuiltedArmors\UniqueQuiltedArmor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Concrete.ExceptionalRingMail" Collapsed="true">
+    <Position X="18.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAIAAAAAAAAAAIAAACAAAAAGAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Classes\ItemClasses\Concrete\ConcreteArmors\RingMails\ExceptionalRingMail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Concrete.NormalRingMail" Collapsed="true">
+    <Position X="21" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAIAAAAAAAAAAIAAACAAAAAGAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Classes\ItemClasses\Concrete\ConcreteArmors\RingMails\NormalRingMail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Concrete.UniqueRingMail" Collapsed="true">
+    <Position X="23.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAIAAAAAAAAAAIAAACAAAAAGAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Classes\ItemClasses\Concrete\ConcreteArmors\RingMails\UniqueRingMail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Concrete.BoneHelm" Collapsed="true">
+    <Position X="25.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAIAAAABAAAAAAAAACAAAAAGAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Classes\ItemClasses\Concrete\ConcreteHelmets\BoneHelmets\BoneHelm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Concrete.BoneVisage" Collapsed="true">
+    <Position X="27.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAIAAAABAAAAAAAAACAAAAAGAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Classes\ItemClasses\Concrete\ConcreteHelmets\BoneHelmets\BoneVisage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Concrete.GrimHelm" Collapsed="true">
+    <Position X="30" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAIAAAABAAAAAAAAACAAAAAGAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Classes\ItemClasses\Concrete\ConcreteHelmets\BoneHelmets\GrimHelm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Concrete.Basinet" Collapsed="true">
+    <Position X="32.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAIAAACAAAAAAAAAACAAAAAGAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Classes\ItemClasses\Concrete\ConcreteHelmets\IronHelmets\Basinet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Concrete.FullHelm" Collapsed="true">
+    <Position X="34.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAIAAACAAAAAAAAAACAAAAAGAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Classes\ItemClasses\Concrete\ConcreteHelmets\IronHelmets\FullHelm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Concrete.GiantConch" Collapsed="true">
+    <Position X="36.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAIAAACAAAAAAAAAACAAAAAGAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Classes\ItemClasses\Concrete\ConcreteHelmets\IronHelmets\GiantConch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Concrete.Cap" Collapsed="true">
+    <Position X="39" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAIAAAAAAAAAAAAAACAAAAAGAAAAACAAAAAAAAg=</HashCode>
+      <FileName>Classes\ItemClasses\Concrete\ConcreteHelmets\LeatherHelmets\Cap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Concrete.Shako" Collapsed="true">
+    <Position X="41.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAIAAAAAAAAAAAAAACAAAAAGAAAAACAAAAAAAAg=</HashCode>
+      <FileName>Classes\ItemClasses\Concrete\ConcreteHelmets\LeatherHelmets\Shako.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Concrete.WarHat" Collapsed="true">
+    <Position X="43.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAIAAAAAAAAAAAAAACAAAAAGAAAAACAAAAAAAAg=</HashCode>
+      <FileName>Classes\ItemClasses\Concrete\ConcreteHelmets\LeatherHelmets\WarHat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Concrete.LargeHealthPotion" Collapsed="true">
+    <Position X="45.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAIAAAAAAAAAAAAAACAAAAAGAAAAAAAAAAAAQAg=</HashCode>
+      <FileName>Classes\ItemClasses\Concrete\ConcretePotions\HealthPotions\LargeHealthPotion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Concrete.MediumHealthPotion" Collapsed="true">
+    <Position X="48" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAIAAAAAAAAAAAAAACAAAAAGAAAAAAAAAAAAQAg=</HashCode>
+      <FileName>Classes\ItemClasses\Concrete\ConcretePotions\HealthPotions\MediumHealthPotion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Concrete.SmallHealthPotion" Collapsed="true">
+    <Position X="50.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAIAAAAAAAAAAAAAACAAAAAGAAAAAAAAAAAAQAg=</HashCode>
+      <FileName>Classes\ItemClasses\Concrete\ConcretePotions\HealthPotions\SmallHealthPotion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Concrete.LargeIntelligencePotion" Collapsed="true">
+    <Position X="52.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAIAAAAAAQAAAAAAACAAAAAGAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Classes\ItemClasses\Concrete\ConcretePotions\IntelligencePotions\LargeIntelligencePotion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Concrete.MediumIntelligencePotion" Collapsed="true">
+    <Position X="54.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAIAAAAAAQAAAAAAACAAAAAGAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Classes\ItemClasses\Concrete\ConcretePotions\IntelligencePotions\MediumIntelligencePotion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Concrete.SmallIntelligencePotion" Collapsed="true">
+    <Position X="57" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAIAAAAAAQAAAAAAACAAAAAGAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Classes\ItemClasses\Concrete\ConcretePotions\IntelligencePotions\SmallIntelligencePotion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Concrete.ExceptionalBoneShield" Collapsed="true">
+    <Position X="63.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAIAAAAAAAAAAAAAACAAAAAGAAAAAQAAAAAAAAg=</HashCode>
+      <FileName>Classes\ItemClasses\Concrete\ConcreteShields\BoneShields\ExceptionalBoneShield.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Concrete.NormalBoneShield" Collapsed="true">
+    <Position X="59.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAIAAAAAAAAAAAAAACAAAAAGAAAAAQAAAAAAAAg=</HashCode>
+      <FileName>Classes\ItemClasses\Concrete\ConcreteShields\BoneShields\NormalBoneShield.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Concrete.UniqueBoneShield" Collapsed="true">
+    <Position X="61.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAIAAAAAAAAAAAAAACAAAAAGAAAAAQAAAAAAAAg=</HashCode>
+      <FileName>Classes\ItemClasses\Concrete\ConcreteShields\BoneShields\UniqueBoneShield.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Concrete.ExceptionalLargeShield" Collapsed="true">
+    <Position X="66" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAIAAAAAAAAAAAAAACAAAAAGAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Classes\ItemClasses\Concrete\ConcreteShields\LargeShields\ExceptionalLargeShield.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Concrete.NormalLargeShield" Collapsed="true">
+    <Position X="68.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAIAAAAAAAAAAAAAACAAAAAGAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Classes\ItemClasses\Concrete\ConcreteShields\LargeShields\NormalLargeShield.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Concrete.UniqueLargeShield" Collapsed="true">
+    <Position X="70.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAIAAAAAAAAAAAAAACAAAAAGAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Classes\ItemClasses\Concrete\ConcreteShields\LargeShields\UniqueLargeShield.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Concrete.ExceptionalSmallShield" Collapsed="true">
+    <Position X="72.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAIAAAAAAAAAEAAAACAAAAAGAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Classes\ItemClasses\Concrete\ConcreteShields\SmallShields\ExceptionalSmallShield.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Concrete.NormalSmallShield" Collapsed="true">
+    <Position X="75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAIAAAAAAAAAEAAAACAAAAAGAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Classes\ItemClasses\Concrete\ConcreteShields\SmallShields\NormalSmallShield.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Concrete.UniqueSmallShield" Collapsed="true">
+    <Position X="77.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAIAAAAAAAAAEAAAACAAAAAGAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Classes\ItemClasses\Concrete\ConcreteShields\SmallShields\UniqueSmallShield.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Concrete.DoubleAxe" Collapsed="true">
+    <Position X="79.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAIAAAIAAAAAAAAAAAAAACAAAAAGAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Classes\ItemClasses\Concrete\ConcreteWeapons\Axes\DoubleAxe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Concrete.HandAxe" Collapsed="true">
+    <Position X="81.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAIAAAIAAAAAAAAAAAAAACAAAAAGAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Classes\ItemClasses\Concrete\ConcreteWeapons\Axes\HandAxe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Concrete.MilitaryPick" Collapsed="true">
+    <Position X="84" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAIAAAIAAAAAAAAAAAAAACAAAAAGAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Classes\ItemClasses\Concrete\ConcreteWeapons\Axes\MilitaryPick.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Concrete.WarAxe" Collapsed="true">
+    <Position X="86.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAIAAAIAAAAAAAAAAAAAACAAAAAGAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Classes\ItemClasses\Concrete\ConcreteWeapons\Axes\WarAxe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Concrete.Flail" Collapsed="true">
+    <Position X="95.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAIAAAAAAAAAQAAAACAAAAAGAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Classes\ItemClasses\Concrete\ConcreteWeapons\Maces\Flail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Concrete.MorningStar" Collapsed="true">
+    <Position X="88.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAIAAAAAAAAAQAAAACAAAAAGAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Classes\ItemClasses\Concrete\ConcreteWeapons\Maces\MorningStar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Concrete.SpikedClub" Collapsed="true">
+    <Position X="90.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAIAAAAAAAAAQAAAACAAAAAGAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Classes\ItemClasses\Concrete\ConcreteWeapons\Maces\SpikedClub.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Concrete.WarHammer" Collapsed="true">
+    <Position X="93" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAIAAAAAAAAAQAAAACAAAAAGAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Classes\ItemClasses\Concrete\ConcreteWeapons\Maces\WarHammer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Concrete.CrystalSword" Collapsed="true">
+    <Position X="97.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAIAAAAAAAAAAAAAACAAAAAGAAAIAAAAAAAAAAg=</HashCode>
+      <FileName>Classes\ItemClasses\Concrete\ConcreteWeapons\Swords\CrystalSword.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Concrete.LongSword" Collapsed="true">
+    <Position X="99.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAIAAAAAAAAAAAAAACAAAAAGAAAIAAAAAAAAAAg=</HashCode>
+      <FileName>Classes\ItemClasses\Concrete\ConcreteWeapons\Swords\LongSword.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Concrete.Scimitar" Collapsed="true">
+    <Position X="102" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAIAAAAAAAAAAAAAACAAAAAGAAAIAAAAAAAAAAg=</HashCode>
+      <FileName>Classes\ItemClasses\Concrete\ConcreteWeapons\Swords\Scimitar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.ItemClasses.Concrete.ShortSword" Collapsed="true">
+    <Position X="104.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAIAAAAAAAAAAAAAACAAAAAGAAAIAAAAAAAAAAg=</HashCode>
+      <FileName>Classes\ItemClasses\Concrete\ConcreteWeapons\Swords\ShortSword.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Abstract.AbstractGeneric.GenericPlayer" Collapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UACAKAAAAAEABBIAQAAAFw4EIMIEAAiBAAAIAgAAAHs=</HashCode>
+      <FileName>Classes\PlayerClasses\Abstract\AbstractGeneric\GenericPlayer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Abstract.AbstractHuman.HumanPlayer" Collapsed="true">
+    <Position X="3.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUAAAAIgAAAAAwDQBAAIQAgIAAAAAAJwwAAAAAAQAA=</HashCode>
+      <FileName>Classes\PlayerClasses\Abstract\AbstractHuman\HumanPlayer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Abstract.AbstractNpc.BossNpcPlayer" Collapsed="true">
+    <Position X="10.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\PlayerClasses\Abstract\AbstractNpc\BossNpcPlayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Abstract.AbstractNpc.NpcPlayer" Collapsed="true">
+    <Position X="16.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAEAAAAAAAAAAJAIAEwAABAAQAAABAgAAEAAAAAA=</HashCode>
+      <FileName>Classes\PlayerClasses\Abstract\AbstractNpc\NpcPlayer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Abstract.AbstractNpc.StandardNpcPlayer" Collapsed="true">
+    <Position X="19.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\PlayerClasses\Abstract\AbstractNpc\StandardNpcPlayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Concrete.ConcreteHumanPlayer.Elf" Collapsed="true">
+    <Position X="6" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAABYAAAAAAAggAAgAAACAAACAAAAAAAA=</HashCode>
+      <FileName>Classes\PlayerClasses\Concrete\ConcreteHumanPlayer\Elf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Concrete.ConcreteHumanPlayer.Knight" Collapsed="true">
+    <Position X="1.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GAAAAAAAAAAAABYAAAAAACAAAAAAAACAAAAAAAAAggA=</HashCode>
+      <FileName>Classes\PlayerClasses\Concrete\ConcreteHumanPlayer\Knight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Concrete.ConcreteHumanPlayer.Mage" Collapsed="true">
+    <Position X="3.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAABYAAAAAABQAAAAAAACAAQAAAAAAAAA=</HashCode>
+      <FileName>Classes\PlayerClasses\Concrete\ConcreteHumanPlayer\Mage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Concrete.ConcreteNpcPlayer.Bosses.BossNpcDragonfly" Collapsed="true">
+    <Position X="8.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAIAAAAAAAABYACAAAAwAAAAAAAACAAAAAAAAAKAA=</HashCode>
+      <FileName>Classes\PlayerClasses\Concrete\ConcreteNpcPlayer\Bosses\BossNpcDragonfly.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Concrete.ConcreteNpcPlayer.Bosses.BossNpcEgg" Collapsed="true">
+    <Position X="10.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAIAAAAAAAABYAAAAAAQQQAAEAAACAAAAAEAAAAAA=</HashCode>
+      <FileName>Classes\PlayerClasses\Concrete\ConcreteNpcPlayer\Bosses\BossNpcEgg.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Concrete.ConcreteNpcPlayer.Bosses.BossNpcWarrior" Collapsed="true">
+    <Position X="12.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAIAgAAAAAABYAAAAAAQAACIAAgACAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\PlayerClasses\Concrete\ConcreteNpcPlayer\Bosses\BossNpcWarrior.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Concrete.ConcreteNpcPlayer.Standard.StandardEvilDragon" Collapsed="true">
+    <Position X="15" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAACICCAIAAAABYAAAAAAQgAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\PlayerClasses\Concrete\ConcreteNpcPlayer\Standard\StandardEvilDragon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Concrete.ConcreteNpcPlayer.Standard.StandardEvilElf" Collapsed="true">
+    <Position X="17.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAIAAAICAAIBYAAAAAAQAAAAACgACAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\PlayerClasses\Concrete\ConcreteNpcPlayer\Standard\StandardEvilElf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Concrete.ConcreteNpcPlayer.Standard.StandardEvilHobbit" Collapsed="true">
+    <Position X="19.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAIAAAIACAABYAAAAAIQAAAAAIAACAAAAAAAAAAAg=</HashCode>
+      <FileName>Classes\PlayerClasses\Concrete\ConcreteNpcPlayer\Standard\StandardEvilHobbit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Concrete.ConcreteNpcPlayer.Standard.StandardEvilKnight" Collapsed="true">
+    <Position X="21.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAIAEAIAAAABYABAAAAQAAAAAAAACAEAAAAAAAAAE=</HashCode>
+      <FileName>Classes\PlayerClasses\Concrete\ConcreteNpcPlayer\Standard\StandardEvilKnight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Concrete.ConcreteNpcPlayer.Standard.StandardEvilMask" Collapsed="true">
+    <Position X="24" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UAAAIBAAIAAAABYAAABAAQAAAAAAAACEAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\PlayerClasses\Concrete\ConcreteNpcPlayer\Standard\StandardEvilMask.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Exceptions.InvalidPlayerClassException" Collapsed="true">
+    <Position X="115.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\InvalidPlayerClassException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Exceptions.InvalidPlayerTypeException" Collapsed="true">
+    <Position X="106.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\InvalidPlayerTypeException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Exceptions.UnreachableLevelException" Collapsed="true">
+    <Position X="108.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\UnreachableLevelException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Exceptions.UnsupportedPlayerActionException" Collapsed="true">
+    <Position X="110.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\UnsupportedPlayerActionException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Factories.ItemFactories.ArmorFactories.LeatherArmorFactory" Collapsed="true">
+    <Position X="113.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAACgAAAAAEAAAAAAAgAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Factories\ItemFactories\ArmorFactories\LeatherArmorFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Factories.ItemFactories.ArmorFactories.QuiltedArmorFactory" Collapsed="true">
+    <Position X="115.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACgAAAAAEAAAAAAAgBAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Factories\ItemFactories\ArmorFactories\QuiltedArmorFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Factories.ItemFactories.ArmorFactories.RingMailFactory" Collapsed="true">
+    <Position X="108.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAACgAAAAAEAAAAAAAgAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Factories\ItemFactories\ArmorFactories\RingMailFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Factories.ItemFactories.ArmorFactory" Collapsed="true">
+    <Position X="106.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAQAAAYACAAQAAAEAAACAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factories\ItemFactories\ArmorFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Factories.ItemFactories.HelmetFactory" Collapsed="true">
+    <Position X="112" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACABAAAAAAEIAAAAAEAAAQAACAAAAAAAQAACAAAAA=</HashCode>
+      <FileName>Factories\ItemFactories\HelmetFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Factories.ItemFactories.PotionFactory" Collapsed="true">
+    <Position X="112" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAIAAAAAAAAAAAAEAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factories\ItemFactories\PotionFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Factories.ItemFactories.ShieldFactory" Collapsed="true">
+    <Position X="112" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQCBAAAAACAAAAIAAAFAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Factories\ItemFactories\ShieldFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Factories.ItemFactories.WeaponFactory" Collapsed="true">
+    <Position X="112" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iAAAAAAAAAAQAAAAAAAAAAAAAAABAAAAAAAgAIAAAQQ=</HashCode>
+      <FileName>Factories\ItemFactories\WeaponFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Factories.ItemFactories.HelmetFactories.BoneHelmetFactory" Collapsed="true">
+    <Position X="110.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAEAAAAAACIAAAAIAAAAAABAAA=</HashCode>
+      <FileName>Factories\ItemFactories\HelmetFactories\BoneHelmetFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Factories.ItemFactories.HelmetFactories.IronHelmetFactory" Collapsed="true">
+    <Position X="108.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAEAAAAAABAAAAAgRAAAAAAAAA=</HashCode>
+      <FileName>Factories\ItemFactories\HelmetFactories\IronHelmetFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Factories.ItemFactories.HelmetFactories.LeatherHelmetFactory" Collapsed="true">
+    <Position X="115.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAgAEAAAIACAAAAAABAAAA=</HashCode>
+      <FileName>Factories\ItemFactories\HelmetFactories\LeatherHelmetFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Factories.ItemFactories.PotionFactories.HealthPotionFactory" Collapsed="true">
+    <Position X="110.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAgAAAAAAEAAAAAAAEgAAABAAAAAAAAAA=</HashCode>
+      <FileName>Factories\ItemFactories\PotionFactories\HealthPotionFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Factories.ItemFactories.ShieldFactories.BoneShieldFactory" Collapsed="true">
+    <Position X="112" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAgAAAAAEAAAAAAAgBAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factories\ItemFactories\ShieldFactories\BoneShieldFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Factories.ItemFactories.ShieldFactories.LargeShieldFactory" Collapsed="true">
+    <Position X="112" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgBQAAAEAAAAAAAgBAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factories\ItemFactories\ShieldFactories\LargeShieldFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Factories.ItemFactories.ShieldFactories.SmallShieldFactory" Collapsed="true">
+    <Position X="113.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAgAAgAAEAAAAAAAgBAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factories\ItemFactories\ShieldFactories\SmallShieldFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Factories.ItemFactories.WeaponFactories.AxeFactory" Collapsed="true">
+    <Position X="108.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAEAAAgAAAAEAQAAAAAIAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Factories\ItemFactories\WeaponFactories\AxeFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Factories.ItemFactories.WeaponFactories.MaceFactory" Collapsed="true">
+    <Position X="108.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAgAAAAAAAAAAAEABAAAAAAAAAAAAiAAAAEAAA=</HashCode>
+      <FileName>Factories\ItemFactories\WeaponFactories\MaceFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Factories.ItemFactories.WeaponFactories.SwordFactory" Collapsed="true">
+    <Position X="106.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAgAAAAAAAAEAAAAAIAAAAAAAAAAABAFAAA=</HashCode>
+      <FileName>Factories\ItemFactories\WeaponFactories\SwordFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Factories.ItemFactory" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="110.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACQAAAAACACEAAEAIEAAkAAAAABAAAAAgQAAAAAAA=</HashCode>
+      <FileName>Factories\ItemFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Factories.PlayerFactory" Collapsed="true">
+    <Position X="3" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAEEABAAAAAAAAAAAAAAAEAAAAAAiAAAAAA=</HashCode>
+      <FileName>Factories\PlayerFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Factories.PlayerFactories.HumanPlayerFactory" Collapsed="true">
+    <Position X="0.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAIAEAAAAACAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factories\PlayerFactories\HumanPlayerFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Factories.PlayerFactories.NpcPlayerFactory" Collapsed="true">
+    <Position X="4" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAggAAAAAAAAAAAAAAAIAAAAAAIAEAIAAAAAAAAAAA=</HashCode>
+      <FileName>Factories\PlayerFactories\NpcPlayerFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Factories.PlayerFactories.NpcPlayerFactories.BossNpcFactory" Collapsed="true">
+    <Position X="3" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAEAAAAAAABAAAAA=</HashCode>
+      <FileName>Factories\PlayerFactories\NpcPlayerFactories\BossNpcFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Factories.PlayerFactories.NpcPlayerFactories.StandardNpcFactory" Collapsed="true">
+    <Position X="5.25" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAQAAAAAAAAAAAgAAAAAEAAAAAAAQCAAQA=</HashCode>
+      <FileName>Factories\PlayerFactories\NpcPlayerFactories\StandardNpcFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Properties.Resources" Collapsed="true">
+    <Position X="106.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAcICAEQAAAAEKAACAJkAAACQSAUKEBAACkAAAAUYA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Еscape_from_the_labyrinth_of_death.Properties.Settings" Collapsed="true">
+    <Position X="110.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Еscape_from_the_labyrinth_of_death.Interfaces.IHumanPlayer" Collapsed="true">
+    <Position X="2.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAIAAAAAAABAAAAAAAAIAAAAAAIQAAAAAAAQAA=</HashCode>
+      <FileName>Interfaces\IHumanPlayer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Еscape_from_the_labyrinth_of_death.Interfaces.IItem" Collapsed="true">
+    <Position X="106.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAEAAAAAAAAAAAAAAAAAAIAAAAgAAAAAAAACIAAAAA=</HashCode>
+      <FileName>Interfaces\IItem.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Еscape_from_the_labyrinth_of_death.Interfaces.IItemFactory" Collapsed="true">
+    <Position X="108.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IItemFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Еscape_from_the_labyrinth_of_death.Interfaces.INpcPlayer" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAABAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\INpcPlayer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Еscape_from_the_labyrinth_of_death.Interfaces.IPlayer" Collapsed="true">
+    <Position X="1.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACACAAAAAEAAAAAQAAAEAQAIIIEAAgBAAAAAgAAACo=</HashCode>
+      <FileName>Interfaces\IPlayer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Еscape_from_the_labyrinth_of_death.Interfaces.IPlayerFactory" Collapsed="true">
+    <Position X="110.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IPlayerFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Еscape_from_the_labyrinth_of_death.Interfaces.IPotion" Collapsed="true">
+    <Position X="112" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IPotion.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Еscape_from_the_labyrinth_of_death.PlayerType" Collapsed="true">
+    <Position X="112" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Fighting.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Еscape_from_the_labyrinth_of_death.Action" Collapsed="true">
+    <Position X="106.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAEAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fighting.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Еscape_from_the_labyrinth_of_death.Classes.EnumClasses.ItemClass" Collapsed="true">
+    <Position X="112" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAEAAAAAAAAAAAAAAAAAAAgAEAAAAAAAAAI=</HashCode>
+      <FileName>Classes\EnumClasses\ItemClass.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Еscape_from_the_labyrinth_of_death.Classes.EnumClasses.PlayerClass" Collapsed="true">
+    <Position X="110.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAEAACAEAABAAAAAAAAQAAAAAIgAAAAAIAAIAAAE=</HashCode>
+      <FileName>Classes\EnumClasses\PlayerClass.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Еscape_from_the_labyrinth_of_death.Classes.EnumClasses.ItemTypes.ArmorTypes.ArmorType" Collapsed="true">
+    <Position X="108.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAACQAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\EnumClasses\ItemTypes\ArmorTypes\ArmorType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Еscape_from_the_labyrinth_of_death.Classes.EnumClasses.ItemTypes.ArmorTypes.LeatherArmorType" Collapsed="true">
+    <Position X="115.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAgAAIAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Classes\EnumClasses\ItemTypes\ArmorTypes\LeatherArmorType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Еscape_from_the_labyrinth_of_death.Classes.EnumClasses.ItemTypes.ArmorTypes.QuiltedArmorType" Collapsed="true">
+    <Position X="115.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAgAAIAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Classes\EnumClasses\ItemTypes\ArmorTypes\QuiltedArmorType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Еscape_from_the_labyrinth_of_death.Classes.EnumClasses.ItemTypes.ArmorTypes.RingMailType" Collapsed="true">
+    <Position X="106.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAgAAIAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Classes\EnumClasses\ItemTypes\ArmorTypes\RingMailType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Еscape_from_the_labyrinth_of_death.Classes.EnumClasses.ItemTypes.HelmetTypes.BoneHelmetType" Collapsed="true">
+    <Position X="112" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAgAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Classes\EnumClasses\ItemTypes\HelmetTypes\BoneHelmetType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Еscape_from_the_labyrinth_of_death.Classes.EnumClasses.ItemTypes.HelmetTypes.HelmetType" Collapsed="true">
+    <Position X="106.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAEAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Classes\EnumClasses\ItemTypes\HelmetTypes\HelmetType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Еscape_from_the_labyrinth_of_death.Classes.EnumClasses.ItemTypes.HelmetTypes.IronHelmetType" Collapsed="true">
+    <Position X="110.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAABACAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\EnumClasses\ItemTypes\HelmetTypes\IronHelmetType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Еscape_from_the_labyrinth_of_death.Classes.EnumClasses.ItemTypes.HelmetTypes.LeatherHelmetType" Collapsed="true">
+    <Position X="106.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAQAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\EnumClasses\ItemTypes\HelmetTypes\LeatherHelmetType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Еscape_from_the_labyrinth_of_death.Classes.EnumClasses.ItemTypes.PotionTypes.HealthPotionType" Collapsed="true">
+    <Position X="115.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Classes\EnumClasses\ItemTypes\PotionTypes\HealthPotionType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Еscape_from_the_labyrinth_of_death.Classes.EnumClasses.ItemTypes.PotionTypes.IntelligencePotionType" Collapsed="true">
+    <Position X="108.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Classes\EnumClasses\ItemTypes\PotionTypes\IntelligencePotionType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Еscape_from_the_labyrinth_of_death.Classes.EnumClasses.ItemTypes.PotionTypes.PotionType" Collapsed="true">
+    <Position X="113.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\EnumClasses\ItemTypes\PotionTypes\PotionType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Еscape_from_the_labyrinth_of_death.Classes.EnumClasses.ItemTypes.ShieldTypes.BoneShieldType" Collapsed="true">
+    <Position X="113.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAgAAIAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Classes\EnumClasses\ItemTypes\ShieldTypes\BoneShieldType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Еscape_from_the_labyrinth_of_death.Classes.EnumClasses.ItemTypes.ShieldTypes.LargeShieldType" Collapsed="true">
+    <Position X="113.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAgAAIAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Classes\EnumClasses\ItemTypes\ShieldTypes\LargeShieldType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Еscape_from_the_labyrinth_of_death.Classes.EnumClasses.ItemTypes.ShieldTypes.ShieldType" Collapsed="true">
+    <Position X="108.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAQAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Classes\EnumClasses\ItemTypes\ShieldTypes\ShieldType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Еscape_from_the_labyrinth_of_death.Classes.EnumClasses.ItemTypes.ShieldTypes.SmallShieldType" Collapsed="true">
+    <Position X="110.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAgAAIAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Classes\EnumClasses\ItemTypes\ShieldTypes\SmallShieldType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Еscape_from_the_labyrinth_of_death.Classes.EnumClasses.ItemTypes.WeaponTypes.AxeType" Collapsed="true">
+    <Position X="110.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAIAEAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Classes\EnumClasses\ItemTypes\WeaponTypes\AxeType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Еscape_from_the_labyrinth_of_death.Classes.EnumClasses.ItemTypes.WeaponTypes.MaceType" Collapsed="true">
+    <Position X="108.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAQAAAAAIAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\EnumClasses\ItemTypes\WeaponTypes\MaceType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Еscape_from_the_labyrinth_of_death.Classes.EnumClasses.ItemTypes.WeaponTypes.SwordType" Collapsed="true">
+    <Position X="112" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAACEIAAA=</HashCode>
+      <FileName>Classes\EnumClasses\ItemTypes\WeaponTypes\SwordType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Еscape_from_the_labyrinth_of_death.Classes.EnumClasses.ItemTypes.WeaponTypes.WeaponType" Collapsed="true">
+    <Position X="113.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Classes\EnumClasses\ItemTypes\WeaponTypes\WeaponType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

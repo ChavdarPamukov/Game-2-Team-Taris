@@ -162,6 +162,18 @@ namespace Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Abstract.Abs
             }
         }
 
+        public List<PictureBox> EnemiesBoxList
+        {
+            set
+            {
+                this._enemiesList = value;
+            }
+            get
+            {
+                return this._enemiesList;
+            }
+        }
+
         private bool LevelIsValid(byte level)
         {
             return level <= 25;

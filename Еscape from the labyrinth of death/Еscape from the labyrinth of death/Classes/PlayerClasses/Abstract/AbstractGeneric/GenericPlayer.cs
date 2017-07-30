@@ -138,6 +138,10 @@ namespace Еscape_from_the_labyrinth_of_death.Classes.PlayerClasses.Abstract.Abs
         {
             set
             {
+                //if (value != default(IItem))
+                //{
+                //    this.DeductBonusesFromArmor();
+                //}
                 this._bodyArmor = value;
                 this.CalculateBonuses();
             }
